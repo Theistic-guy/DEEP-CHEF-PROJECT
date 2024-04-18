@@ -4,7 +4,6 @@ import os
 import csv
 import pandas as pd
 url="https://www.food.com/search/indian"
-
 response = requests.get(url)
 
 soup = BeautifulSoup(, 'html.parser')
