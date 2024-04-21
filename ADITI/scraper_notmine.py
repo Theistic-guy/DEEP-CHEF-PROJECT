@@ -67,7 +67,7 @@ def getdirections(soup):
 
 
 def scrapeText(name, url):
-    page = requests.get(url)
+    #page = requests.get(url) this is not required anymore
     soup = BeautifulSoup(page.content, 'html.parser')
     recipe_name = getname(name)
     dicto = {'name': recipe_name, 'cooking_time': getcookingtime(soup), 'calories': getcalories(soup),
