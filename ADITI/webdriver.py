@@ -9,18 +9,52 @@ import csv
 import pandas as pd
 
 
+def download_image(url,folder,img_no,recipe_name):
+    try:
+        img_content=requests.get(url).content
+        image_file=io.BytesIO(img_content) 
+        image=Image.open(image_file)
+        file_name=str(img_no)+recipe_name
+        file_path=folder+file_name
+        with open(file_path,"wb") as f:# wb ---> write bytes
+            image.save(f,"JPEG") 
+            print('Success')    
+    except:
+        print("Failed")
+        
+def download_images(download_path,recipe_name,recipe_index,urls,count):
+    try:
+        recipe_name=receipe_name+str(recipe_index)
+        train=os.path.join(download_path,recipe_name,"train")
+        test=os.path.join(download_path,recipe_name,"test")
+        if not os.path.exists(train):
+            os.makedirs(train)
+        if not os.path.exists(test):
+            os.makedirs(test)
+        x=1
+        for url in urls:
+            if(x<=count):
+                download_image(url,train,x,recipe_name)
+            else:
+                download_image(url,test,x,recipe_name)
+            x=x+1
+    except:
+        print("Failed download")
+
 path = "C:\\Users\\aditi\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
 driver=webdriver.ChromeService(executable_path=path) #creates an instance of Chrome WebDriver, which allows you to interact  with the Chrome browser.
 try:
     driver = webdriver.Chrome(service=driver) # Create a new Chrome session and pass the service object
     driver.maximize_window()
     driver.get("https://images.google.com/")
-    time.sleep(10)
+    time.sleep(15)
     search_box=driver.find_element(By.NAME,'q')
     
     start=1
     count=1
     maximum_images=10
+    train_images_count=8
+    
     df = pd.read_csv('C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\recipes.csv',skiprows= start,nrows=count,names=['name','link'])
     
     for i in range(len(df['name'])):
@@ -55,26 +89,32 @@ try:
                 continue
             
             pop_up=driver.find_elements(By.CLASS_NAME,'jlTjKd')
+            
             for elem in pop_up:
+                
                 if(elem.tag_name == 'a'):
+                    
                   images=elem.find_elements(By.TAG_NAME,"img")
-                  print(len(images))
+                  #print(len(images))
                   for image in images:
-                    print(image.get_attribute("class") )
-                    if len(image.get_attribute("class")) >=3 :
+                    if len(image.get_attribute("class").split()) >=3 :
                             third = image.get_attribute("class").split()[2]
                             if third == "iPVvYb":
                                 img_url = image.get_attribute("src")
                                 if img_url not in image_urls :
                                     image_urls.add(img_url)
                                     count=count+1
+                                    print("success")
                             else:
                                 continue
-
-
+            time.sleep(7)
+        
+        download_images(".\\downloaded_images",recipe_name,image_urls,start+i,train_images_count)
         time.sleep(7)
+            
 except:
-    print("unsuccess")      
+    print("unsuccess")  
+    driver.quit()    
             
             
             
