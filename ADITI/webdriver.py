@@ -24,7 +24,7 @@ def download_image(url,folder,img_no,recipe_name):
         
 def download_images(download_path,recipe_name,recipe_index,urls,count):
     try:
-        recipe_name=receipe_name+str(recipe_index)
+        recipe_name=recipe_name+str(recipe_index)
         train=os.path.join(download_path,recipe_name,"train")
         test=os.path.join(download_path,recipe_name,"test")
         if not os.path.exists(train):
@@ -78,7 +78,7 @@ try:
         image_urls=set()  
         count=0
         for thumbnail in thumbnails:
-            print(len(image_urls))
+            #print(len(image_urls))
             if(count == maximum_images):
                 break
             try:
@@ -109,7 +109,9 @@ try:
                                 continue
             time.sleep(7)
         
-        download_images(".\\downloaded_images",recipe_name,image_urls,start+i,train_images_count)
+        for url in image_urls:
+            print(url)
+        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\download_images",recipe_name,image_urls,start+i,train_images_count)
         time.sleep(7)
             
 except:
