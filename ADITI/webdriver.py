@@ -11,6 +11,8 @@ import pandas as pd
 
 path = "C:\\Users\\aditi\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
 driver=webdriver.ChromeService(executable_path=path) #creates an instance of Chrome WebDriver, which allows you to interact  with the Chrome browser.
+df = pd.read_csv("recipes.csv",skiprows= 0,nrows=10,names=['name','link'])
+df.head()
 try:
     driver = webdriver.Chrome(service=driver) # Create a new Chrome session and pass the service object
     driver.maximize_window()
@@ -18,14 +20,14 @@ try:
     time.sleep(3)
     search_box=driver.find_element(By.NAME,'q')
     
-    start=0
-    count=10
+    start=1
+    count=1
     maximum_images=10
     df = pd.read_csv("recipes.csv",skiprows= start,nrows=10,names=['name','link'])
     
     for i in range(len(df['name'])):
         recipe_name=df.loc[i,'name']
-        print(start+i,recipe_name)
+        print(start+i-1,recipe_name)
         
         search_box.send_keys(recipe_name)
         search_box.send_keys(Keys.RETURN)
@@ -42,7 +44,7 @@ try:
             
         for thumbnail in thumbnails:
             
-            if(len(image_urls) < maximum_images):
+            if(len(image_urls) == maximum_images):
                 break
             try:
                 thumbnail.click()
@@ -51,12 +53,14 @@ try:
                 print("thumbnail was not clickable")
                 continue
             
-            image=driver.find_elements(By.CLASS_NAME,'jlTjKd')
-            image=driver.find_element(By.TAG_NAME,"img")
-            url=image.get_attribute("src")
-            if(url not in image_urls):
-                image_urls.add(url)
-        time.sleep(7)
+            pop_up=driver.find_elements(By.CLASS_NAME,'jlTjKd')
+            for elem in pop_up:
+                images=elem.find_elements(By.TAG_NAME,"img")
+                for image in images:
+                    if(image.get_attribute("class") == "sFlh5c pT0Scc iPVvYb" and image.get_attribute("src") not in image_urls):
+                        url=image.get_attribute("src")
+                        image_urls.add(url)
+            time.sleep(7)
     time.sleep(7)
 except:
     print("unsuccess")      
