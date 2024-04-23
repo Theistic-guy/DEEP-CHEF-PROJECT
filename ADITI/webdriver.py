@@ -105,7 +105,7 @@ try:
                                 if img_url not in image_urls :
                                     image_urls.add(img_url)
                                     successful_count=successful_count+1
-                                    print("success ")
+                                    print("success ",successful_count)
                             else:
                                 continue
             time.sleep(7)
