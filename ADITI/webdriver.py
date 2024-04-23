@@ -15,7 +15,7 @@ def download_image(url,folder,img_no,recipe_name):
         img_content=requests.get(url).content
         image_file=io.BytesIO(img_content) 
         image=Image.open(image_file)
-        file_name=str(img_no)+recipe_name
+        file_name=str(img_no)+"_"+recipe_name
         file_path=os.path.join(folder,file_name)
         with open(file_path,"wb") as f:# wb ---> write bytes
             image.save(f,"JPEG") 
@@ -44,7 +44,9 @@ def download_images(download_path,recipe_name,recipe_index,urls,count):
 
 path = "C:\\Users\\aditi\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
 driver=webdriver.ChromeService(executable_path=path) #creates an instance of Chrome WebDriver, which allows you to interact  with the Chrome browser.
+
 try:
+    
     driver = webdriver.Chrome(service=driver) # Create a new Chrome session and pass the service object
     driver.maximize_window()
     driver.get("https://images.google.com/")
@@ -55,12 +57,18 @@ try:
     count=1
     maximum_images=10
     train_images_count=8
+    extra_images=5
     
     df = pd.read_csv('C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\recipes.csv',skiprows= start,nrows=count,names=['name','link'])
     
+    log_file= open("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\recipes_logfiles.txt","a")
+    
     for i in range(len(df['name'])):
         recipe_name=df.loc[i,'name']
-        print(start+i,recipe_name)
+        
+        log_file.write(str(start+i)+"-->"+recipe_name)
+        log_file.write("\n")
+        log_file.flush()
         
         search_box.send_keys(recipe_name)
         search_box.send_keys(Keys.ENTER)
@@ -69,7 +77,7 @@ try:
         
         thumbnails=driver.find_elements(By.CLASS_NAME,'mNsIhb')
         
-        while(len(thumbnails) < 15):
+        while(len(thumbnails) < maximum_images+extra_images):
             print("less_images")
             time.sleep(3)
             driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
@@ -98,8 +106,11 @@ try:
                   images=elem.find_elements(By.TAG_NAME,"img")
                   #print(len(images))
                   for image in images:
-                    if len(image.get_attribute("class").split()) >=3 :
-                            third = image.get_attribute("class").split()[2]
+                      
+                    class_name=image.get_attribute("class")
+                    
+                    if len(class_name.split()) >=3 :
+                            third = class_name.split()[2]
                             if third == "iPVvYb":
                                 img_url = image.get_attribute("src")
                                 if img_url not in image_urls :
@@ -107,14 +118,23 @@ try:
                                     successful_count=successful_count+1
                                     print("success ",successful_count)
                             else:
-                                continue
+                                print("Failed Duplicate")
             time.sleep(7)
-        
-        for url in image_urls:
-            print(url)
-        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\download_images",recipe_name,start+i,image_urls,train_images_count)
-        time.sleep(7)
             
+        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\download_images",recipe_name,start+i,image_urls,train_images_count)
+        
+        log_file.write("-------------------")
+        log_file.write("\n")
+        for url in image_urls:
+            log_file.write(url+"\n")
+        log_file.write("-------------------")
+        log_file.write("\n")
+        log_file.flush()
+        
+        time.sleep(7)
+    log_file.close()
+
+
 except:
     print("unsuccess")  
     driver.quit()    
