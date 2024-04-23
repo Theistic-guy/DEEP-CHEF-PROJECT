@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
+import urllib3
 import io
 from PIL import Image
 import os
@@ -8,11 +9,16 @@ import shutil
 import pandas as pd
 import time 
 
+def fetch_image_content_from_url(url,timeout):
+    http = urllib3.PoolManager(timeout=urllib3.Timeout(connect=None, read=None, total=timeout))
+    response = http.request('GET', url)
+    return response.data
+
 # called internally by 'download_images' function 
 def download_image(download_path,url,filename,ignore_msgs=False):
     ''' download_path is the folder where you want to save the image , filename is the name of the image'''
     try:
-        image_content = requests.get(url).content
+        image_content = fetch_image_content_from_url(url,5) # we decided a some value 5 seconds as total timout for image access
         image_bytes = io.BytesIO(image_content)
         file_path = os.path.join(download_path, filename)
         image = Image.open(image_bytes)
@@ -113,7 +119,8 @@ def view_recipe(path_to_download_logs,recipe_index,path_to_chromeDriver,time_del
                             time.sleep(time_delay)
                 else:
                     if ":>" in line:
-                        type,link = tuple(line.split(":>"))
+                        # this strip() is very imp to remove trailing \n in the line
+                        type,link = tuple(line.strip().split(":>"))
                         if type == "train":
                             driver.get(link)
                             driver.switch_to.new_window('tab')
@@ -151,3 +158,35 @@ def log_urls(image_urls,path_to_download_logs,train_imgs_count,ignore_msgs=False
     except Exception as e:
         if not ignore_msgs:
             print("Exception occurred while logging urls\n",e)
+
+def get_image_urls(path_download_logs,recipe_index,ignore_msgs = False):
+    ''' returns a list of image urls of a recipe'''
+    try:
+        img_urls = []
+        with open(path_download_logs,"r") as f:
+            start_delimiter_pos = 2 * recipe_index + 1
+            current_delimiter_pos = 0
+            is_start_delim_reached = False
+            for line in f :
+                if not is_start_delim_reached:
+                    if line.strip() == "$$$$":
+                        current_delimiter_pos += 1
+                        if current_delimiter_pos == start_delimiter_pos:
+                            is_start_delim_reached = True
+                else:
+                    if ":>" in line:
+                        # Note : this strip() is very imp to remove trailing \n in line
+                        _,link = tuple(line.strip().split(":>"))
+                        img_urls.append(link)
+                    elif "$$$$" in line:
+                        break
+        return img_urls
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred inside get_image_urls\n",e)
+        return None
+    
+def get_recipe_name(path_csv,recipe_index):
+    ''' loads csv in pandas and gets the recipe at index = recipe_index'''
+    df = pd.read_csv(path_csv)
+    return df.iloc[recipe_index,0]

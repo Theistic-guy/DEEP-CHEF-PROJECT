@@ -25,5 +25,3 @@ train:>https://assets.epicurious.com/photos/62069cd50297ea306174e51d/4:3/w_5555,
 test:>https://static.toiimg.com/thumb/74381804.cms?width=573&height=430
 test:>https://foodsandflavorsbyshilpi.com/wp-content/uploads/2014/01/FB-Thumnails-website-old-66.jpg
 $$$$
-
-
