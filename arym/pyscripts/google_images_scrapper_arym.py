@@ -60,7 +60,7 @@ try :
         recipe_index_csv = start + i -1
 
         # make entry to log 
-        print(recipe_index_csv,"-",recipe)
+        print(recipe_index_csv,"->",recipe)
         f.write(str(recipe_index_csv)+"->"+ recipe +"\n")
         f.flush()
 
