@@ -25,3 +25,19 @@ train:>https://assets.epicurious.com/photos/62069cd50297ea306174e51d/4:3/w_5555,
 test:>https://static.toiimg.com/thumb/74381804.cms?width=573&height=430
 test:>https://foodsandflavorsbyshilpi.com/wp-content/uploads/2014/01/FB-Thumnails-website-old-66.jpg
 $$$$
+
+2->Chicken Curry
+$$$$
+train:>https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Chicken-Curry-Recipe.jpg
+train:>https://myfoodstory.com/wp-content/uploads/2020/10/Dhaba-Style-Chicken-Curry-2-500x500.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-curry-recipe.jpg
+train:>https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg
+train:>https://static.toiimg.com/thumb/58394256.cms?imgsize=104892&width=800&height=800
+train:>https://www.kitchensanctuary.com/wp-content/uploads/2022/09/Air-Fryer-Chicken-Curry-square-FS-36.jpg
+train:>https://kitchenofdebjani.com/wp-content/uploads/2023/04/easy-indian-chicken-curry-Recipe-for-beginners-Debjanir-rannaghar.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2023/11/30minutesouthindianchickencurrytopbowl-480x270.jpg
+test:>https://www.recipetineats.com/wp-content/uploads/2023/10/African-coconut-chicken-curry_3.jpg
+test:>https://theflavoursofkitchen.com/wp-content/uploads/2020/10/Slow-Cooker-Chicken-Coconut-Curry-4.jpg
+$$$$
+
+3->Aloo Gobi

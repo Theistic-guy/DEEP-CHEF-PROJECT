@@ -60,13 +60,16 @@ try :
     # start = 1 
     # i.e. start with the second line of csv becoz
     # first line are column names which is overriden by ' names= ' param
-    start = 2 
+    start = 3 
     count= 2
     big_delay = 10
     small_delay = 5
     max_imgs = 10
     extra_imgs = 5
     no_of_imgs_to_train = 8
+
+    # max attempts to re-start the driver 
+    max_attempts_start_driver = 3
 
     # load links.csv
     links_csv_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\arym\csv\\links_copy.csv"
@@ -107,6 +110,9 @@ try :
             driver.quit()
             print("creating new driver session")
             create_driver_and_load(cService,chrome_options)
+            max_attempts_start_driver -=1 
+            if max_attempts_start_driver < 0:
+                raise
             i -=1
 
             
