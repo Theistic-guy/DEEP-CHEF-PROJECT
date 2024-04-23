@@ -10,9 +10,13 @@ import pandas as pd
 import time 
 
 def fetch_image_content_from_url(url,timeout):
-    http = urllib3.PoolManager(timeout=urllib3.Timeout(connect=None, read=None, total=timeout))
-    response = http.request('GET', url)
-    return response.data
+    try:
+        http = urllib3.PoolManager(timeout=urllib3.Timeout(connect=None, read=None, total=timeout))
+        response = http.request('GET', url)
+        return response.data
+    except Exception as e:
+        print("Exception occurred inside fetch_image_content_from_url\n",e)
+
 
 # called internally by 'download_images' function 
 def download_image(download_path,url,filename,ignore_msgs=False):
@@ -188,5 +192,9 @@ def get_image_urls(path_download_logs,recipe_index,ignore_msgs = False):
     
 def get_recipe_name(path_csv,recipe_index):
     ''' loads csv in pandas and gets the recipe at index = recipe_index'''
-    df = pd.read_csv(path_csv)
-    return df.iloc[recipe_index,0]
+    try:
+        df = pd.read_csv(path_csv)
+        return df.iloc[recipe_index,0]
+    except:
+        print("Exception occurred inside get_recipe_name\n",e)
+        return None
