@@ -22,15 +22,15 @@ cService = webdriver.ChromeService(executable_path=webdriver_path)
 chrome_options = Options()
 chrome_options.add_experimental_option("detach",True)
 
-def isDriverValid(driver):
-    if driver != "Not initialized":
-        try:
-            driver.title
-            return True
-        except:
-            return False
-    else:
-        return False
+# def isDriverValid(driver):
+#     if driver != "Not initialized":
+#         try:
+#             driver.title
+#             return True
+#         except:
+#             return False
+#     else:
+#         return False
 
 def create_driver_and_load(cService,Options):
     global driver,search_box
@@ -44,9 +44,8 @@ def create_driver_and_load(cService,Options):
         print("Exception occurred creating driver \n",e)
 
 
-# Note : Indexes of the recipe in logs matches index in the dataframe 
-# created by reading csv "links_copy" with 
-# column heads  as the first line
+
+
 
 
 
@@ -60,9 +59,9 @@ try :
     # For first batch run ,
     # start = 1 
     # i.e. start with the second line of csv becoz
-    # first line are names which is overriden by ' names= ' param
-    start = 1 
-    count= 1
+    # first line are column names which is overriden by ' names= ' param
+    start = 2 
+    count= 2
     big_delay = 10
     small_delay = 5
     max_imgs = 10
@@ -85,8 +84,14 @@ try :
         recipe = df.loc[i,'name']
         recipe_index_csv = start + i -1
 
+        # Note : Indexes of the recipe in logs matches index in the dataframe 
+        # created by reading csv "links_copy" with 
+        # column heads  as the first line
+        # through out the code , recipe_index or index of recipe carries the same 
+        # meaning
+
         # make entry to log 
-        print(recipe_index_csv,"-",recipe)
+        print(recipe_index_csv,"->",recipe)
         f.write(str(recipe_index_csv)+"->"+ recipe +"\n")
         f.flush()
 
@@ -159,7 +164,7 @@ try :
             time.sleep(small_delay)
         
         # log the urls
-        log_urls(image_urls,recipe_index_csv,recipe,download_logs_path,no_of_imgs_to_train)
+        log_urls(image_urls,download_logs_path,no_of_imgs_to_train)
         
 
         # download the images , first n images go to train and rest to test

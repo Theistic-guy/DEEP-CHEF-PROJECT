@@ -143,7 +143,7 @@ def log_urls(image_urls,path_to_download_logs,train_imgs_count,ignore_msgs=False
                     f.write("train:>"+url+"\n")
                 else:
                     f.write("test:>" + url+"\n")
-
+                logged_urls += 1
             f.write("$$$$\n")
             f.write("\n") # one empty line between end delimiter and new recipe
             f.flush()
