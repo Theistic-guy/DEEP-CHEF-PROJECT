@@ -84,7 +84,7 @@ def download_images(download_path,recipe_name,recipe_index,urls,count):
 
 try:
     create_driver_load(services)
-    start=669
+    start=670
     count=1
     maximum_images=6
     train_images_count=8
@@ -145,9 +145,10 @@ try:
                             if third == "iPVvYb":
                                 img_url = image.get_attribute("src")
                                 if img_url not in image_urls :
-                                    image_urls.add(img_url)
-                                    successful_count=successful_count+1
-                                    print("success ",successful_count)
+                                    if(requests.get(img_url).status_code == 200):
+                                        image_urls.add(img_url)
+                                        successful_count=successful_count+1
+                                        print("success ",successful_count)
                             else:
                                 print("Failed Duplicate")
                                 continue
