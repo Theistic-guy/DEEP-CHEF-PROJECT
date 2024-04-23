@@ -12,20 +12,24 @@ import os
 
 def download_image(url,folder,img_no,recipe_name):
     try:
-        img_content=requests.get(url).content
-        image_file=io.BytesIO(img_content) 
-        image=Image.open(image_file)
-        file_name=str(img_no)+"_"+recipe_name
-        file_path=os.path.join(folder,file_name)
-        with open(file_path,"wb") as f:# wb ---> write bytes
-            image.save(f,"JPEG") 
-            print('Successful download ',img_no)    
+        img_content=requests.get(url)
+        if(img_content.status_code == 200):
+            img_content=img_content.content
+            image_file=io.BytesIO(img_content) 
+            image=Image.open(image_file)
+            file_name=str(img_no)+"_"+recipe_name
+            file_path=os.path.join(folder,file_name)
+            with open(file_path,"wb") as f:# wb ---> write bytes
+                image.save(f,"JPEG") 
+                print('Successful download ',img_no)  
+        else:
+            print("url was inaccessible")  
     except:
         print("Failed")
         
 def download_images(download_path,recipe_name,recipe_index,urls,count):
     try:
-        recipe_name1=recipe_name+str(recipe_index)
+        recipe_name1=str(recipe_index) + "_" + recipe_name
         train=os.path.join(download_path,"train",recipe_name1)
         test=os.path.join(download_path,"test",recipe_name1)
         if not os.path.exists(train):
@@ -39,6 +43,8 @@ def download_images(download_path,recipe_name,recipe_index,urls,count):
             else:
                 download_image(url,test,x,recipe_name)
             x=x+1
+            time.sleep(1)
+            
     except:
         print("Failed download")
 
@@ -53,9 +59,9 @@ try:
     time.sleep(15)
     search_box=driver.find_element(By.NAME,'q')
     
-    start=1
+    start=669
     count=1
-    maximum_images=10
+    maximum_images=6
     train_images_count=8
     extra_images=5
     
@@ -114,11 +120,13 @@ try:
                             if third == "iPVvYb":
                                 img_url = image.get_attribute("src")
                                 if img_url not in image_urls :
-                                    image_urls.add(img_url)
-                                    successful_count=successful_count+1
-                                    print("success ",successful_count)
+                                    if(requests.get(img_url).status_code == 200):
+                                        image_urls.add(img_url)
+                                        successful_count=successful_count+1
+                                        print("success ",successful_count)
                             else:
                                 print("Failed Duplicate")
+                                continue
             time.sleep(7)
             
         download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\download_images",recipe_name,start+i,image_urls,train_images_count)
