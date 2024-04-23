@@ -8,22 +8,54 @@ import time
 import csv
 import pandas as pd
 import os
+import shutil
+
+driver=None
+search_box=None
+
+
+path = "C:\\Users\\aditi\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
+services=webdriver.ChromeService(executable_path=path) #creates an instance of Chrome WebDriver, which allows you to interact  with the Chrome browser.
+
+def driver_valid(driver):
+    if(driver != "Not Intialized"):
+        try:
+            driver.title
+            return True
+        except:
+            return False
+    else:
+        return False
+    
+def create_driver_load(services):
+    global driver,search_box
+    try:
+        driver = webdriver.Chrome(service=services) # Create a new Chrome session and pass the service object
+        driver.maximize_window()
+        driver.get("https://images.google.com/")
+        time.sleep(7)
+        search_box=driver.find_element(By.NAME,'q')
+    except:
+        print("Error file creating and loading the driver")
+    
+        
 
 
 def download_image(url,folder,img_no,recipe_name):
     try:
-        img_content=requests.get(url)
+        img_content=requests.get(url,timeout=10)
         if(img_content.status_code == 200):
             img_content=img_content.content
             image_file=io.BytesIO(img_content) 
             image=Image.open(image_file)
+            jpg_file=image.convert("RGB")
             file_name=str(img_no)+"_"+recipe_name
             file_path=os.path.join(folder,file_name)
-            with open(file_path,"wb") as f:# wb ---> write bytes
+            with open(file_path,"wb") as f: # wb ---> write bytes
                 image.save(f,"JPEG") 
                 print('Successful download ',img_no)  
         else:
-            print("url was inaccessible")  
+            print("url was inaccessible") 
     except:
         print("Failed")
         
@@ -48,17 +80,10 @@ def download_images(download_path,recipe_name,recipe_index,urls,count):
     except:
         print("Failed download")
 
-path = "C:\\Users\\aditi\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
-driver=webdriver.ChromeService(executable_path=path) #creates an instance of Chrome WebDriver, which allows you to interact  with the Chrome browser.
+
 
 try:
-    
-    driver = webdriver.Chrome(service=driver) # Create a new Chrome session and pass the service object
-    driver.maximize_window()
-    driver.get("https://images.google.com/")
-    time.sleep(15)
-    search_box=driver.find_element(By.NAME,'q')
-    
+    create_driver_load(services)
     start=669
     count=1
     maximum_images=6
@@ -72,7 +97,7 @@ try:
     for i in range(len(df['name'])):
         recipe_name=df.loc[i,'name']
         
-        log_file.write(str(start+i)+"-->"+recipe_name)
+        log_file.write(str(start+i-1)+"->"+recipe_name)
         log_file.write("\n")
         log_file.flush()
         
@@ -120,22 +145,21 @@ try:
                             if third == "iPVvYb":
                                 img_url = image.get_attribute("src")
                                 if img_url not in image_urls :
-                                    if(requests.get(img_url).status_code == 200):
-                                        image_urls.add(img_url)
-                                        successful_count=successful_count+1
-                                        print("success ",successful_count)
+                                    image_urls.add(img_url)
+                                    successful_count=successful_count+1
+                                    print("success ",successful_count)
                             else:
                                 print("Failed Duplicate")
                                 continue
             time.sleep(7)
             
-        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\download_images",recipe_name,start+i,image_urls,train_images_count)
+        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\download_images",recipe_name,start+i-1,image_urls,train_images_count)
         
-        log_file.write("-------------------")
+        log_file.write("$$$$")
         log_file.write("\n")
         for url in image_urls:
             log_file.write(url+"\n")
-        log_file.write("-------------------")
+        log_file.write("$$$$")
         log_file.write("\n")
         log_file.flush()
         
