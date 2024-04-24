@@ -306,3 +306,31 @@ test:>https://bonmasala.com/wp-content/uploads/2022/06/chicken-reshmi-kabab-1.jp
 test:>https://www.177milkstreet.com/assets/site/_large/Chicken-Reshmi-Kebabs-v.jpg
 $$$$
 
+690->Whole Tandoori Chicken
+$$$$
+train:>https://www.theloveofspice.com/wp-content/uploads/2020/11/whole-tandoori-chicken.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2021/11/air-fryer-whole-tandoori-chicken_-3.jpg
+train:>https://thatspicychick.com/wp-content/uploads/2021/10/Whole-Roasted-Tandoori-Chicken-top-view.jpg
+train:>https://i0.wp.com/www.happyandharried.com/wp-content/uploads/2016/11/WHOLE-ROASTED-TANDOORI-SPICED-CHICKEN.jpg
+train:>https://www.yummyoyummy.com/wp-content/uploads/2020/11/IMG_9730-scaled.jpg
+train:>https://slowcookerfoodie.com/wp-content/uploads/2021/04/Slow-Cooker-Whole-Chicken.jpg
+train:>https://greatcurryrecipes.net/wp-content/uploads/2015/11/tandooriroastchicken.jpg.webp
+train:>https://i.pinimg.com/736x/d7/a6/ef/d7a6ef5736746aae2a990606d33ab62c.jpg
+test:>https://ministryofcurry.com/wp-content/uploads/2018/10/IMG_8423-1.jpg
+test:>https://i.ytimg.com/vi/2qxOAKYrupw/sddefault.jpg
+$$$$
+
+691->Saag ghosht
+$$$$
+train:>https://www.cookeatworld.com/wp-content/uploads/2021/12/Saag-Gosht-2.jpg
+train:>https://www.foodrepublic.com/img/gallery/saag-gosht/intro-import.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/saag_gosht_lamb_and_29043_16x9.jpg
+train:>https://68.media.tumblr.com/9b0b1619f89baa953942bbf9cbe8760c/tumblr_inline_mtayg2RIoR1qdei8m.jpg
+train:>https://www.masala.tv/wp-content/uploads/2018/08/1-15.jpg
+train:>https://i.ytimg.com/vi/1TwKqgxlwbE/maxresdefault.jpg
+train:>https://www.wilfriedscooking.com/wp-content/uploads/2020/05/saag-ghost-2-rs.jpg
+train:>https://www.cookeatworld.com/wp-content/uploads/2021/12/Saag-Gosht-4.jpg
+test:>https://www.daringgourmet.com/wp-content/uploads/2013/11/Saag-Gosht-6-sm-cropped.jpg
+test:>https://food-images.files.bbci.co.uk/food/recipes/mutton_saag_25343_16x9.jpg
+$$$$
+
