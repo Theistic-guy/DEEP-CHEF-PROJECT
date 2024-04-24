@@ -54,3 +54,17 @@ test:>https://hemamagesh.com/wp-content/uploads/2022/05/Aloo-chana-chaat-with-ka
 test:>https://lh4.googleusercontent.com/proxy/B8bclr6c6Fm88RjtYTAQLYP3lxRyCxiUwm-CB1C4JLPAWwDEKAD4ERYDaD3qPtA8jE8QPFaqoEasjHGxOZ2AMoHpBZjiO5ukJN25d13w7Rj60bp4xkJq9BWpNnAwAILi8WsfjcWoc_A8LTD6w9xPnSQi1Uoo8XsyKbeFskZr1IBl8gqITvmJHw
 $$$$
 
+672->Falooda
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/falooda-faluda-recipe.jpg
+train:>https://bakewithshivesh.com/wp-content/uploads/2023/05/mango-falooda-1-scaled.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx7a6FdnOkDEMq9XeRtg1AySYQ6q5SN7T6V_BVRNrYA7eiS2CAAmSWAqrI-C0OGcdUQ7QGQ2sT_F6znvSRQYZQ5q6wHwcCCNmkQt81JLtufeq17K_WtTtlDPxyuMWZDCxuoJw11EzZPOlU/s2048/IMG20210426141751+-+Copy.jpg
+train:>https://www.chefkunalkapur.com/wp-content/uploads/2022/05/Rabri-Falooda-scaled.jpg?v=1651374892
+train:>https://images.news18.com/webstories/2024/03/Falooda.jpeg
+train:>https://5686032.fs1.hubspotusercontent-na1.net/hubfs/5686032/dc-website-2022/web-stories/A%20Brief%20History%20Of%20The%20Falooda/Thumbnail%20(1).webp
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2013/05/falooda-recipe-1.jpg
+train:>https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Faluda.JPG/1200px-Faluda.JPG
+test:>https://images.immediate.co.uk/production/volatile/sites/30/2024/02/Rose-falooda-b92944d.jpg?resize=768,574
+test:>https://cookingfromheart.com/wp-content/uploads/2022/04/Royal-Falooda-3.jpg
+$$$$
+
