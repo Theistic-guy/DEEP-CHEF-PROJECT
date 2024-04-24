@@ -180,3 +180,17 @@ test:>https://www.butteredveg.com/wp-content/uploads/2022/02/Kerelan-Cabbage-120
 test:>https://www.cookwithmanali.com/wp-content/uploads/2014/08/Cabbage-Poriyal.jpg
 $$$$
 
+681->Butter Chicken
+$$$$
+train:>https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/04/butter-chicken-recipe.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2016/02/Finger-Lickin-Butter-Chicken-14-735x1103.jpg
+train:>https://niksharmacooks.com/wp-content/uploads/2022/11/ButterChickenDSC_5616.jpg
+train:>https://cravinghomecooked.com/wp-content/uploads/2020/06/butter-chicken-1.jpg
+train:>https://www.foodiecrush.com/wp-content/uploads/2019/05/Indian-Butter-Chicken-foodiecrush.com-20.jpg
+train:>https://www.177milkstreet.com/assets/site/Recipes/_large/Butter-Chicken.jpg
+train:>https://susanjoyfultable.com/site/assets/files/1641/butter_chicken.1000x750.jpg
+test:>https://www.simplyrecipes.com/thmb/LYwosfrO2cGCT2_bGS5wIeHRnd8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__01__Butter-Chicken-LEAD-1-f8a0cd09ea9442ce93651887f164db03.jpg
+test:>https://hips.hearstapps.com/hmg-prod/images/del089923-butterchicken-web-034-ls-index-64d50d1e960a1.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*
+$$$$
+
