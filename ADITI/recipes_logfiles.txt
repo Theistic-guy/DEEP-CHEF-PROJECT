@@ -250,3 +250,17 @@ test:>https://www.mygfguide.com/wp-content/uploads/2019/04/bhajis-cover-web-scal
 test:>https://www.curry-pot.com/wp-content/uploads/2015/03/onion-bhaji-768x540.jpg
 $$$$
 
+686->Veggie Curry
+$$$$
+train:>https://www.recipetineats.com/wp-content/uploads/2017/07/Vegetable-Curry.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/vegetable-curry.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2022/06/Courgette-curry-c295fa0.jpg?quality=90&resize=556,505
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/vegetable-curry-recipe-500x375.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/vegetablecurry_80763_16x9.jpg
+train:>https://greenbowl2soul.com/wp-content/uploads/2021/06/Indian-vegetable-curry.jpg
+train:>https://assets.bonappetit.com/photos/610d630e2f1b400ec4217042/1:1/w_2560%2Cc_limit/0921-curry-vegetables.jpg
+train:>https://img.taste.com.au/MmjJJcfO/taste/2016/11/creamy-chickpea-and-vegetable-curry-104611-1.jpeg
+test:>https://www.layersofhappiness.com/wp-content/uploads/2014/09/vegetable-curry-5.jpg
+test:>https://alexandracooks.com/wp-content/uploads/2020/02/potofcurry_alexandraskitchen.jpg
+$$$$
+
