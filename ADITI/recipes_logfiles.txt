@@ -1,0 +1,14 @@
+668->Indian Cumin Potatoes (  Jeera Aloo )
+$$$$
+train:>https://manjulaskitchen.com/wp-content/uploads/aloo_jeera_potato_cumin.jpg
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/12/59/70/picIE1cC2.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2023/03/Jeera-Aloo-3B-683x1024.jpg
+train:>https://www.easycookingwithmolly.com/wp-content/uploads/2019/07/jeera-aloo-480x360.jpg
+train:>https://i.redd.it/9v93yky4qd6b1.jpg
+train:>https://www.cookwithmanali.com/wp-content/uploads/2015/09/Indian-Jeera-Aloo.jpg
+train:>https://www.funfoodfrolic.com/wp-content/uploads/2024/04/Jeera-Aloo-8.jpg
+train:>https://static.toiimg.com/thumb/53540469.cms?imgsize=115272&width=800&height=800
+test:>https://i.pinimg.com/736x/71/39/aa/7139aa2240083f76cfce0dde568cfa1b.jpg
+test:>https://www.spiceupthecurry.com/wp-content/uploads/2020/10/jeera-aloo-recipe-2-500x500.jpg
+$$$$
+
