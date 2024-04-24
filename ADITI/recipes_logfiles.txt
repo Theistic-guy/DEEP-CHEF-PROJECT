@@ -194,5 +194,18 @@ test:>https://www.simplyrecipes.com/thmb/LYwosfrO2cGCT2_bGS5wIeHRnd8=/1500x0/fil
 test:>https://hips.hearstapps.com/hmg-prod/images/del089923-butterchicken-web-034-ls-index-64d50d1e960a1.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*
 $$$$
 
+682->Cauliflower Coconut Curry
+$$$$
+train:>https://theflavoursofkitchen.com/wp-content/uploads/2017/09/Cauliflower-Coconut-Curry-1-scaled.jpg
+train:>https://static.toiimg.com/thumb/57554630.cms?imgsize=510276&width=800&height=800
+train:>https://biancazapatka.com/wp-content/uploads/2020/03/cauliflower-coconut-korma-indian-curry.jpg
+train:>https://www.loveandotherspices.com/wp-content/uploads/2020/11/IPCauliflowerCoconutCurry-Post.jpg
+train:>https://img.delicious.com.au/Go_NovI-/del/2017/09/indian-fish-cauliflower-and-coconut-curry-52960-2.jpg
+train:>https://www.snixykitchen.com/wp-content/uploads/2018/08/Vegan-Coconut-Curry-1.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2023/01/Roasted-cauliflower-and-chickpea-coconut-curry-d98cdaf.jpg?resize=768,574
+train:>https://veganhuggs.com/wp-content/uploads/2019/04/cauliflower-chickpea-coconut-curry-3.jpg
+test:>https://myfoodstory.com/wp-content/uploads/2018/08/Cauliflower-Chickpea-Coconut-Curry-1.jpg
+test:>https://minimalistbaker.com/wp-content/uploads/2018/03/Yellow-Chickpea-Curry-SQUARE.jpg
+$$$$
 
 
