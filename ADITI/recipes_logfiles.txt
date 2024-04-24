@@ -26,3 +26,17 @@ test:>https://mayihavethatrecipe.com/wp-content/uploads/2012/09/rosh-hashanah-sw
 test:>https://www.framedrecipes.com/wp-content/uploads/2016/11/Saffron_Rice_DSC7008-e1591918691792-500x375.jpg
 $$$$
 
+670->Lentil Dhal With Roasted Garlic
+$$$$
+train:>https://www.wcrf-uk.org/wp-content/uploads/2022/02/Roasted-garlic-dal-SQ-450x450.jpg
+train:>https://www.wcrf-uk.org/wp-content/uploads/2022/02/Roasted-garlic-dal-SQ-1200x675.jpg
+train:>https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2017/12/Lentil-Dahl-410x273.jpg
+train:>https://i0.wp.com/theunicook.com/wp-content/uploads/2020/04/IMG_6748-rotated.jpg?fit=1875%2C2500&ssl=1
+train:>https://www.romylondonuk.com/wp-content/uploads/2020/11/8R5A4351-1-1.jpg
+train:>https://elavegan.com/wp-content/uploads/2023/01/top-shot-of-lentil-dal-in-bowl-with-spoon.jpg
+train:>https://veggiedesserts.com/wp-content/uploads/2016/06/Red-Lentil-Dhal-b2.jpg
+train:>https://www.mygfguide.com/wp-content/uploads/2020/11/dhal-portrait-web.jpg
+test:>https://simple-veganista.com/wp-content/uploads/2012/08/best-red-lentil-dal-recipe-1.jpg
+test:>https://domesticgothess.com/wp-content/uploads/2018/05/plate-of-dhal-with-roasted-veg.jpg
+$$$$
+
