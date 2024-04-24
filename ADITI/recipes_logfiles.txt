@@ -40,3 +40,17 @@ test:>https://simple-veganista.com/wp-content/uploads/2012/08/best-red-lentil-da
 test:>https://domesticgothess.com/wp-content/uploads/2018/05/plate-of-dhal-with-roasted-veg.jpg
 $$$$
 
+671->Aloo Channa Chaat
+$$$$
+train:>https://hemamagesh.com/wp-content/uploads/2022/05/Aloo-chana-chaat-featured-image.jpg
+train:>https://www.mirchitales.com/wp-content/uploads/2020/05/Aloo-Chana-Chaat-5.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2014/04/13944721776_07cb15a82b_b.jpg
+train:>https://i.ytimg.com/vi/4x_5b0wzaPE/maxresdefault.jpg
+train:>https://static.toiimg.com/thumb/53581793.cms?imgsize=213810&width=800&height=800
+train:>https://www.recipesaresimple.com/wp-content/uploads/2017/09/dahi-aloo-chana-chaat.jpg
+train:>https://media.chefdehome.com/740/0/0/chickpea-potato-salad/chickpea-potato-salad.jpg
+train:>https://recipe52.com/wp-content/uploads/2021/06/chana-chaat-14.jpg
+test:>https://hemamagesh.com/wp-content/uploads/2022/05/Aloo-chana-chaat-with-kabuli-chana.jpg
+test:>https://lh4.googleusercontent.com/proxy/B8bclr6c6Fm88RjtYTAQLYP3lxRyCxiUwm-CB1C4JLPAWwDEKAD4ERYDaD3qPtA8jE8QPFaqoEasjHGxOZ2AMoHpBZjiO5ukJN25d13w7Rj60bp4xkJq9BWpNnAwAILi8WsfjcWoc_A8LTD6w9xPnSQi1Uoo8XsyKbeFskZr1IBl8gqITvmJHw
+$$$$
+
