@@ -110,3 +110,17 @@ test:>https://madscookhouse.com/wp-content/uploads/2021/02/Chicken-Chettinad.jpg
 test:>https://www.funfoodfrolic.com/wp-content/uploads/2020/11/Chicken-Chettinad-Thumbnail.jpg
 $$$$
 
+676->Creamy Cashew Vegetable Korma
+$$$$
+train:>https://cupfulofkale.com/wp-content/uploads/2019/10/Vegan-Tofu-Korma-Curry-with-Toasted-Cashews.jpeg
+train:>https://cupfulofkale.com/wp-content/uploads/2019/10/Vegan-Tofu-Korma-Curry-Close-Up.jpeg
+train:>https://myfancypantry.files.wordpress.com/2012/04/untitled-04473.jpg
+train:>https://nutriholist.com/wp-content/uploads/2020/01/Cashew-Cauliflower-Korma.jpg
+train:>https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2022/03/easy-vegan-korma-closeup-pan-400x600.jpg
+train:>https://lovingitvegan.com/wp-content/uploads/2018/11/Vegetable-Korma-8.jpg
+train:>https://cupfulofkale.com/wp-content/uploads/2019/10/Vegan-Tofu-Korma-Curry-Close-Up-720x405.jpeg
+train:>https://veganheaven.org/wp-content/uploads/2020/11/Vegetable-Korma.jpg
+test:>https://choosingchia.com/jessh-jessh/uploads/2022/01/Vegetable-korma-14-680x1020.jpg
+test:>https://nutriholist.com/wp-content/uploads/2020/01/Cashew-Cauliflower-Korma-Closeup-500x375.jpg
+$$$$
+
