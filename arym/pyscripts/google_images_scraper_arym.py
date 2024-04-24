@@ -9,7 +9,7 @@ import time
 import pandas as pd
 import os
 import recipe_utils as ru
-from recipe_utils import download_images,log_urls
+from recipe_utils import download_images,log_urls,fetch_response_from_url
 
 driver = None
 
@@ -162,9 +162,12 @@ try :
                                 img_url = img.get_attribute("src")
 
                                 if img_url not in image_urls :
-                                    image_urls.append(img_url)
-                                    success_count += 1
-                                    print("Found ",success_count)
+                                    if fetch_response_from_url(img_url,100).status == 200:
+                                        image_urls.append(img_url)
+                                        success_count += 1
+                                        print("Found ",success_count)
+                                    else:
+                                        print("Image skipped:status_code not 200")
                                 else:
                                     print("Found Duplicate")
             time.sleep(small_delay)
