@@ -152,3 +152,17 @@ test:>https://www.theloveofspice.com/wp-content/uploads/2022/05/mumbai-vada-pav.
 test:>https://i0.wp.com/www.antoskitchen.com/wp-content/uploads/2017/03/aloo-bonda.jpg?resize=1068%2C941&ssl=1
 $$$$
 
+679->Kerala Lamb Curry
+$$$$
+train:>https://www.alittlebitofspice.com/wp-content/uploads/2015/10/kerala-style-mutton-curry-without-coconut-nadan-mutton-curry-recipe.1024x1024.jpg
+train:>https://i0.wp.com/spicykitchen.net/wp-content/uploads/2015/12/kerala-mutton-curry-1.jpg?fit=650%2C433&ssl=1
+train:>https://i.ytimg.com/vi/sjT1H7ianEo/maxresdefault.jpg
+train:>https://www.keralatourism.org/images/cuisine/large/Varutharacha_Mutton_Curry20161226072524_160_1.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/nadira912-gmail.com/Kerala_Mutton_Roast_Recipe_13.jpg
+train:>https://img-food.boxspace.in/image/rbk_5aba55b385968/xhdpi.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDLvw9ZnI_9Q6eOszx7tOr4UHfukPtGOrvuOdoRSwSXgLiGqg9ts-sQrO7ZP_Dzhyphenhyphen0UyEjkdwJge6F0JMXGNpVd0xIJubBoGqapGT4ysLoRl2gG0OZxThdkMeSBI1KYAYfKcJsPvP43xvT/s1600/IMG_8182.JPG
+train:>https://mariasmenu.com/wp-content/uploads/Mutton-Pepper-Roast.png
+test:>https://kurryleaves.net/wp-content/uploads/2015/06/nadan-mutton-curry-recipe.jpg
+test:>https://imagevars.gulfnews.com/2022/01/27/guide-to-making-naadan-mutton-curry_17e9c00100d_original-ratio.jpg
+$$$$
+
