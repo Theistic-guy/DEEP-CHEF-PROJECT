@@ -69,7 +69,7 @@ test:>https://ninecooks.typepad.com/.a/6a00d83451fa5069e2014e863969cd970d-pi
 test:>https://www.naivecookcooks.com/wp-content/uploads/2017/02/slow-cooker-vindaloo.jpg
 $$$$
 
-5->Potato Curry Chickpeas
+5->Potato Curry with Spinach and Chickpeas
 $$$$
 train:>https://www.wholesomelicious.com/wp-content/uploads/2016/04/Chicken-Vindaloo-900x1024.jpg
 train:>https://thehealthyepicurean.com/wp-content/uploads/2017/10/Vindaloo-Chicken-1-2-scaled.jpg
@@ -83,7 +83,7 @@ test:>https://pipingpotcurry.com/wp-content/uploads/2019/03/Chicken-Vindaloo-in-
 test:>https://www.allrecipes.com/thmb/249U3lsxHXdSPJdrTITzK_saOjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6067251-bengali-chicken-curry-with-potatoes-Linda-Chor-4x3-1-94006a09cdec49ceaa26c1044f50359a.jpg
 $$$$
 
-6->Channa Masala
+6->Chana Masala
 $$$$
 train:>https://fitslowcookerqueen.com/wp-content/uploads/2020/08/chickpea-potato-curry-scaled.jpg
 train:>https://www.alycealexandra.com/cdn/shop/articles/Easiest_slow_cooker_veg_vindaloo_recipe.jpg
@@ -111,7 +111,7 @@ test:>https://www.halfbakedharvest.com/wp-content/uploads/2020/12/30-Minute-Spic
 test:>https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2-850x1275.jpg
 $$$$
 
-8->Spicy Shrimp Coconut Milk
+8->Spicy Shrimp In Coconut Milk
 $$$$
 train:>https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2.jpg
 train:>https://littlespicejar.com/wp-content/uploads/2016/02/Finger-Lickin-Butter-Chicken-14.jpg

@@ -9,7 +9,7 @@ import shutil
 import pandas as pd
 import time 
 
-def fetch_image_content_from_url(url,timeout):
+def fetch_response_from_url(url,timeout):
     try:
         http = urllib3.PoolManager(timeout=urllib3.Timeout(connect=None, read=None, total=timeout))
         response = http.request('GET', url)
@@ -22,7 +22,7 @@ def fetch_image_content_from_url(url,timeout):
 def download_image(download_path,url,filename,ignore_msgs=False):
     ''' download_path is the folder where you want to save the image , filename is the name of the image'''
     try:
-        image_content = fetch_image_content_from_url(url,5) # we decided a some value 5 seconds as total timout for image access
+        image_content = fetch_image_content_from_url(url,200) # we decided a some value 5 seconds as total timout for image access
         image_bytes = io.BytesIO(image_content)
         file_path = os.path.join(download_path, filename)
         image = Image.open(image_bytes)
