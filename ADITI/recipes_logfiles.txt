@@ -209,3 +209,21 @@ test:>https://minimalistbaker.com/wp-content/uploads/2018/03/Yellow-Chickpea-Cur
 $$$$
 
 
+683->Crab Curry
+$$$$
+$$$$
+
+683->Crab Curry
+$$$$
+train:>https://www.indrani-will-teach.com/wp-content/uploads/2022/11/crab.jpg
+train:>https://eastindianrecipes.net/wp-content/uploads/2024/01/Indian-Crab-Curry-recipe3.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/jhumu.here-gmail.com/Bengali_Style_Crab_Curry_Kankrar_Jhol.jpg
+train:>https://greatcurryrecipes.net/wp-content/uploads/2022/01/crabcu1-735x919.jpg
+train:>https://www.licious.in/blog/wp-content/uploads/2020/12/Crab-Curry.jpg
+train:>https://www.thetakeiteasychef.com/wp-content/uploads/2016/02/MCC-FI-FINAL.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2019/07/Kerala-Crab-Curry-1B.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2014/05/crab.jpg
+test:>https://www.flavorsofmumbai.com/wp-content/uploads/2011/02/delicious-Mummy-Special-Crab-Curry-Indian-Crab-Curry.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoWVfgErpfB_ntxqs1conEiTzfcuyG905A7Td-Sj6P1R23RfI9lntWdXsQsmwXz8WePWAAo5FMf1xuQN32LOlzS7Ra4l0mYpVnA1PT4bYjKsPP67pL8IhAx1KbtQ0_tctOo74meODlKWw/s1600/Crab+Curry+1.jpg
+$$$$
+
