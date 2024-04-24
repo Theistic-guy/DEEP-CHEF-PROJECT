@@ -34,7 +34,7 @@ def create_driver_load(services,option):
 try:
     create_driver_load(services,chrome_options)
     start=668
-    count=2
+    count=1
     maximum_images=10
     train_images_count=8
     extra_images=5
@@ -50,8 +50,8 @@ try:
     while(i<csv_length):
         
         recipe_name=df.loc[i,'name']
-        print(start+i-1,"->",recipe_name)
-        log_file.write(str(start+i-1)+"->"+recipe_name)
+        print(start+i,"->",recipe_name)
+        log_file.write(str(start+i)+"->"+recipe_name)
         log_file.write("\n")
         log_file.flush()
         
@@ -116,7 +116,7 @@ try:
                                     continue
             time.sleep(7)
         logfile_urls(image_urls,train_images_count,"C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\recipes_logfiles.txt")
-        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images",recipe_name,start+i-1,image_urls,train_images_count)
+        download_images("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images",recipe_name,start+i,image_urls,train_images_count)
         
         time.sleep(7)
         i=i+1

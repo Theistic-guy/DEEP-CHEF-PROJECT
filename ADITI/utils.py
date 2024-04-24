@@ -22,7 +22,7 @@ def download_image(url,folder,img_no,recipe_name,ignore_msgs=False):
             image=Image.open(image_file)
             jpg_file=image.convert("RGB")
             with open(file_path,"wb") as f: # wb ---> write bytes
-                image.save(f,"JPEG") 
+                jpg_file.save(f,"JPEG") 
                 print('Successful download ',img_no)  
         else:
             print("url was inaccessible") 
