@@ -9,26 +9,28 @@ import csv
 import pandas as pd
 import os
 import shutil
+from selenium.webdriver.chrome.options import Options
 
-def download_image(url,folder,img_no,recipe_name):
+def download_image(url,folder,img_no,recipe_name,ignore_msgs=False):
     try:
-        img_content=requests.get(url,timeout=10)
-        if(img_content.status_code == 200):
-            img_content=img_content.content
+        img_reqst=requests.get(url,timeout=10)
+        if(img_reqst.status_code == 200):
+            img_content=img_reqst.content
             image_file=io.BytesIO(img_content) 
+            file_name=str(img_no)+"_"+recipe_name+".jpg"
+            file_path=os.path.join(folder,file_name)
             image=Image.open(image_file)
             jpg_file=image.convert("RGB")
-            file_name=str(img_no)+"_"+recipe_name
-            file_path=os.path.join(folder,file_name)
             with open(file_path,"wb") as f: # wb ---> write bytes
-                image.save(f,"JPEG") 
+                jpg_file.save(f,"JPEG") 
                 print('Successful download ',img_no)  
         else:
             print("url was inaccessible") 
-    except:
-        print("Failed")
+    except Exception as e:
+        if not ignore_msgs:
+            print("Failed",e)
         
-def download_images(download_path,recipe_name,recipe_index,urls,count):
+def download_images(download_path,recipe_name,recipe_index,urls,count,ignore_msgs=False):
     try:
         recipe_name1=str(recipe_index) + "_" + recipe_name
         train=os.path.join(download_path,"train",recipe_name1)
@@ -46,10 +48,11 @@ def download_images(download_path,recipe_name,recipe_index,urls,count):
             x=x+1
             time.sleep(1)
             
-    except:
-        print("Failed download")
+    except Exception as e:
+        if not ignore_msgs:
+            print("Failed download",e)
         
-def logfile_urls(image_urls,train_images,log_path):
+def logfile_urls(image_urls,train_images,log_path,ignore_msgs=False):
     try:
         with open(log_path,"a") as log_file:
             log_file.write("$$$$")
@@ -64,7 +67,8 @@ def logfile_urls(image_urls,train_images,log_path):
             log_file.write("$$$$\n")
             log_file.write("\n")
             log_file.flush()
-    except:
-        print("Not logged")
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred while logging urls\n",e)
 
 
