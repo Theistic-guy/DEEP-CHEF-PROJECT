@@ -208,11 +208,6 @@ test:>https://myfoodstory.com/wp-content/uploads/2018/08/Cauliflower-Chickpea-Co
 test:>https://minimalistbaker.com/wp-content/uploads/2018/03/Yellow-Chickpea-Curry-SQUARE.jpg
 $$$$
 
-
-683->Crab Curry
-$$$$
-$$$$
-
 683->Crab Curry
 $$$$
 train:>https://www.indrani-will-teach.com/wp-content/uploads/2022/11/crab.jpg
@@ -225,5 +220,33 @@ train:>https://nishkitchen.com/wp-content/uploads/2019/07/Kerala-Crab-Curry-1B.j
 train:>https://www.yummytummyaarthi.com/wp-content/uploads/2014/05/crab.jpg
 test:>https://www.flavorsofmumbai.com/wp-content/uploads/2011/02/delicious-Mummy-Special-Crab-Curry-Indian-Crab-Curry.jpg
 test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoWVfgErpfB_ntxqs1conEiTzfcuyG905A7Td-Sj6P1R23RfI9lntWdXsQsmwXz8WePWAAo5FMf1xuQN32LOlzS7Ra4l0mYpVnA1PT4bYjKsPP67pL8IhAx1KbtQ0_tctOo74meODlKWw/s1600/Crab+Curry+1.jpg
+$$$$
+
+684->Indian Potato Wedges
+$$$$
+train:>https://www.kannammacooks.com/wp-content/uploads/2015/12/baked-potato-wedges.jpg
+train:>https://www.jocooks.com/wp-content/uploads/2013/04/crispy-indian-potato-wedges-1.jpg
+train:>https://www.easycheesyvegetarian.com/wp-content/uploads/2015/01/Indian-spiced-potato-wedges-with-coriander-lime-yogurt-4.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/potato-wedges-recipe.jpg
+train:>https://lh3.googleusercontent.com/proxy/CYrNzgZgJCtAzo6yDdyuDY1azifs3Z9okRwBJ11SAICwor6GO-4a3slJHm7VWBCgQjiQgtrFK6Sz9VspXO-D1mdBq_uBchL9ohtMC9juMr9KkrxKTcPoltXuzZr7BhXs5A
+train:>https://www.myweekendkitchen.in/wp-content/uploads/2018/10/roasted_potato_wedges_curry_spiced.jpg
+train:>https://www.pepperbowl.com/wp-content/uploads/2021/06/Pan-fried-Potato-wedges.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2018/02/potato-wedges-recipe.jpg
+test:>https://cdn.mygingergarlickitchen.com/images/800px/800px-baked-masala-potato-wedges-indian-spiced-crispy-potato-wedges-recipe-video-step-1-9.jpg
+test:>https://masalachilli.com/wp-content/uploads/2022/08/Air-Fryer-Potato-Wedges-11-500x500.jpg
+$$$$
+
+685->Onion Bhaji
+$$$$
+train:>https://elavegan.com/wp-content/uploads/2023/02/bhaji-with-raita-yogurt-sauce-on-plate.jpg
+train:>https://hintofhelen.com/wp-content/uploads/2019/07/Onion-Bhaji-Recipe-Hint-of-Helen-13-735x1103.jpg
+train:>https://cupfulofkale.com/wp-content/uploads/2020/04/Vegan-Onion-Bhajis-with-Coriander-Dip-720x720.jpg
+train:>https://www.dishbyrish.co.uk/wp-content/uploads/2023/02/20230215170138_IMG_0837-scaled.jpg
+train:>https://www.allrecipes.com/thmb/L1bUD6e1DvpJjS8nA6sgjOnUxO0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6407057-e00e80fee4724dc0b9467c2b45abc4b4.jpg
+train:>https://www.allrecipes.com/thmb/ElQN33HhGuNz_pMPPnmWdgHJpcY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5374389-baked-onion-bhajis-Susan-Meredith-4x3-1-b28174d4002c4fe1977c4adb2bc3d2ce.jpg
+train:>https://www.tastingtable.com/img/gallery/crispy-onion-bhaji-recipe/intro-1689260819.jpg
+train:>https://mymorningmocha.com/wp-content/uploads/2021/11/Crispy-onion-bhaji-recipe.jpg
+test:>https://www.mygfguide.com/wp-content/uploads/2019/04/bhajis-cover-web-scaled.jpg
+test:>https://www.curry-pot.com/wp-content/uploads/2015/03/onion-bhaji-768x540.jpg
 $$$$
 
