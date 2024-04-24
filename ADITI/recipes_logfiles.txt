@@ -292,3 +292,17 @@ test:>https://picturetherecipe.com/wp-content/uploads/2014/10/Cashew-Chicken-Cur
 test:>https://lh3.googleusercontent.com/t6kBBDiaOGi1iEOJiqjGlReZx56IjYfv9iNa1quafvsNe91SI_r5IuRf14vdR3XuxjVpg-Rk4wRTfJnzMKahuFVLZH-OmZnA8Kbdg7I=s600
 $$$$
 
+689->Reshmi Kabab
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2012/10/malai-chicken-kabab.jpg
+train:>https://www.flavorquotient.com/wp-content/uploads/2015/04/Chicken-Reshmi-Kebab-1-5974.jpg
+train:>https://i0.wp.com/blendofspicesbysara.com/wp-content/uploads/2021/04/PXL_20210403_202602593.PORTRAIT-01.jpeg?w=800&ssl=1
+train:>https://foodiesterminal.com/wp-content/uploads/2019/04/chicken-reshmi-kabab-recipe-22.jpg
+train:>https://static.wixstatic.com/media/05c508_8057d3e49c39427ba93abf8d9b9a63f2~mv2.png/v1/fill/w_800,h_800,al_c,q_90/05c508_8057d3e49c39427ba93abf8d9b9a63f2~mv2.png
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2019/09/malai-chicken-kabab-reshmi-kabab.jpg
+train:>https://1.bp.blogspot.com/-P12-cER09nM/X6VyxkGMUyI/AAAAAAAARLw/pBNbGxHH4oECEZqoOQQ7VD2pvTsrGTUKgCLcBGAsYHQ/s1771/Serving%2Bchicken%2Breshmi%2Bkabab.jpg
+train:>https://www.licious.in/blog/wp-content/uploads/2020/12/shutterstock_1801066921.jpg
+test:>https://bonmasala.com/wp-content/uploads/2022/06/chicken-reshmi-kabab-1.jpg
+test:>https://www.177milkstreet.com/assets/site/_large/Chicken-Reshmi-Kebabs-v.jpg
+$$$$
+
