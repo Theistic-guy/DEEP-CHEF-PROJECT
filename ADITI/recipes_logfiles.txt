@@ -96,3 +96,17 @@ test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNUyfDk4rXgXFV6
 test:>https://foodvoyageur.com/wp-content/uploads/2021/02/Wambatu-Moju.webp
 $$$$
 
+675->Chicken chettinad
+$$$$
+train:>https://greatcurryrecipes.net/wp-content/uploads/2014/02/chet11-735x980.jpg
+train:>https://butfirstchai.com/wp-content/uploads/2023/01/chicken-chettinad-curry-recipes.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2013/01/chicken-chettinad-recipe.jpg
+train:>https://farm8.staticflickr.com/7890/46966041001_2590047365_o_d.jpg
+train:>https://i0.wp.com/pompomcooks.com/wp-content/uploads/2021/02/DSC_2027.jpeg?fit=800%2C1000&ssl=1
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2019/08/chicken-chettinad.jpg.webp
+train:>https://www.shanazrafiq.com/wp-content/uploads/2017/10/4-chicken-chettinad.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2020/06/chettinadchickencurryhotelfrontbowl.jpg
+test:>https://madscookhouse.com/wp-content/uploads/2021/02/Chicken-Chettinad.jpg
+test:>https://www.funfoodfrolic.com/wp-content/uploads/2020/11/Chicken-Chettinad-Thumbnail.jpg
+$$$$
+
