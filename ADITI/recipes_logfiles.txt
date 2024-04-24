@@ -124,3 +124,17 @@ test:>https://choosingchia.com/jessh-jessh/uploads/2022/01/Vegetable-korma-14-68
 test:>https://nutriholist.com/wp-content/uploads/2020/01/Cashew-Cauliflower-Korma-Closeup-500x375.jpg
 $$$$
 
+677->Fried Boiled Eggs
+$$$$
+train:>https://i.ytimg.com/vi/70A2m9_IGpY/maxresdefault.jpg
+train:>https://i0.wp.com/myvegetarianroots.com/wp-content/uploads/2020/08/DSC_0033.jpeg?fit=1920%2C1277&ssl=1
+train:>https://www.patrickmaese.com/wp-content/uploads/2019/02/Fried-Hard-Boiled-Eggs-blog-1.jpg
+train:>https://lh4.googleusercontent.com/-WnH1fKNSLJk/TzoYOTxgxRI/AAAAAAABKDw/M4_Rn8isA08/s800/bacon-fried-eggs-13.jpg
+train:>https://cookingfromheart.com/wp-content/uploads/2016/09/Egg-Masala-Fry-2.jpg
+train:>https://theyummydelights.com/wp-content/uploads/2020/04/egg-fry.jpg
+train:>https://i.ytimg.com/vi/-5FOx5IJSWo/maxresdefault.jpg
+train:>https://lh4.googleusercontent.com/proxy/ZGRldve0exFKDUNXaReQsZFalzxoWYk2_tQAKwvrcZRPuU1WZ4JqwJY5yxbezyXOApUi3Bka8yil8JXd3oacyz3UlVj3f1n8tbkeJAqA7-Noi7PE31yS5z6-RzRxdman
+test:>https://airfryerfanatics.com/wp-content/uploads/2020/02/ninja-foodi-hard-boiled-eggs-1.jpg
+test:>https://homeisakitchen.com/wp-content/uploads/2013/05/fried-hard-boiled-eggs-cooling.jpg
+$$$$
+
