@@ -10,19 +10,19 @@ import pandas as pd
 import time 
 
 def fetch_response_from_url(url,timeout):
-    try:
+    # try:
         http = urllib3.PoolManager(timeout=urllib3.Timeout(connect=None, read=None, total=timeout))
         response = http.request('GET', url)
-        return response.data
-    except Exception as e:
-        print("Exception occurred inside fetch_image_content_from_url\n",e)
+        return response
+    # except Exception as e:
+    #     print("Exception occurred inside fetch_image_content_from_url\n",e)
 
 
 # called internally by 'download_images' function 
 def download_image(download_path,url,filename,ignore_msgs=False):
     ''' download_path is the folder where you want to save the image , filename is the name of the image'''
     try:
-        image_content = fetch_image_content_from_url(url,200) # we decided a some value 5 seconds as total timout for image access
+        image_content = fetch_response_from_url(url,200).data # we decided a some value 5 seconds as total timout for image access
         image_bytes = io.BytesIO(image_content)
         file_path = os.path.join(download_path, filename)
         image = Image.open(image_bytes)
@@ -91,7 +91,7 @@ def delete_recipe(download_folder_path,recipe_index,recipe_csv_path,bool_delete_
             try:
                 shutil.rmtree(path_test)
                 if not ignore_msgs:
-                    print("recipe train images deleted successfully")
+                    print("recipe test images deleted successfully")
             except Exception as e:
                 if not ignore_msgs:
                     print("Execption occurred during deletion inside test directory\n",e)
@@ -113,7 +113,10 @@ def view_recipe(path_to_download_logs,recipe_index,path_to_chromeDriver,time_del
             current_delimiter_pos = 0
             is_start_delim_reached = False
             test_img_urls = []
+            title = None
             for line in f :
+                if f"{recipe_index}->" in line:
+                    title = line.strip()[line.find(">")+1:]
                 if not is_start_delim_reached:
                     if line.strip() == "$$$$":
                         current_delimiter_pos += 1
@@ -127,6 +130,7 @@ def view_recipe(path_to_download_logs,recipe_index,path_to_chromeDriver,time_del
                         type,link = tuple(line.strip().split(":>"))
                         if type == "train":
                             driver.get(link)
+                            driver.execute_script(f"document.title = '{title}';")
                             driver.switch_to.new_window('tab')
                             time.sleep(time_delay)
                         elif type =="test":
@@ -135,6 +139,7 @@ def view_recipe(path_to_download_logs,recipe_index,path_to_chromeDriver,time_del
                         break
             for test_img_url in test_img_urls:
                 driver.get(test_img_url)
+                driver.execute_script(f"document.title = '{title}';")
                 driver.switch_to.new_window('tab')
                 time.sleep(time_delay)
             if not ignore_msgs:
