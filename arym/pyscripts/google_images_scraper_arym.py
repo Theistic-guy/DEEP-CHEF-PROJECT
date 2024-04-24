@@ -60,10 +60,10 @@ try :
     # start = 1 
     # i.e. start with the second line of csv becoz
     # first line are column names which is overriden by ' names= ' param
-    start = 3 
-    count= 2
+    start = 5
+    count= 5
     big_delay = 10
-    small_delay = 5
+    small_delay = 3
     max_imgs = 10
     extra_imgs = 5
     no_of_imgs_to_train = 8
@@ -99,6 +99,7 @@ try :
         f.flush()
 
         # Enter recipe name in box and hit ENTER
+        search_box = driver.find_element(By.NAME,"q")
         search_box.send_keys(recipe)
         search_box.send_keys(Keys.ENTER)
         time.sleep(big_delay)
@@ -185,4 +186,4 @@ try :
 
 except Exception as e:
     print("Exception occurred in main script .Quitting Driver \n ", e)
-    driver.quit()
+    # driver.quit()

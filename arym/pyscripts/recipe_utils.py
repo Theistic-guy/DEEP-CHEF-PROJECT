@@ -195,6 +195,35 @@ def get_recipe_name(path_csv,recipe_index):
     try:
         df = pd.read_csv(path_csv)
         return df.iloc[recipe_index,0]
-    except:
+    except Exception as e:
         print("Exception occurred inside get_recipe_name\n",e)
         return None
+
+def reload_urls_and_save(download_folder_path,download_logs_path,recipe_csv_path,recipe_index,train_imgs_count,ignore_msgs=False):
+    ''' an extra utility function that clubs deleting directory and downloading thru logs again. (useful especially if 
+    logs are manually edited for replacement of not so useful image)'''
+    df = pd.read_csv(recipe_csv_path,skiprows=recipe_index,nrows=1)
+    recipe_name = df.iloc[0,0]
+    path_train = os.path.join(download_folder_path,"train",str(recipe_index)+"_"+recipe_name)
+    if os.path.exists(path_train):
+        try:
+            shutil.rmtree(path_train)
+        except Exception as e:
+            if not ignore_msgs:
+                print("Execption occurred during reload_urls_and_save inside train directory\n",e)
+    else:
+        pass
+
+    path_test = os.path.join(download_folder_path,"test",str(recipe_index)+"_"+recipe_name)
+    if os.path.exists(path_test):
+        try:
+            shutil.rmtree(path_test)
+        except Exception as e:
+            if not ignore_msgs:
+                print("Execption occurred during deletion inside test directory\n",e)
+    else:
+        pass
+
+    download_images(download_folder_path,get_image_urls(download_logs_path,recipe_index,ignore_msgs),get_recipe_name(recipe_csv_path,recipe_index)\
+                    ,recipe_index,train_imgs_count,ignore_msgs)
+

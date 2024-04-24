@@ -41,3 +41,87 @@ test:>https://theflavoursofkitchen.com/wp-content/uploads/2020/10/Slow-Cooker-Ch
 $$$$
 
 3->Aloo Gobi
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/aloo-gobi-recipe.jpg
+train:>https://static01.nyt.com/images/2023/12/21/multimedia/ND-Aloo-Gobi-gkwc/ND-Aloo-Gobi-gkwc-square640.jpg
+train:>https://niksharmacooks.com/wp-content/uploads/2022/11/AlooGobiDSC_5234.jpg
+train:>https://www.tomatoblues.com/wp-content/uploads/2022/09/Aloo-gobi-2-500x375.jpg
+train:>https://clubfoody.com/wp-content/uploads/2023/08/Aloo-Gobi-13_Fotor.jpg
+train:>https://www.cookingandme.com/wp-content/uploads/2014/07/14523274883_3b6177e82b_z-427x375.jpg
+train:>https://aahaaramonline.com/wp-content/uploads/2016/04/Aloo_Gobi_Cauliflower_Potato_Stir_Fry-500x500.jpg
+train:>https://www.flourandspiceblog.com/wp-content/uploads/2023/01/IMG_9608.jpg
+test:>https://www.fatrainbow.com/wp-content/uploads/2020/09/Instant-Pot-Aloo-Gobi-1.jpg
+test:>https://www.indianveggiedelight.com/wp-content/uploads/2019/05/aloo-gobi-recipe-featured.jpg
+$$$$
+
+
+4->Crock Pot Chicken Vindaloo
+$$$$
+train:>https://www.wholesomelicious.com/wp-content/uploads/2016/04/Chicken-Vindaloo-900x1024.jpg
+train:>https://www.slowcookerfromscratch.com/wp-content/uploads/2012/01/Chicken-Vindaloo-in-Instant-Pot-Piping-Pot-Curry-4.jpg
+train:>https://ninecooks.typepad.com/.a/6a00d83451fa5069e2014e86396854970d-pi
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/24/13/9/VP4dRk1HTPG8t3JudSXz_crockpot-chicken-vindaloo-0008.jpg
+train:>https://twosleevers.com/wp-content/uploads/2017/06/Chicken-Vindaloo-Featured-Image-500x500.jpg
+train:>https://thehealthyepicurean.com/wp-content/uploads/2017/10/Vindaloo-Chicken-1-2-scaled.jpg
+train:>https://eastindianrecipes.net/wp-content/uploads/2022/07/Chicken-Vindaloo-Recipe2.jpg
+train:>https://cdn.drinksfeed.com/2014/01/vindaloo-310x233.png
+test:>https://ninecooks.typepad.com/.a/6a00d83451fa5069e2014e863969cd970d-pi
+test:>https://www.naivecookcooks.com/wp-content/uploads/2017/02/slow-cooker-vindaloo.jpg
+$$$$
+
+5->Potato Curry Chickpeas
+$$$$
+train:>https://www.wholesomelicious.com/wp-content/uploads/2016/04/Chicken-Vindaloo-900x1024.jpg
+train:>https://thehealthyepicurean.com/wp-content/uploads/2017/10/Vindaloo-Chicken-1-2-scaled.jpg
+train:>https://thehealthyepicurean.com/wp-content/uploads/2017/10/Vindaloo-Chicken-2-1-scaled.jpg
+train:>https://i.pinimg.com/474x/8a/eb/1f/8aeb1fb7848652e781c8549b76149aff.jpg
+train:>https://www.garnishandglaze.com/wp-content/uploads/2018/09/easy-chicken-curry-4.jpg
+train:>https://www.alycealexandra.com/cdn/shop/articles/Easiest_slow_cooker_veg_vindaloo_recipe.jpg
+train:>https://www.theglutenfreeblogger.com/wp-content/uploads/2022/09/slow-cooker-chickpea-and-potato-curry-13-scaled.jpg
+train:>https://www.wholesomelicious.com/wp-content/uploads/2016/04/Chicken-Vindaloo-photo.jpg
+test:>https://pipingpotcurry.com/wp-content/uploads/2019/03/Chicken-Vindaloo-in-Instant-Pot-Piping-Pot-Curry-4-500x500.jpg
+test:>https://www.allrecipes.com/thmb/249U3lsxHXdSPJdrTITzK_saOjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6067251-bengali-chicken-curry-with-potatoes-Linda-Chor-4x3-1-94006a09cdec49ceaa26c1044f50359a.jpg
+$$$$
+
+6->Channa Masala
+$$$$
+train:>https://fitslowcookerqueen.com/wp-content/uploads/2020/08/chickpea-potato-curry-scaled.jpg
+train:>https://www.alycealexandra.com/cdn/shop/articles/Easiest_slow_cooker_veg_vindaloo_recipe.jpg
+train:>https://www.elin.ca/wp-content/uploads/2017/11/DSCN2004-1024x768.jpg
+train:>https://healthyheartyrecipes.com/wp-content/uploads/2021/10/slow-cooker-chicken-and-chickpea-tikka-masala-8.jpg
+train:>https://www.wholesomelicious.com/wp-content/uploads/2016/04/Chicken-Vindaloo-900x1024.jpg
+train:>https://silkroadrecipes.com/wp-content/uploads/2023/04/Aloo-Chana-Masala-Potato-Chickpea-Curry-square.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chickpea-curry-recipe.jpg
+train:>https://theflavoursofkitchen.com/wp-content/uploads/2019/06/One-pot-Chickepa-Curry-3-751x1024.jpg
+test:>https://holycowvegan.net/wp-content/uploads/2015/12/slow-cooker-chana-masala.jpg
+test:>https://www.recipetineats.com/wp-content/uploads/2016/01/Chickpea-Curry_7.jpg
+$$$$
+
+7->Chicken Makhani (Indian Butter Chicken)
+$$$$
+train:>https://www.simplyhappyfoodie.com/wp-content/uploads/2019/07/slow-cooker-indian-butter-chicken-1.jpg
+train:>https://www.simplyhappyfoodie.com/wp-content/uploads/2019/07/slow-cooker-indian-butter-chicken-3.jpg
+train:>https://1.bp.blogspot.com/-sC1gnIWOxbk/Vel0UeAslfI/AAAAAAAACfs/Qn1IL1j3pVY/s1600/Easy-Creamy-Crock-Pot-Butter-Chicken-%25284%2529.jpg
+train:>https://3.bp.blogspot.com/-2zLKyqEffPA/VelzDtIYxXI/AAAAAAAACfU/DCy73ljWpOM/s1600/Easy-Creamy-Crock-Pot-Butter-Chicken.jpg
+train:>https://foodess.com/wp-content/uploads/2022/10/Foodess-Best-Butter-Chicken-1-2.jpg
+train:>https://s23209.pcdn.co/wp-content/uploads/2019/05/Slow-Cooker-indian-Butter-ChickenIMG_9291.jpg
+train:>https://dinnerthendessert.com/wp-content/uploads/2016/12/Slow-Cooker-Indian-Butter-Chicken.jpg
+train:>https://www.wellplated.com/wp-content/uploads/2018/07/Healthy-Instant-Pot-Butter-Chicken.jpg
+test:>https://www.halfbakedharvest.com/wp-content/uploads/2020/12/30-Minute-Spicy-Indian-Butter-Chicken-1.jpg
+test:>https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2-850x1275.jpg
+$$$$
+
+8->Spicy Shrimp Coconut Milk
+$$$$
+train:>https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2016/02/Finger-Lickin-Butter-Chicken-14.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2017/01/butter-chicken-1.jpg
+train:>https://www.kitchensanctuary.com/wp-content/uploads/2022/09/Air-Fryer-Chicken-Curry-Tall-FS-36.webp
+train:>https://www.halfbakedharvest.com/wp-content/uploads/2020/12/30-Minute-Spicy-Indian-Butter-Chicken-1.jpg
+train:>https://foodess.com/wp-content/uploads/2022/10/Foodess-Best-Butter-Chicken-1-2.jpg
+train:>https://www.wellplated.com/wp-content/uploads/2018/07/Healthy-Instant-Pot-Butter-Chicken.jpg
+train:>https://www.simplyhappyfoodie.com/wp-content/uploads/2019/07/slow-cooker-indian-butter-chicken-1.jpg
+test:>https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2021/01/Butter_Chicken-3-683x1024.jpg
+test:>https://www.simplyhappyfoodie.com/wp-content/uploads/2019/07/slow-cooker-indian-butter-chicken-3.jpg
+$$$$
+
