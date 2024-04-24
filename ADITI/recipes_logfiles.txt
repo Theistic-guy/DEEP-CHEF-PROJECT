@@ -68,3 +68,17 @@ test:>https://images.immediate.co.uk/production/volatile/sites/30/2024/02/Rose-f
 test:>https://cookingfromheart.com/wp-content/uploads/2022/04/Royal-Falooda-3.jpg
 $$$$
 
+673->Spicy Mutton Curry
+$$$$
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2015/02/1-2.jpg
+train:>https://www.sidechef.com/recipe/6aa8619d-421b-4262-b90b-d6392f1c1048.jpeg?d=1408x1120
+train:>https://www.cookwithipohbunny.com/wp-content/uploads/2023/01/IMG_20230130_154348.jpg
+train:>https://i2.wp.com/www.happyandharried.com/wp-content/uploads/2016/03/Spicy-Mutton-Curry-Rajasthani-Laal-Maas.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Pooja_Thakur/Dabha_mutton.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2016/05/mutton-curry-1.jpg
+train:>https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/rabia-hamnah20180207105847608.jpeg
+train:>https://www.masalakorb.com/wp-content/uploads/2016/01/Andhra-Spicy-Mutton-Curry-Recipe-V4-1.jpg
+test:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/mutton-curry.jpg.webp
+test:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/FlavorFlameFusion/Spicy_Pressure_Cooker_Mutton_Curry_Recipe_2_1600.jpg
+$$$$
+
