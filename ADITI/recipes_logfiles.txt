@@ -82,3 +82,17 @@ test:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/mutton-cur
 test:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/FlavorFlameFusion/Spicy_Pressure_Cooker_Mutton_Curry_Recipe_2_1600.jpg
 $$$$
 
+674->Brinjal Eggplant Pickle
+$$$$
+train:>https://www.carolinescooking.com/wp-content/uploads/2023/07/brinjal-pickle-picture.jpg
+train:>https://madscookhouse.com/wp-content/uploads/2022/05/Brinjal-Eggplant-Pickle-1024x516.jpg
+train:>https://cookbook.pfeiffer.net.au/files/pickleBrinjal-1024x768.jpg
+train:>https://veganlovlie.com/wp-content/uploads/pickled-eggplant-06-480x480.jpg
+train:>https://chindeep.com/wp-content/uploads/2022/02/Indian-Eggplant-Pickle-940x1253.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/2/2019/09/Goan-Brinjal-pickle-eb54de3.jpg?quality=90&resize=556,505
+train:>https://www.carolinescooking.com/wp-content/uploads/2016/08/P8222243-1.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVFj131qWMtCs1oEqkCI4agzbeayTgDL7BQp2yPAyx2ZnFH3LC8Thma05-ORVg-5uzdXKOWir5imeEVmDHhn_k33T3P6kr_buOpRh_NLEkAoTfwZ8YKoF9ZdykRjfS7VpOBstJXVcROTlX/w1200-h630-p-k-no-nu/056.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNUyfDk4rXgXFV6yxpLehdTNP4mKCPesnE2WBqKgi-Qs2lizR9AX9uT5o8w5TlJfs-YHoqwWnCk4kYsQB2ETDn_lO5bsz8X3MCQpEA-RHcyO6FLDJ-Y0xcCTtaj9UFxBsu09ktXrKBrmw/s1600/eggplant+pickle+6.JPG
+test:>https://foodvoyageur.com/wp-content/uploads/2021/02/Wambatu-Moju.webp
+$$$$
+
