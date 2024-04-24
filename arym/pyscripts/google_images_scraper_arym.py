@@ -12,7 +12,6 @@ import recipe_utils as ru
 from recipe_utils import download_images,log_urls
 
 driver = None
-search_box = None
 
 # link Chrome Webdriver
 webdriver_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\chromedriver.exe" # <-- file path used
@@ -33,13 +32,12 @@ chrome_options.add_experimental_option("detach",True)
 #         return False
 
 def create_driver_and_load(cService,Options):
-    global driver,search_box
+    global driver
     try:
         driver = webdriver.Chrome(service=cService,options=Options)
         driver.maximize_window()
         driver.get('https://images.google.com/')
         time.sleep(7)
-        search_box = driver.find_element(By.NAME,"q")
     except Exception as e :
         print("Exception occurred creating driver \n",e)
 
@@ -100,6 +98,7 @@ try :
 
         # Enter recipe name in box and hit ENTER
         search_box = driver.find_element(By.NAME,"q")
+        search_box.clear()
         search_box.send_keys(recipe)
         search_box.send_keys(Keys.ENTER)
         time.sleep(big_delay)
