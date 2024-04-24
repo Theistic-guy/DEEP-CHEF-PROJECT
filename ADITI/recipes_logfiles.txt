@@ -138,3 +138,17 @@ test:>https://airfryerfanatics.com/wp-content/uploads/2020/02/ninja-foodi-hard-b
 test:>https://homeisakitchen.com/wp-content/uploads/2013/05/fried-hard-boiled-eggs-cooling.jpg
 $$$$
 
+678->Batata Vada
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/batata-vada-recipe.jpg
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2022/05/batata-vada-2-500x500.jpg
+train:>https://sweetsimplemasala.com/wp-content/uploads/2022/10/BatataVadafeature_SweetSimpleMasala-1.jpg
+train:>https://upload.wikimedia.org/wikipedia/commons/8/8b/Mumbai-vada.jpg
+train:>https://www.thespruceeats.com/thmb/LEKQQaf7-jb0wg87sMvQeSFN6YE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vadapav-56ac12145f9b58b7d00a409e.jpg
+train:>https://i.ytimg.com/vi/9-R74pL-XNw/maxresdefault.jpg
+train:>https://static.toiimg.com/thumb/59285462.cms?width=1200&height=900
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvbxUzj4gc2sGX5XWFLjgKCK4vHS2hkox5TSEPBMFGt63Ry2TIuwPHqPpqZJ_eqZmpeIHju6hvsrFleyRLs3uwOx3l7A0gWQv118KQwSBgLT6pkCjeKr-1J3RiTWy-LhCXMQjRvilmCfXa/s1600/BV-Main.jpg
+test:>https://www.theloveofspice.com/wp-content/uploads/2022/05/mumbai-vada-pav.jpg
+test:>https://i0.wp.com/www.antoskitchen.com/wp-content/uploads/2017/03/aloo-bonda.jpg?resize=1068%2C941&ssl=1
+$$$$
+
