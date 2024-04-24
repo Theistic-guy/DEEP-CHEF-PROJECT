@@ -166,3 +166,17 @@ test:>https://kurryleaves.net/wp-content/uploads/2015/06/nadan-mutton-curry-reci
 test:>https://imagevars.gulfnews.com/2022/01/27/guide-to-making-naadan-mutton-curry_17e9c00100d_original-ratio.jpg
 $$$$
 
+680->Spiced coconut cabbage
+$$$$
+train:>https://www.butteredveg.com/wp-content/uploads/2022/02/3-1.png
+train:>https://assets.epicurious.com/photos/5877b0363b8997bc108a4481/master/pass/Cabbage-Stir-Fry-with-Coconut-and-Lemon-12012017.jpg
+train:>https://www.butteredveg.com/wp-content/uploads/2022/02/Kerelan-Cabbage-1200-17-1024x695.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/10/32/82/picw3jfnY.jpg
+train:>https://www.butteredveg.com/wp-content/uploads/2022/02/Kerelan-Cabbage-1200-8.jpg
+train:>https://www.primalpalate.com/wp-content/uploads/2015/09/cabbage-thoran-stir-fry-cabbage-with-coconut-kerala-style-720x720.jpg
+train:>https://assets.epicurious.com/photos/5877b0363b8997bc108a4481/3:4/w_748%2Cc_limit/Cabbage-Stir-Fry-with-Coconut-and-Lemon-12012017.jpg
+train:>https://i0.wp.com/justinesnacks.com/wp-content/uploads/2022/06/spicy-braised-cabbage.jpg?resize=819%2C1024&ssl=1
+test:>https://www.butteredveg.com/wp-content/uploads/2022/02/Kerelan-Cabbage-1200-11-1024x576.jpg
+test:>https://www.cookwithmanali.com/wp-content/uploads/2014/08/Cabbage-Poriyal.jpg
+$$$$
+
