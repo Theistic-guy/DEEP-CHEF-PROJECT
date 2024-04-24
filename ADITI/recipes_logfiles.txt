@@ -264,3 +264,31 @@ test:>https://www.layersofhappiness.com/wp-content/uploads/2014/09/vegetable-cur
 test:>https://alexandracooks.com/wp-content/uploads/2020/02/potofcurry_alexandraskitchen.jpg
 $$$$
 
+687->Cauliflower Curry With Chicken
+$$$$
+train:>https://savorynature.com/wp-content/uploads/2015/01/Chicken-Curry-with-Cauliflower-and-Peas.jpg
+train:>https://img.taste.com.au/ec-5S7D8/taste/2019/06/chicken-and-cauliflower-korma-curry-p34-150207-3.jpg
+train:>https://www.slimmingeats.com/blog/wp-content/uploads/2010/02/chicken-cauliflower-curry-14.jpg
+train:>https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_9004_88113.jpg
+train:>https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AESEGGT6ZTHVM7LL3FN6OVNGEA.jpg&w=1440
+train:>https://www.asweetpeachef.com/wp-content/uploads/2018/01/slow-cooker-chicken-cauliflower-curry-6.jpg
+train:>https://www.mealgarden.com/media/recipe/2019/09/bbigstock-chicken-curry-with-jasmine-ric-301535368.jpeg
+train:>https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/942032-1-eng-GB_cauliflwoer-curry-768x960.jpg
+test:>https://media.healthyfood.com/wp-content/uploads/2021/03/Chicken-and-cauliflower-curry-e1674438510304-1024x619.jpg
+test:>https://www.eatingwell.com/thmb/btm2Q1M0uGDyg3RBoFzni9_4KCM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caulifl-chick-curry-2000-f657ee70e696494785398065d86ced2e.jpg
+$$$$
+
+688->Cashew Chicken Curry
+$$$$
+train:>https://static01.nyt.com/images/2013/01/09/dining/09KITCH_SPAN/09KITCH_SPAN-superJumbo-v2.jpg
+train:>https://assets.epicurious.com/photos/54bac6e62a4b69f8647e96dc/master/pass/chicken-curry-cashews-6x4.jpg
+train:>https://www.soulfulandhealthy.com/sites/default/files/inline-images/2_29.jpg
+train:>https://www.shemins.com/wp-content/uploads/2017/10/GettyImages-1168351500.jpg
+train:>https://www.allrecipes.com/thmb/pD7vjHc7uYDcEQenHm04xo8sdVE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6415750-creamy-cashew-chicken-curry-Chef-John-4x3-1-f6f431013e2b4c51af66ea343585f4bf.jpg
+train:>https://www.closetcooking.com/wp-content/uploads/2008/07/Chicken-and-Cashew-Curry-500.jpg
+train:>https://img-global.cpcdn.com/recipes/701b9612ffe5da56/1200x630cq70/photo.jpg
+train:>https://simply-delicious-food.com/wp-content/uploads/2016/09/creamy-cashew-chicken-curry-2.jpg
+test:>https://picturetherecipe.com/wp-content/uploads/2014/10/Cashew-Chicken-Curry-PictureTheRecipe-640x424.jpg
+test:>https://lh3.googleusercontent.com/t6kBBDiaOGi1iEOJiqjGlReZx56IjYfv9iNa1quafvsNe91SI_r5IuRf14vdR3XuxjVpg-Rk4wRTfJnzMKahuFVLZH-OmZnA8Kbdg7I=s600
+$$$$
+
