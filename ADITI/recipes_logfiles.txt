@@ -558,3 +558,17 @@ test:>https://www.stephiecooks.com/wp-content/uploads/2014/10/cinnamon-honey-but
 test:>https://i1.wp.com/www.artandthekitchen.com/wp-content/uploads/2019/04/Cinnamon-Cream-Cheese-Butter-8117-2.jpg
 $$$$
 
+708->homemade garam masala powder
+$$$$
+train:>https://www.ticklingpalates.com/wp-content/uploads/2020/10/garam-masala-powder.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2014/05/punjabi-garam-masala-powder-spices.jpg.webp
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/garam-masala-recipe.jpg.webp
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2013/03/1-4.png
+train:>https://www.sanjanafeasts.co.uk/wp-content/uploads/2020/11/IMG_0010-8.jpg
+train:>https://i.pinimg.com/736x/6c/f5/51/6cf551677f0b9fbfede8af8659fb2cc2.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/01/garam-masala-recipe.jpg.webp
+train:>https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Garam-Masala-Blog-Thumbnail.jpg
+test:>https://www.spiceupthecurry.com/wp-content/uploads/2015/03/garam-masala-2.jpg
+test:>https://i.pinimg.com/originals/2e/93/aa/2e93aa08105536fff605b81252b60bea.jpg
+$$$$
+
