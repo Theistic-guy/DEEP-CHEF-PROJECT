@@ -348,3 +348,17 @@ test:>https://i.pinimg.com/736x/39/5f/dd/395fdded07f51c6d2e893834fbaa0c48.jpg
 test:>https://profusioncurry.com/wp-content/uploads/2021/02/Masala-Chai-spiced-tea-latte-served-in-three-glasses-along-with-other-snack-items.jpg
 $$$$
 
+693->Mango Raita
+$$$$
+train:>https://www.cookwithmanali.com/wp-content/uploads/2016/03/Mint-Mango-Raita.jpg
+train:>https://www.mygingergarlickitchen.com/wp-content/uploads/2022/08/mango-raita-1.jpg
+train:>https://code2cook.com/wp-content/uploads/2020/04/Mango-Raita-Recipe-1-500x375.jpg
+train:>https://www.shanazrafiq.com/wp-content/uploads/2021/07/5-Mango-Raita-3.jpg
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2022/03/mango-raita-2.jpg
+train:>https://images.squarespace-cdn.com/content/v1/5cef7b136434550001a53d10/1560267756895-W2SSOEDJM6PVRSTQ5ZN1/mangoraita.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Monika_Manchanda/Raw_Mango_Raita_Recipe-1.jpg
+train:>https://www.tashasartisanfoods.com/blog/wp-content/uploads/2019/06/unnamed-3.jpg
+test:>https://i.pinimg.com/736x/87/36/37/873637b5cb28b0c65526d2082affb0e1.jpg
+test:>https://blogexplore.com/wp-content/uploads/2014/06/blogexplore.com-mango-mint-raita.jpg
+$$$$
+
