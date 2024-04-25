@@ -71,7 +71,7 @@ try :
 
     # load links.csv
 
-    links_csv_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\arym\csv\\links_copy.csv"
+    links_csv_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\links_copy_main.csv"
     df = pd.read_csv(links_csv_path,skiprows= start,nrows=count,names=['name','link']) #<-- file path used
 
     # open logs
