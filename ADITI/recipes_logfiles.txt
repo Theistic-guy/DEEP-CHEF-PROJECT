@@ -361,3 +361,19 @@ train:>https://www.tashasartisanfoods.com/blog/wp-content/uploads/2019/06/unname
 test:>https://i.pinimg.com/736x/87/36/37/873637b5cb28b0c65526d2082affb0e1.jpg
 test:>https://blogexplore.com/wp-content/uploads/2014/06/blogexplore.com-mango-mint-raita.jpg
 $$$$
+
+694->Masala Chicken
+$$$$
+train:>https://static.toiimg.com/thumb/54673639.cms?width=1200&height=900
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/08/chicken-masala-authentic.jpg
+train:>https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-masala.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2018/04/Chicken-Tikka-Masala_0-SQ.jpg
+train:>https://thecurrymommy.com/wp-content/uploads/2018/08/no-cream-chicken-tikka-masala.jpg
+train:>https://www.licious.in/blog/wp-content/uploads/2022/11/Classic-chicken-masala.jpg
+train:>https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG
+test:>https://i2.wp.com/www.happyandharried.com/wp-content/uploads/2018/01/EASY-CHICKEN-CURRY-HAPPYHARRIED.jpg
+test:>https://www.andy-cooks.com/cdn/shop/articles/20230819112920-c2-a9andy_cooks_thumbnails_chicken_tikka_masala_01.jpg?v=1692578261
+$$$$
+
+
