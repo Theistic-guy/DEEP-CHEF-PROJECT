@@ -446,3 +446,31 @@ test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdvNs66QRhDiIZK
 test:>https://preethicuisine.com/wp-content/uploads/2022/05/D2-scaled.jpg
 $$$$
 
+700->Murgh Pulao
+$$$$
+train:>https://static.toiimg.com/thumb/61711645.cms?imgsize=468138&width=800&height=800
+train:>https://i.ytimg.com/vi/v9Wu8E4Xd0o/maxresdefault.jpg
+train:>https://www.quichentell.com/wp-content/uploads/2022/05/Murgh-Kairi-Pulao-5.1-500x500.jpg
+train:>https://www.masala.tv/wp-content/uploads/2019/10/Murgh-Sabzi-Pulao-Tarka.jpg
+train:>https://peekncooksa.blob.core.windows.net/index-recipe/murgh_pulao.jpg
+train:>https://img-global.cpcdn.com/recipes/f07769dad8330cbb/128x176cq50/murgh-pulao-recipe-main-photo.jpg
+train:>https://www.masala.tv/wp-content/uploads/2020/10/Desi-Murgh-Pulaop.jpg
+train:>https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2018/06/Murg-Pulao-Insta-01.jpg?resize=1537%2C1024
+test:>https://kfoods.com/images1/newrecipeicon/chicken-pulao-murghi-pulao_6650.jpg
+test:>https://lh5.googleusercontent.com/proxy/xGh_GNG1Upf3CS7t4Rj5EQlfcpHd7z2WYExXnlIlITumabUzOoWFdevkDxmzmPPGkDC3szrpKoLDBoUWASUzf1UiAqM74z5apP8
+$$$$
+
+701->Corn and Spinach rice
+$$$$
+train:>https://cdn2.foodviva.com/static-content/food-images/dinner-recipes/palak-pulao-spinach-rice/palak-pulao-spinach-rice.jpg
+train:>https://2.bp.blogspot.com/-2rOHTNqJ5zA/WtNRnM7yb9I/AAAAAAAAL7E/taiuf8aeJXMfqv7hWhKx3QrvYLLUG2pDQCLcBGAs/s1600/Corn_Palak_Pulao_1.jpg
+train:>https://i.ytimg.com/vi/YGBQSB_acAc/maxresdefault.jpg
+train:>https://s3.amazonaws.com/appforest_uf/f1589799555774x569078078506604100/Spinach%20Corn%20Rice.jpg
+train:>https://4.bp.blogspot.com/-RRT3S8f8g1U/VlqFQa4jd7I/AAAAAAAANOs/lXQ3BEpf0CY/s1600/4563-Spinch-and-sweetcorn-fried-rice.jpg-sharp.jpg
+train:>https://i.pinimg.com/564x/3b/2e/86/3b2e862caa42f27709f62cd8d963c022.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4xGBPBUQMCfOl5mLUEA0ICHCAqP0_1nalWWnWMUIg-0B_Dcv3gMJlcIPoXl9mXcS59uNxENcflaTI0MSycR-q5MJYg8E9RrV50MNQu-XLWOenUb9-IF6AdJBW_nvGxeU36XxEiyJYCA/s1600/corn+spinach+rice+final.jpg
+train:>https://1.bp.blogspot.com/-yML97ulRAwo/VlqFQQkHCpI/AAAAAAAANO4/VgesJ0ahCbY/s1600/II1A4579.JPG
+test:>https://i.ytimg.com/vi/kzOKh_F5XX0/maxresdefault.jpg
+test:>https://i.pinimg.com/564x/10/d2/8f/10d28f0f55a0086042cc469eea0b2c3a.jpg
+$$$$
+
