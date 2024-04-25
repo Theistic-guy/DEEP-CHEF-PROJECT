@@ -754,7 +754,7 @@ test:>https://i.pinimg.com/originals/7f/9c/ed/7f9ced317debf8ce3bcebb7b83424ef0.j
 test:>https://justhomemade.files.wordpress.com/2011/07/swiss-chard-dal-in-cup.jpg
 $$$$
 
-388->Non Fat Indian Cottage Cheese Unpacked
+388->Non-Fat Paneer
 $$$$
 train:>https://summeryule.com/wp-content/uploads/2021/12/low-sodium-cottage-cheese-500x375.jpeg
 train:>https://cookwithrenu.com/wp-content/uploads/2024/01/Homemade-Paneer_-Featured-Image-500x500.jpg.webp
