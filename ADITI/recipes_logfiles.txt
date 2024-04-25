@@ -208,11 +208,6 @@ test:>https://myfoodstory.com/wp-content/uploads/2018/08/Cauliflower-Chickpea-Co
 test:>https://minimalistbaker.com/wp-content/uploads/2018/03/Yellow-Chickpea-Curry-SQUARE.jpg
 $$$$
 
-
-683->Crab Curry
-$$$$
-$$$$
-
 683->Crab Curry
 $$$$
 train:>https://www.indrani-will-teach.com/wp-content/uploads/2022/11/crab.jpg
@@ -225,5 +220,145 @@ train:>https://nishkitchen.com/wp-content/uploads/2019/07/Kerala-Crab-Curry-1B.j
 train:>https://www.yummytummyaarthi.com/wp-content/uploads/2014/05/crab.jpg
 test:>https://www.flavorsofmumbai.com/wp-content/uploads/2011/02/delicious-Mummy-Special-Crab-Curry-Indian-Crab-Curry.jpg
 test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoWVfgErpfB_ntxqs1conEiTzfcuyG905A7Td-Sj6P1R23RfI9lntWdXsQsmwXz8WePWAAo5FMf1xuQN32LOlzS7Ra4l0mYpVnA1PT4bYjKsPP67pL8IhAx1KbtQ0_tctOo74meODlKWw/s1600/Crab+Curry+1.jpg
+$$$$
+
+684->Indian Potato Wedges
+$$$$
+train:>https://www.kannammacooks.com/wp-content/uploads/2015/12/baked-potato-wedges.jpg
+train:>https://www.jocooks.com/wp-content/uploads/2013/04/crispy-indian-potato-wedges-1.jpg
+train:>https://www.easycheesyvegetarian.com/wp-content/uploads/2015/01/Indian-spiced-potato-wedges-with-coriander-lime-yogurt-4.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/potato-wedges-recipe.jpg
+train:>https://lh3.googleusercontent.com/proxy/CYrNzgZgJCtAzo6yDdyuDY1azifs3Z9okRwBJ11SAICwor6GO-4a3slJHm7VWBCgQjiQgtrFK6Sz9VspXO-D1mdBq_uBchL9ohtMC9juMr9KkrxKTcPoltXuzZr7BhXs5A
+train:>https://www.myweekendkitchen.in/wp-content/uploads/2018/10/roasted_potato_wedges_curry_spiced.jpg
+train:>https://www.pepperbowl.com/wp-content/uploads/2021/06/Pan-fried-Potato-wedges.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2018/02/potato-wedges-recipe.jpg
+test:>https://cdn.mygingergarlickitchen.com/images/800px/800px-baked-masala-potato-wedges-indian-spiced-crispy-potato-wedges-recipe-video-step-1-9.jpg
+test:>https://masalachilli.com/wp-content/uploads/2022/08/Air-Fryer-Potato-Wedges-11-500x500.jpg
+$$$$
+
+685->Onion Bhaji
+$$$$
+train:>https://elavegan.com/wp-content/uploads/2023/02/bhaji-with-raita-yogurt-sauce-on-plate.jpg
+train:>https://hintofhelen.com/wp-content/uploads/2019/07/Onion-Bhaji-Recipe-Hint-of-Helen-13-735x1103.jpg
+train:>https://cupfulofkale.com/wp-content/uploads/2020/04/Vegan-Onion-Bhajis-with-Coriander-Dip-720x720.jpg
+train:>https://www.dishbyrish.co.uk/wp-content/uploads/2023/02/20230215170138_IMG_0837-scaled.jpg
+train:>https://www.allrecipes.com/thmb/L1bUD6e1DvpJjS8nA6sgjOnUxO0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6407057-e00e80fee4724dc0b9467c2b45abc4b4.jpg
+train:>https://www.allrecipes.com/thmb/ElQN33HhGuNz_pMPPnmWdgHJpcY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5374389-baked-onion-bhajis-Susan-Meredith-4x3-1-b28174d4002c4fe1977c4adb2bc3d2ce.jpg
+train:>https://www.tastingtable.com/img/gallery/crispy-onion-bhaji-recipe/intro-1689260819.jpg
+train:>https://mymorningmocha.com/wp-content/uploads/2021/11/Crispy-onion-bhaji-recipe.jpg
+test:>https://www.mygfguide.com/wp-content/uploads/2019/04/bhajis-cover-web-scaled.jpg
+test:>https://www.curry-pot.com/wp-content/uploads/2015/03/onion-bhaji-768x540.jpg
+$$$$
+
+686->Veggie Curry
+$$$$
+train:>https://www.recipetineats.com/wp-content/uploads/2017/07/Vegetable-Curry.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/vegetable-curry.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2022/06/Courgette-curry-c295fa0.jpg?quality=90&resize=556,505
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/vegetable-curry-recipe-500x375.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/vegetablecurry_80763_16x9.jpg
+train:>https://greenbowl2soul.com/wp-content/uploads/2021/06/Indian-vegetable-curry.jpg
+train:>https://assets.bonappetit.com/photos/610d630e2f1b400ec4217042/1:1/w_2560%2Cc_limit/0921-curry-vegetables.jpg
+train:>https://img.taste.com.au/MmjJJcfO/taste/2016/11/creamy-chickpea-and-vegetable-curry-104611-1.jpeg
+test:>https://www.layersofhappiness.com/wp-content/uploads/2014/09/vegetable-curry-5.jpg
+test:>https://alexandracooks.com/wp-content/uploads/2020/02/potofcurry_alexandraskitchen.jpg
+$$$$
+
+687->Cauliflower Curry With Chicken
+$$$$
+train:>https://savorynature.com/wp-content/uploads/2015/01/Chicken-Curry-with-Cauliflower-and-Peas.jpg
+train:>https://img.taste.com.au/ec-5S7D8/taste/2019/06/chicken-and-cauliflower-korma-curry-p34-150207-3.jpg
+train:>https://www.slimmingeats.com/blog/wp-content/uploads/2010/02/chicken-cauliflower-curry-14.jpg
+train:>https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_9004_88113.jpg
+train:>https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AESEGGT6ZTHVM7LL3FN6OVNGEA.jpg&w=1440
+train:>https://www.asweetpeachef.com/wp-content/uploads/2018/01/slow-cooker-chicken-cauliflower-curry-6.jpg
+train:>https://www.mealgarden.com/media/recipe/2019/09/bbigstock-chicken-curry-with-jasmine-ric-301535368.jpeg
+train:>https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/942032-1-eng-GB_cauliflwoer-curry-768x960.jpg
+test:>https://media.healthyfood.com/wp-content/uploads/2021/03/Chicken-and-cauliflower-curry-e1674438510304-1024x619.jpg
+test:>https://www.eatingwell.com/thmb/btm2Q1M0uGDyg3RBoFzni9_4KCM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caulifl-chick-curry-2000-f657ee70e696494785398065d86ced2e.jpg
+$$$$
+
+688->Cashew Chicken Curry
+$$$$
+train:>https://static01.nyt.com/images/2013/01/09/dining/09KITCH_SPAN/09KITCH_SPAN-superJumbo-v2.jpg
+train:>https://assets.epicurious.com/photos/54bac6e62a4b69f8647e96dc/master/pass/chicken-curry-cashews-6x4.jpg
+train:>https://www.soulfulandhealthy.com/sites/default/files/inline-images/2_29.jpg
+train:>https://www.shemins.com/wp-content/uploads/2017/10/GettyImages-1168351500.jpg
+train:>https://www.allrecipes.com/thmb/pD7vjHc7uYDcEQenHm04xo8sdVE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6415750-creamy-cashew-chicken-curry-Chef-John-4x3-1-f6f431013e2b4c51af66ea343585f4bf.jpg
+train:>https://www.closetcooking.com/wp-content/uploads/2008/07/Chicken-and-Cashew-Curry-500.jpg
+train:>https://img-global.cpcdn.com/recipes/701b9612ffe5da56/1200x630cq70/photo.jpg
+train:>https://simply-delicious-food.com/wp-content/uploads/2016/09/creamy-cashew-chicken-curry-2.jpg
+test:>https://picturetherecipe.com/wp-content/uploads/2014/10/Cashew-Chicken-Curry-PictureTheRecipe-640x424.jpg
+test:>https://lh3.googleusercontent.com/t6kBBDiaOGi1iEOJiqjGlReZx56IjYfv9iNa1quafvsNe91SI_r5IuRf14vdR3XuxjVpg-Rk4wRTfJnzMKahuFVLZH-OmZnA8Kbdg7I=s600
+$$$$
+
+689->Reshmi Kabab
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2012/10/malai-chicken-kabab.jpg
+train:>https://www.flavorquotient.com/wp-content/uploads/2015/04/Chicken-Reshmi-Kebab-1-5974.jpg
+train:>https://i0.wp.com/blendofspicesbysara.com/wp-content/uploads/2021/04/PXL_20210403_202602593.PORTRAIT-01.jpeg?w=800&ssl=1
+train:>https://foodiesterminal.com/wp-content/uploads/2019/04/chicken-reshmi-kabab-recipe-22.jpg
+train:>https://static.wixstatic.com/media/05c508_8057d3e49c39427ba93abf8d9b9a63f2~mv2.png/v1/fill/w_800,h_800,al_c,q_90/05c508_8057d3e49c39427ba93abf8d9b9a63f2~mv2.png
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2019/09/malai-chicken-kabab-reshmi-kabab.jpg
+train:>https://1.bp.blogspot.com/-P12-cER09nM/X6VyxkGMUyI/AAAAAAAARLw/pBNbGxHH4oECEZqoOQQ7VD2pvTsrGTUKgCLcBGAsYHQ/s1771/Serving%2Bchicken%2Breshmi%2Bkabab.jpg
+train:>https://www.licious.in/blog/wp-content/uploads/2020/12/shutterstock_1801066921.jpg
+test:>https://bonmasala.com/wp-content/uploads/2022/06/chicken-reshmi-kabab-1.jpg
+test:>https://www.177milkstreet.com/assets/site/_large/Chicken-Reshmi-Kebabs-v.jpg
+$$$$
+
+690->Whole Tandoori Chicken
+$$$$
+train:>https://www.theloveofspice.com/wp-content/uploads/2020/11/whole-tandoori-chicken.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2021/11/air-fryer-whole-tandoori-chicken_-3.jpg
+train:>https://thatspicychick.com/wp-content/uploads/2021/10/Whole-Roasted-Tandoori-Chicken-top-view.jpg
+train:>https://i0.wp.com/www.happyandharried.com/wp-content/uploads/2016/11/WHOLE-ROASTED-TANDOORI-SPICED-CHICKEN.jpg
+train:>https://www.yummyoyummy.com/wp-content/uploads/2020/11/IMG_9730-scaled.jpg
+train:>https://slowcookerfoodie.com/wp-content/uploads/2021/04/Slow-Cooker-Whole-Chicken.jpg
+train:>https://greatcurryrecipes.net/wp-content/uploads/2015/11/tandooriroastchicken.jpg.webp
+train:>https://i.pinimg.com/736x/d7/a6/ef/d7a6ef5736746aae2a990606d33ab62c.jpg
+test:>https://ministryofcurry.com/wp-content/uploads/2018/10/IMG_8423-1.jpg
+test:>https://i.ytimg.com/vi/2qxOAKYrupw/sddefault.jpg
+$$$$
+
+691->Saag ghosht
+$$$$
+train:>https://www.cookeatworld.com/wp-content/uploads/2021/12/Saag-Gosht-2.jpg
+train:>https://www.foodrepublic.com/img/gallery/saag-gosht/intro-import.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/saag_gosht_lamb_and_29043_16x9.jpg
+train:>https://68.media.tumblr.com/9b0b1619f89baa953942bbf9cbe8760c/tumblr_inline_mtayg2RIoR1qdei8m.jpg
+train:>https://www.masala.tv/wp-content/uploads/2018/08/1-15.jpg
+train:>https://i.ytimg.com/vi/1TwKqgxlwbE/maxresdefault.jpg
+train:>https://www.wilfriedscooking.com/wp-content/uploads/2020/05/saag-ghost-2-rs.jpg
+train:>https://www.cookeatworld.com/wp-content/uploads/2021/12/Saag-Gosht-4.jpg
+test:>https://www.daringgourmet.com/wp-content/uploads/2013/11/Saag-Gosht-6-sm-cropped.jpg
+test:>https://food-images.files.bbci.co.uk/food/recipes/mutton_saag_25343_16x9.jpg
+$$$$
+
+692->Chai (Indian Tea)
+$$$$
+train:>https://foodess.com/wp-content/uploads/2016/11/chai-2jpg-1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/indian-masala-chai-tea.jpg
+train:>https://shivanilovesfood.com/wp-content/uploads/2022/08/Chai-6.jpg
+train:>https://teafloor.com/blog/wp-content/uploads/2022/03/indian-chai-tea.jpeg
+train:>https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/800px-Masala_Chai.JPG
+train:>https://thefamiliarkitchen.com/wp-content/uploads/2019/07/IMG_7092_jpg-scaled.jpg
+train:>https://cookingfromheart.com/wp-content/uploads/2018/07/Masala-Chai-6.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/Gulkand_Chai_Recipe_Indian_Rose_Tea-2.jpg
+test:>https://i.pinimg.com/736x/39/5f/dd/395fdded07f51c6d2e893834fbaa0c48.jpg
+test:>https://profusioncurry.com/wp-content/uploads/2021/02/Masala-Chai-spiced-tea-latte-served-in-three-glasses-along-with-other-snack-items.jpg
+$$$$
+
+693->Mango Raita
+$$$$
+train:>https://www.cookwithmanali.com/wp-content/uploads/2016/03/Mint-Mango-Raita.jpg
+train:>https://www.mygingergarlickitchen.com/wp-content/uploads/2022/08/mango-raita-1.jpg
+train:>https://code2cook.com/wp-content/uploads/2020/04/Mango-Raita-Recipe-1-500x375.jpg
+train:>https://www.shanazrafiq.com/wp-content/uploads/2021/07/5-Mango-Raita-3.jpg
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2022/03/mango-raita-2.jpg
+train:>https://images.squarespace-cdn.com/content/v1/5cef7b136434550001a53d10/1560267756895-W2SSOEDJM6PVRSTQ5ZN1/mangoraita.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Monika_Manchanda/Raw_Mango_Raita_Recipe-1.jpg
+train:>https://www.tashasartisanfoods.com/blog/wp-content/uploads/2019/06/unnamed-3.jpg
+test:>https://i.pinimg.com/736x/87/36/37/873637b5cb28b0c65526d2082affb0e1.jpg
+test:>https://blogexplore.com/wp-content/uploads/2014/06/blogexplore.com-mango-mint-raita.jpg
 $$$$
 
