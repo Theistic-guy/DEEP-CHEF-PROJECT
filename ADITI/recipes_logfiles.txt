@@ -334,3 +334,21 @@ test:>https://www.daringgourmet.com/wp-content/uploads/2013/11/Saag-Gosht-6-sm-c
 test:>https://food-images.files.bbci.co.uk/food/recipes/mutton_saag_25343_16x9.jpg
 $$$$
 
+692->Chai (Indian Tea)
+$$$$
+$$$$
+
+692->Chai (Indian Tea)
+$$$$
+train:>https://foodess.com/wp-content/uploads/2016/11/chai-2jpg-1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/indian-masala-chai-tea.jpg
+train:>https://shivanilovesfood.com/wp-content/uploads/2022/08/Chai-6.jpg
+train:>https://teafloor.com/blog/wp-content/uploads/2022/03/indian-chai-tea.jpeg
+train:>https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/800px-Masala_Chai.JPG
+train:>https://thefamiliarkitchen.com/wp-content/uploads/2019/07/IMG_7092_jpg-scaled.jpg
+train:>https://cookingfromheart.com/wp-content/uploads/2018/07/Masala-Chai-6.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/Gulkand_Chai_Recipe_Indian_Rose_Tea-2.jpg
+test:>https://i.pinimg.com/736x/39/5f/dd/395fdded07f51c6d2e893834fbaa0c48.jpg
+test:>https://profusioncurry.com/wp-content/uploads/2021/02/Masala-Chai-spiced-tea-latte-served-in-three-glasses-along-with-other-snack-items.jpg
+$$$$
+
