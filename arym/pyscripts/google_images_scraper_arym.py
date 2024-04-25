@@ -37,7 +37,7 @@ def create_driver_and_load(cService,Options):
         driver = webdriver.Chrome(service=cService,options=Options)
         driver.maximize_window()
         driver.get('https://images.google.com/')
-        time.sleep(7)
+        time.sleep(3)
     except Exception as e :
         print("Exception occurred creating driver \n",e)
 
@@ -58,8 +58,8 @@ try :
     # start = 1 
     # i.e. start with the second line of csv becoz
     # first line are column names which is overriden by ' names= ' param
-    start = 11
-    count= 4
+    start = 19
+    count= 2
     big_delay = 10
     small_delay = 3
     max_imgs = 10
@@ -70,6 +70,7 @@ try :
     max_attempts_start_driver = 3
 
     # load links.csv
+
     links_csv_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\arym\csv\\links_copy.csv"
     df = pd.read_csv(links_csv_path,skiprows= start,nrows=count,names=['name','link']) #<-- file path used
 
