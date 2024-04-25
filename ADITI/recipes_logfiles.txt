@@ -474,3 +474,45 @@ test:>https://i.ytimg.com/vi/kzOKh_F5XX0/maxresdefault.jpg
 test:>https://i.pinimg.com/564x/10/d2/8f/10d28f0f55a0086042cc469eea0b2c3a.jpg
 $$$$
 
+702->dry bhindi  recipe
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/bhindi-fry-500x500.jpg
+train:>https://www.cookoverheels.com/wp-content/uploads/2020/01/Dry-Bhindi-Masala-in-a-bowl.jpg
+train:>https://cdn2.foodviva.com/static-content/food-images/punjabi-recipes/bhindi-masala-dry/bhindi-masala-dry.jpg
+train:>https://www.sailusfood.com/wp-content/uploads/2018/06/bhindi-fry.jpg
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2016/06/bhindi-fry-recipe-8.jpg
+train:>https://www.cookingcarnival.com/wp-content/uploads/2018/05/IMG_7767.jpg
+train:>https://i.ytimg.com/vi/WAZsKC13MNM/maxresdefault.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/05/bhindi-masala-recipe.jpg
+test:>https://2.bp.blogspot.com/-xS2WkRckTsg/VWWsFqTg6WI/AAAAAAAAUfs/au5c4UVSV_s/s1600/Dry%2BMasala%2BBhindi%2B%25281%2529%2B-%2B1.jpg
+test:>https://cdn.tarladalal.com/members/9306/big/big_sukhi_bhindi-10882.jpg
+$$$$
+
+703->Spinach Pakora (fritters)
+$$$$
+train:>https://manjulaskitchen.com/wp-content/uploads/palak_pakora.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/palak-pakoda-spinach-pakora.jpg
+train:>https://www.hookedonheat.com/wp-content/uploads/2020/11/Palak-Pyaaz-Pakoda-HOHV.jpg
+train:>https://cdn.shopify.com/s/files/1/0201/1720/files/photo-149_grande.jpg?1883
+train:>https://blogexplore.com/wp-content/uploads/2012/01/spinach_palak_keerai_pakoda.jpg
+train:>https://lh5.googleusercontent.com/proxy/3cZ8L4zSHq5OaKLGeSi8l4PGbxIK3rMzYlmabX8olzPwracS6Mv1V3PostQlYg2shFGmVLtJ2Y-4P_RalnkiQKLJsXLMzRAY4BRHaWJnFPVuecwptU_AMSbvt91ispVpTTWZ
+train:>https://junifoods.com/wp-content/uploads/2023/08/Spinach-Pakora.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2022/07/palak-pakora-1-500x427.jpeg
+test:>https://savoryspin.com/wp-content/uploads/2018/02/Pakoras.jpg.webp
+test:>https://www.indianhealthyrecipes.com/wp-content/uploads/2016/09/palak-pakoda-1.jpg
+$$$$
+
+704->Lamb Curry
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/04/lamb-curry-recipe.jpg
+train:>https://myfoodstory.com/wp-content/uploads/2020/02/Slow-Cooker-Lamb-Curry-3.jpg
+train:>https://www.cookingcurries.com/wp-content/uploads/2018/12/Instant-pot-Indian-Lamb-Curry-Whole30-2.jpg
+train:>https://www.simplyrecipes.com/thmb/clQMnPQHzhLkSiAoDzkfXJ2FByI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2005__02__lamb-curry-horiz-a-1400-dc279dc515bf459185af66c257f4be63.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/04/lamb-curry.jpg.webp
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/home-style-lamb-curry-6a92ec4.jpg
+train:>https://veenaazmanov.com/wp-content/uploads/2020/07/Indian-Lamb-Curry-Authentic1-480x270.jpg
+train:>https://dinnerthendessert.com/wp-content/uploads/2018/07/Indian-Lamb-Curry.jpg
+test:>https://img.taste.com.au/JWILzKnH/taste/2016/11/top-20-warming-winter-curries-75607-2.jpeg
+test:>https://www.thespruceeats.com/thmb/54ASs2XAFrmtEZxRWLApcHAt8FM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/indian-lamb-curry-1957560-hero-01-0d5dd8ed6601465daa05ce810e66b733.jpg
+$$$$
+
