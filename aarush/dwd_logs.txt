@@ -740,3 +740,73 @@ test:>https://indiaphile.info/wp-content/uploads/2020/10/moong-dal-1682.jpg
 test:>https://www.platingsandpairings.com/instant-pot-dal/instant-pot-dal-7/
 $$$$
 
+387->Five-Lentil Stew (Panch Dal)
+$$$$
+train:>https://4.bp.blogspot.com/-M3O4dz3Vovc/UiAPh9p7P6I/AAAAAAAAMq8/22MWTxKHmZ8/s1600/panchmel+dal+darbari5.jpg
+train:>https://thefoodfairy.files.wordpress.com/2014/08/yoz_8971.jpg
+train:>https://1.bp.blogspot.com/-ZwQFQoFk9c8/UiARwkeQUKI/AAAAAAAAMrQ/bWZQqx5jOEA/s1600/panch+mel+darbari+dal7.jpg
+train:>https://thefoodfairy.files.wordpress.com/2014/08/yoz_8968.jpg
+train:>https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2020/04/Instant-Pot-Panchmel-dal-recipe-3.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTgMXbl736NedhKN-JtIxSWS1DeuO4mWgwfKhQ2guK5hdThKUZ3Xo2kp13QK-QVcVlImxVZ1PCVkJy8BoSkJkKHQU7OkeWl0yzR0nwLcG3VymKLt3Mg6F2qeHU3Py0aShp8cpTjI1HWIJm/w1200-h630-p-k-no-nu/IMG_3196.JPG
+train:>https://i.ytimg.com/vi/_QyLzeeqGHw/maxresdefault.jpg
+train:>https://sarchakra.files.wordpress.com/2020/10/img_6244.jpg?w=1017
+test:>https://i.pinimg.com/originals/7f/9c/ed/7f9ced317debf8ce3bcebb7b83424ef0.jpg
+test:>https://justhomemade.files.wordpress.com/2011/07/swiss-chard-dal-in-cup.jpg
+$$$$
+
+388->Non Fat Indian Cottage Cheese Unpacked
+$$$$
+train:>https://summeryule.com/wp-content/uploads/2021/12/low-sodium-cottage-cheese-500x375.jpeg
+train:>https://cookwithrenu.com/wp-content/uploads/2024/01/Homemade-Paneer_-Featured-Image-500x500.jpg.webp
+train:>https://www.potsandpans.in/cdn/shop/articles/Homemade_Cottage_Cheese_07.png?v=1656401062
+train:>https://i.ytimg.com/vi/Tm9CAHCwMAw/maxresdefault.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2021/02/Homemade-Paneer-recipe_3.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2021/02/Homemade-Paneer-recipe_2-square.jpg?w=500&h=500&crop=1
+train:>https://static.wixstatic.com/media/a8b0a6_936a25ad16e944c085c0a2ee89c126dd~mv2.jpg/v1/fill/w_640,h_854,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a8b0a6_936a25ad16e944c085c0a2ee89c126dd~mv2.jpg
+train:>https://i.pinimg.com/originals/71/f8/cf/71f8cf08faab88fa5ca5d41359bf1fd3.jpg
+test:>https://static.wixstatic.com/media/a8b0a6_2adbbe22e8534cbc8af8a9e40a02ce94~mv2.jpg/v1/fill/w_750,h_1000,al_c,q_85,usm_0.66_1.00_0.01/a8b0a6_2adbbe22e8534cbc8af8a9e40a02ce94~mv2.jpg
+test:>https://i.redd.it/paneer-acid-set-cheese-v0-0lt02grrr8ia1.jpg?width=3024&format=pjpg&auto=webp&s=3b2f94df804e71e5b5ca366660f6f6157a0ecdeb
+$$$$
+
+389->Savory Kidney Beans
+$$$$
+train:>https://insanelygoodrecipes.com/wp-content/uploads/2021/10/Kidney-Bean-Curry-in-a-Black-Bowl.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/12/58/92/picyGRp9I.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2018/06/afghan-kidney-bean-curry-lubya-3.jpg
+train:>https://img.sndimg.com/food/image/upload/v1/img/recipes/54/21/21/Hhow4sIRX6TOq0jvMt39_Savory%20Beans.jpg
+train:>https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2Fdf0e0a8d2f42c9f30dadbb111bbc902bd6280398
+train:>https://s23209.pcdn.co/wp-content/uploads/2019/04/Red-Beans-and-RiceIMG_8715.jpg
+train:>https://i0.wp.com/spainonafork.com/wp-content/uploads/2021/11/image0-2021-11-16T222809-33.png?resize=531%2C800&ssl=1
+train:>https://cdn.loveandlemons.com/wp-content/uploads/2020/03/bean-recipes-1.jpg
+test:>https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/11/15/1/VB0207H_Red-Beans-and-Rice_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1453331785025.jpeg
+test:>https://ministryofcurry.com/wp-content/uploads/2023/05/crispy-kidney-beans-5.jpg
+$$$$
+
+390->Tandoori Chicken
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/tandoori-chicken-recipe.jpg
+train:>https://www.simplyrecipes.com/thmb/lapjIm2IrSHGS8ptjyhspa_BboU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Tandoori-Chicken-LEAD-01-7767f2892b824b24b65213f3ba28ff8c.jpg
+train:>https://www.allrecipes.com/thmb/ygY1JXP8_IkDSjPPW5VH2dTiMMU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/50347-indian-tandoori-chicken-DDMFS-4x3-3035-205e98c80b2f4275b5bd010c396d9149.jpg
+train:>https://slowcookerfoodie.com/wp-content/uploads/2021/04/Slow-Cooker-Whole-Chicken.jpg
+train:>https://www.jocooks.com/wp-content/uploads/2012/03/tandoori-chicken-1-11-500x500.jpg
+train:>https://i2.wp.com/mayakitchenette.com/wp-content/uploads/2014/06/tandoori-chicken-2.jpg?ssl=1
+train:>https://thecurrymommy.com/wp-content/uploads/2018/09/tandoori-chicken-boneless-tacos-scaled.jpg
+train:>https://www.bowlofdelicious.com/wp-content/uploads/2016/12/Oven-Broiled-Tandoori-Chicken-2.jpg
+test:>https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Tandoori_chicken_laccha_piyaz1_%2836886283595%29.jpg/1200px-Tandoori_chicken_laccha_piyaz1_%2836886283595%29.jpg
+test:>https://spiceandlight.co.uk/wp-content/uploads/2021/04/Tandoori-chicken-thighs-4.jpg
+$$$$
+
+391->Lamb Korma
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/mutton-korma-lamb-korma.jpg
+train:>https://khinskitchen.com/wp-content/uploads/2022/02/lamb-korma-04.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2016/04/Lamb-Korma-B.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2016/04/Lamb-Korma-B-480x360.jpg
+train:>https://khinskitchen.com/wp-content/uploads/2022/02/lamb-korma-02.jpg
+train:>https://static.toiimg.com/thumb/52554168.cms?imgsize=572669&width=800&height=800
+train:>https://img.taste.com.au/7sClR3k-/taste/2016/05/lamb-korma-recipe-185626-1.jpg
+train:>https://i.pinimg.com/736x/2b/f7/a9/2bf7a9424863fd2d0a881b974d7212ea.jpg
+test:>https://www.curry-pot.com/wp-content/uploads/2016/12/lamb-korma.jpg
+test:>https://www.simplyrecipes.com/thmb/-gFnNNSaFuC2ns204_90NzxEiLA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__05__lamb-korma-vertical-a-1600-367b13bf12064ae7a93cbe2d3b0ba527.jpg
+$$$$
+
