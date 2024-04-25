@@ -418,3 +418,73 @@ test:>https://fooddeedum.files.wordpress.com/2013/01/mulligatawny-21.jpg
 test:>https://kitchenandotherstories.com/wp-content/uploads/2023/01/mulligatawny-soup-process-2.jpg
 $$$$
 
+364->Chicken Makhani
+$$$$
+train:>https://www.allrecipes.com/thmb/Icn_f4w0fMLbRrV78v8bMSkwfhs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45957-ChickenMakhaniIndianButterChicken-mfs-4X3-0037-7aa9a555bf3943baae20c5c3b0921375.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2016/02/Finger-Lickin-Butter-Chicken-14-735x1103.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/butter-chicken-murgh-makhani.jpg.webp
+train:>https://myfoodstory.com/wp-content/uploads/2020/04/restaurant-style-butter-chicken-masala-murgh-makhani-1.jpg
+train:>https://thecurrymommy.com/wp-content/uploads/2018/07/very-easy-and-the-best-Butter-chicken-or-chicken-makhani-recipe.jpg
+train:>https://vismaifood.com/storage/app/uploads/public/ad2/3c9/7ee/thumb__700_0_0_0_auto.jpg
+train:>https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg
+train:>https://www.allrecipes.com/thmb/gS3yT_9t9TxTUpQHYq0wZK1k0cc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5830864-makhani-chicken-indian-butter-chicken-MotherSarah-1x1-1-b2c237f4a9d243899dd082de108a65fe.jpg
+test:>https://myfoodstory.com/wp-content/uploads/2020/04/Butter-Chicken-3.jpg
+test:>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/1200px-Chicken_makhani.jpg
+$$$$
+
+365->Kachumber Salad
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/kachumber-salad.jpg
+train:>https://www.funfoodfrolic.com/wp-content/uploads/2022/05/Kachumber-Salad-Blog.jpg
+train:>https://thesassyfoodie.com/wp-content/uploads/2023/05/Kachumbar-Salad-4.jpg
+train:>https://static.toiimg.com/thumb/84546568.cms?imgsize=207429&width=800&height=800
+train:>https://www.teaforturmeric.com/wp-content/uploads/2022/08/Kachumber-Salad-10.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Jyothi_Rajesh/Kachumber_Salad__Cucumber_Salad.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/03/kachumber-salad-recipe-480x270.jpg
+train:>https://www.krumpli.co.uk/wp-content/uploads/2020/01/Kachumber-Salad-2-720x720.jpg
+test:>https://www.thespruceeats.com/thmb/annA1ZfVowAXFFNNM_laKJrkjoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kachumber-salad-4172358-hero-01-f2f984488fb74815bc6119c8525da2cf.jpg
+test:>https://masalachilli.com/wp-content/uploads/2022/07/Kachumber-Salad-Recipe-4.jpg
+$$$$
+
+366->Chicken Korma
+$$$$
+train:>https://i.ndtvimg.com/i/2016-10/chicken-korma_650x400_51475662188.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2018/06/chicken-korma-recipe-500x500.jpg
+train:>https://foodess.com/wp-content/uploads/2023/03/Chicken-Korma-Recipe-2.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/08/chicken-korma.jpg.webp
+train:>https://www.eitanbernath.com/wp-content/uploads/2021/12/Eitan-Bernath-Chicken-Korma-2-819x1024.jpg
+train:>https://www.flavorquotient.com/wp-content/uploads/2016/05/Chicken-Korma-3.jpg
+train:>https://www.masalakorb.com/wp-content/uploads/2015/04/Quick-Chicken-Korma-V1.jpg
+train:>https://i.ytimg.com/vi/1FiZxbfd90Y/maxresdefault.jpg
+test:>https://www.chilipeppermadness.com/wp-content/uploads/2019/03/Chicken-Korma-SQ.jpg
+test:>https://www.teaforturmeric.com/wp-content/uploads/2018/06/Chicken-Korma-in-pan.jpg
+$$$$
+
+367->Chicken Curry With Rice
+$$$$
+train:>https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg
+train:>https://eatsimplefood.com/wp-content/uploads/2020/04/Indian-Curry-Chicken-Recipe-1200-EatSimpleFood.com_.jpg
+train:>https://www.jocooks.com/wp-content/uploads/2019/10/coconut-chicken-curry-1-10.jpg
+train:>https://www.chelseasmessyapron.com/wp-content/uploads/2015/02/Chicken-Curry-3.jpg
+train:>https://www.seasonalcravings.com/wp-content/uploads/2021/11/creamy-chicken-curry-and-rice-3-scaled.jpg
+train:>https://www.justonecookbook.com/wp-content/uploads/2021/10/Japanese-Chicken-Curry-3787-I-1-500x500.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/chicken_curry_with_83629_16x9.jpg
+train:>https://www.slimmingeats.com/blog/wp-content/uploads/2021/06/coconut-chicken-curry-rice-20-720x720.jpg
+test:>https://vaya.in/recipes/wp-content/uploads/2019/03/Chicken-curry-and-Rice.jpg
+test:>https://www.wellplated.com/wp-content/uploads/2019/07/Slow-Cooker-Chicken-Curry-Recipe.jpg
+$$$$
+
+368->Eggplant Curry
+$$$$
+train:>https://glebekitchen.com/wp-content/uploads/2019/10/eggplantcurryfrontlow.jpg
+train:>https://www.daringgourmet.com/wp-content/uploads/2022/11/Eggplant-Curry-21.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2020/08/Eggplant-Curry-Indian__2.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2020/11/bagarabaingantopbowl.jpg
+train:>https://static01.nyt.com/images/2014/02/20/dining/recipes-southindianeggplantcurry/recipes-southindianeggplantcurry-superJumbo.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/brinjal-curry-eggplant-curry-recipe.jpg.webp
+train:>https://img.delicious.com.au/8N282Rfi/del/2017/09/eggplant-curry-52157-2.jpg
+train:>https://www.contentednesscooking.com/wp-content/uploads/2019/07/Eggplant-Curry-7.jpg
+test:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/23/94/85/LuuqTPQSjaAk0w4mBCIn_Eggplant%20Curry.JPG
+test:>https://www.recipetineats.com/wp-content/uploads/2020/08/Eggplant-Curry-Indian__1-SQ.jpg
+$$$$
+
