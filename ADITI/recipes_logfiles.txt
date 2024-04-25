@@ -586,3 +586,73 @@ test:>https://veggiedesserts.com/wp-content/uploads/2021/03/kidney-bean-curry-4.
 test:>https://i.pinimg.com/564x/2b/3f/74/2b3f743271bb27f9544922eb5f1cd922.jpg
 $$$$
 
+710->Homemade Ghee
+$$$$
+train:>https://static.toiimg.com/thumb/62603936.cms?imgsize=538043&width=800&height=800
+train:>https://twosleevers.com/wp-content/uploads/2017/03/Ghee-sideways-900x680.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2017/03/IMG_0073.jpg
+train:>https://www.sharmispassions.com/wp-content/uploads/2011/12/HomemadeGhee1.jpg
+train:>https://elkeliving.com/wp-content/uploads/2022/08/ghee6-scaled.jpg
+train:>https://i0.wp.com/lovelaughmirch.com/wp-content/uploads/2015/01/Making-Ghee-8-scaled.jpg?ssl=1
+train:>https://twosleevers.com/wp-content/uploads/2017/03/Ghee-sideways-jar-680x900-900x680.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/how-to-make-ghee.jpg
+test:>https://www.cookwithkushi.com/wp-content/uploads/2022/10/best_homemade_traditional_desi_ghee.jpg
+test:>https://s3.amazonaws.com/images.chefinyou.com/condiments/ghee-homemade-indian-recipe/main-img12.JPG
+$$$$
+
+711->Beef and Cauliflower
+$$$$
+train:>https://theturquoisetable.com/wp-content/uploads/2019/10/Neighbors.png
+train:>https://deliciouslittlebites.com/wp-content/uploads/2022/10/Ground-Beef-Cauliflower-Skillet-Recipe-Image-10.jpg
+train:>https://i0.wp.com/chelseajyoung.com/wp-content/uploads/2016/12/Beef-w-Broccoli.jpg?fit=1817%2C2048&ssl=1
+train:>https://www.thelittlekitchen.net/wp-content/uploads/2012/07/garlic-beef-broccoli-cauliflower-stir-fry-the-little-kitchen-1159-180.jpg
+train:>https://www.kikkoman.com/en/cookbook/assets/img/00002950.jpg
+train:>https://www.midgetmomma.com/wp-content/uploads/2019/07/Creamy-Steak-Bites-and-Cauliflower-Skillet-Recipe-6.jpg
+train:>https://i.ytimg.com/vi/ynYEx6WPzhM/maxresdefault.jpg
+train:>https://i.ytimg.com/vi/UT1LXMPJtKs/maxresdefault.jpg
+test:>https://savorynature.com/wp-content/uploads/2013/10/Cheesy-Beef-and-Cauliflower-Casserole.jpg
+test:>https://embed.widencdn.net/img/beef/9mje97awvk/exact/beef-tenderloin-with-roasted-cauliflower.tif?keep=c&u=7fueml
+$$$$
+
+712->Tasty Toast-Egg Sandwich
+$$$$
+train:>https://i.ytimg.com/vi/9CneHYZEYlg/sddefault.jpg
+train:>https://www.foodnetwork.com/content/dam/images/food/fullset/2016/11/3/2/NLV-Crave-Worthy_breakfast-sandwich_s4x3.jpg
+train:>https://futuredish.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-17-at-6.13.42-PM-1-scaled.jpg
+train:>https://assets.bonappetit.com/photos/5a7cbe4a668fb87d44d15e0d/1:1/w_2560%2Cc_limit/breakfast-grilled-cheese-with-soft-scrambled-eggs.jpg
+train:>https://mediavine-res.cloudinary.com/image/upload/s--nB16pudU--/ar_4:3,c_fill,f_auto,fl_lossy,q_auto/v1595508683/gprkzboepvsligskapok.jpg
+train:>https://i.ytimg.com/vi/TdlP7Gnr1dU/maxresdefault.jpg
+train:>https://static.toiimg.com/thumb/60018142.cms?width=1200&height=900
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/egg-sandwich-recipe.jpg.webp
+test:>https://i.ytimg.com/vi/RquPJjjX_mc/maxresdefault.jpg
+test:>https://static.toiimg.com/thumb/60256016.cms?imgsize=628986&width=800&height=800
+$$$$
+
+713->Indian Pudding
+$$$$
+train:>https://www.afamilyfeast.com/wp-content/uploads/2012/11/Indian-Pudding-1.jpg
+train:>https://www.foodandwine.com/thmb/W22CXge5LPd9rWltJPdLyhCK-Nk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2012-r-xl-indian-pudding-2000-f601d6ffced74dd9a669c282ee0437ba.jpg
+train:>https://newengland.com/wp-content/uploads/2015/10/indian-pudding-wide-e1483665779347.jpg
+train:>https://commonsensehome.com/wp-content/uploads/2017/11/Indian-pudding-in-bowl.jpg
+train:>https://assets.epicurious.com/photos/564b518779b674000c8b1a20/16:9/w_2000,h_1125,c_limit/Indian-Pudding-Inset-2small.jpg
+train:>https://www.floridamilk.com/core/fileparse.php/26/urlt/Baked-Indian-Pudding-Resized-for-web.jpg
+train:>https://newengland.com/wp-content/uploads/new-england-indian-pudding.jpg
+train:>https://149496141.v2.pressablecdn.com/wp-content/uploads/2019/11/American-Indian-Pudding.jpg
+test:>https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/10/29/1/QFSP01H_Indian-Pudding-with-Vanilla-Ice-Cream-and-Apples_s4x3.jpg.rend.hgtvcom.616.462.suffix/1414787834985.jpeg
+test:>https://i.ytimg.com/vi/GJgJEcAz__0/maxresdefault.jpg
+$$$$
+
+714->Chana (Chickpeas) Chaat
+$$$$
+train:>https://www.eatdrinkpure.com/wp-content/uploads/2023/03/A-bowl-of-channa-chaat.jpg
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/05/chana-chaat-with-yogurt.jpg
+train:>https://www.mirchitales.com/wp-content/uploads/2020/05/Aloo-Chana-Chaat-5.jpg
+train:>https://hips.hearstapps.com/hmg-prod/images/chana-chaat-1656579233.jpg?crop=1.00xw:0.668xh;0,0.0978xh&resize=1200:*
+train:>https://yourfoodfantasy.com/wp-content/webpc-passthru.php?src=https://yourfoodfantasy.com/wp-content/uploads/2017/12/Black-Chana-Chaat-Black-Chickpea-Chaat-YourFoodFantasy.com_.jpg&nocache=1
+train:>https://shivanilovesfood.com/wp-content/uploads/2023/05/Aloo-Chana-Chaat-5.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/April-18/Kabuli_Chana_Aloo_Salad_Recipe_Potato_Chickpea_Salad-1_400.jpg
+train:>https://www.pakistaneats.com/wp-content/uploads/2022/02/IMG_7134-1024x1024.jpg
+test:>https://easycoolways.com/images/Easy_Recipe/Snacks/chana-chaat/1x1/chana-chaat.jpg
+test:>https://mytastycurry.com/wp-content/uploads/2020/04/chana-chaat-recipe.jpg
+$$$$
+
