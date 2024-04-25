@@ -390,3 +390,17 @@ test:>https://assets.zuckerjagdwurst.com/2gyr69st1nyziset1jzsy7hvru8p/1110/740/6
 test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/33/53/02/picJHDdQ8.jpg
 $$$$
 
+696->Muslim Naan
+$$$$
+train:>https://i0.wp.com/www.ghezaeshiriin.com/wp-content/uploads/2017/03/IMG_6076.png
+train:>https://i0.wp.com/www.ghezaeshiriin.com/wp-content/uploads/2019/02/47D3F545-7F57-49B7-863C-543CC1D82419.jpeg
+train:>https://i.pinimg.com/originals/e2/56/92/e25692b0d060e8b484966c0371bdf908.jpg
+train:>https://www.thefreshloaf.com/files/u166709/Naans.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/91/49/picHezb0X.jpg
+train:>https://www.soundvision.com/sites/default/files/styles/article-teaser/public/field/image/Recipes_015.jpg?itok=BrpdgeuM
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3PloFYK01yYKx16tLuf7n8wF9Ncayk-0xsIGoqvf-72utPYxOcqbSZDSCl16NfmSeGz0teOgisLG8RkkJocFKAzVuccfPIs6k8lkaQlz8D4xpQq3OBBZliLxd4Kp89EcLLKpVigI3xjI/s1600/DSC07901.JPG
+train:>https://i0.wp.com/www.ghezaeshiriin.com/wp-content/uploads/2019/02/47D3F545-7F57-49B7-863C-543CC1D82419-683x1024.jpeg?resize=350%2C200
+test:>https://c8.alamy.com/comp/HE2TWD/uyghur-food-roast-nang-flat-bread-muslim-quarter-market-xian-china-HE2TWD.jpg
+test:>https://yashvinawootarblogs.files.wordpress.com/2013/08/62205-naan.jpg?w=500
+$$$$
+
