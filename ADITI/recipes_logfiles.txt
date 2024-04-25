@@ -516,3 +516,45 @@ test:>https://img.taste.com.au/JWILzKnH/taste/2016/11/top-20-warming-winter-curr
 test:>https://www.thespruceeats.com/thmb/54ASs2XAFrmtEZxRWLApcHAt8FM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/indian-lamb-curry-1957560-hero-01-0d5dd8ed6601465daa05ce810e66b733.jpg
 $$$$
 
+705->Tandoori Salmon Fillets
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/tandoori-salmon-indian.jpg
+train:>https://i.pinimg.com/originals/cb/60/cb/cb60cb823bf99e7cf097498bcf768489.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/tandoori-salmon-swasthi.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2020/12/baked-salmon.jpg
+train:>https://i0.wp.com/www.pepperdelight.com/wp-content/uploads/2017/10/pepper-delight-tandoori-salmon-2.jpg?resize=1333%2C2000
+train:>https://www.sainsburysmagazine.co.uk/media/4839/download/TandooriSalmon1120.jpg?v=1
+train:>https://img.taste.com.au/XWhLv_ob/w1200-h630-cfill/taste/2016/11/tandoori-salmon-with-fragrant-rice-71449-1.jpeg
+train:>https://www.chiselandfork.com/wp-content/uploads/2021/01/tandoori-salmon-4.jpg
+test:>https://i.ytimg.com/vi/4h4A2kL77Ew/maxresdefault.jpg
+test:>https://i0.wp.com/www.shanazrafiq.com/wp-content/uploads/2018/10/1-Salmon-Tikka-2-1.jpg?resize=797%2C1024&ssl=1
+$$$$
+
+706->Spiced Cauliflower
+$$$$
+train:>https://emilybites.com/wp-content/uploads/2020/08/Sweet-and-Spicy-Roasted-Cauliflower-4b.jpg
+train:>https://www.abeautifulplate.com/wp-content/uploads/2022/03/spiced-roasted-cauliflower-4-scaled.jpg
+train:>https://realfood.tesco.com/media/images/RFO-1400x919-spice-roasted-cauliflower-a163620f-bd24-4d81-8c45-32d0a332335a-0-1400x919.jpg
+train:>https://www.lifesambrosia.com/wp-content/uploads/spiced-cauliflower-1.jpg
+train:>https://www.allrecipes.com/thmb/OoE_x_FU635-U1lLbrDYlc93xGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7730790-079d891ce534400298bd20dad414133e.jpg
+train:>https://static01.nyt.com/images/2018/11/14/dining/14cauliflowerrex1-copy/14cauliflowerrex1-superJumbo.jpg
+train:>https://www.seriouseats.com/thmb/eXBEe5lzulcEa3b5pC57t-asDlA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-spiced-cauliflower-recipe-hero-2-b83423003a30467d8758569ec62ab771.JPG
+train:>https://www.yayforfood.com/wp-content/uploads/roasted-spicy-cauliflower-with-paprika-and-turmeric-featured-720x405.jpg
+test:>https://publish.purewow.net/wp-content/uploads/sites/2/2017/10/spicy-whole-roasted-cauliflower-recipe-fb.jpg
+test:>https://www.inspiredtaste.net/wp-content/uploads/2019/08/Chili-Lime-Roasted-Cauliflower-Recipe-2-1200.jpg
+$$$$
+
+707->Cinnamon-Orange Butter Recipe
+$$$$
+train:>https://images.ctfassets.net/uw7yiu2kuigc/4gkB2pe44lu8rvR62nRlSb/614af24bad124c977a5a742ce3434dcc/Cinnamon-Orange-Butter-Lead.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_200,ar_3:2/v1/img/recipes/72/36/0/pictAylMw.jpg
+train:>https://www.bostongirlbakes.com/wp-content/uploads/2022/10/cinnamon-honey-butter-9.jpg
+train:>https://www.kleinworthco.com/wp-content/uploads/2021/07/Cinnamon-Honey-Butter-900.jpg
+train:>https://www.thespruceeats.com/thmb/K_1gq9cHgyT4RwqS4aE_sFHHxtA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/whipped-orange-butter-42006-579e6b4e5f9b589aa9a0e4c3.jpg
+train:>https://www.corianderandlace.com/wp-content/uploads/2023/03/cinnamon-sugar-butter-6.jpg
+train:>https://hips.hearstapps.com/hmg-prod/images/texas-cinnamon-butter-index-6579d72f1a9b1.jpg?crop=0.503xw:1.00xh;0,0&resize=1200:*
+train:>https://supermancooks.com/wp-content/uploads/2023/03/cinnamon-french-toast-stacked.jpg
+test:>https://www.stephiecooks.com/wp-content/uploads/2014/10/cinnamon-honey-butter-in-bowl.webp
+test:>https://i1.wp.com/www.artandthekitchen.com/wp-content/uploads/2019/04/Cinnamon-Cream-Cheese-Butter-8117-2.jpg
+$$$$
+
