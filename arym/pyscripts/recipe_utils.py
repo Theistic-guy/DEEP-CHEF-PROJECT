@@ -232,3 +232,5 @@ def reload_urls_and_save(download_folder_path,download_logs_path,recipe_csv_path
     download_images(download_folder_path,get_image_urls(download_logs_path,recipe_index,ignore_msgs),get_recipe_name(recipe_csv_path,recipe_index)\
                     ,recipe_index,train_imgs_count,ignore_msgs)
 
+def what_is_this_shit():
+    pass
