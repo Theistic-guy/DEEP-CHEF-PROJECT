@@ -404,3 +404,45 @@ test:>https://c8.alamy.com/comp/HE2TWD/uyghur-food-roast-nang-flat-bread-muslim-
 test:>https://yashvinawootarblogs.files.wordpress.com/2013/08/62205-naan.jpg?w=500
 $$$$
 
+697->Mango Cream
+$$$$
+train:>https://aromaticessence.co/wp-content/uploads/2018/05/B8DA6BFA-2A9A-4634-A72A-6359F76692D9.jpeg
+train:>https://rakskitchen.net/wp-content/uploads/2017/05/mango-with-fresh-cream.jpg
+train:>https://i.ytimg.com/vi/DyODVKQYMm4/maxresdefault.jpg
+train:>https://i.pinimg.com/originals/2e/c2/a8/2ec2a8623e08b2b7bd110b947821fa5c.jpg
+train:>https://static.toiimg.com/thumb/91009886.cms?imgsize=39492&width=800&height=800
+train:>https://i0.wp.com/zulekhaskitchen.com/wp-content/uploads/2018/05/mango-cream.png?fit=480%2C640&ssl=1
+train:>https://i.ytimg.com/vi/1Ldh3lYi2GY/maxresdefault.jpg
+train:>https://i0.wp.com/notoutofthebox.in/wp-content/uploads/2016/06/mc2.jpg
+test:>https://img.taste.com.au/J6wxBVCQ/taste/2016/11/mango-with-yoghurt-and-almond-praline-26024-1.jpeg
+test:>https://rakskitchen.net/wp-content/uploads/2017/05/34022111684_ac7c2ff1d0_z.jpg
+$$$$
+
+698->Indian Ginger Mutton Karahi
+$$$$
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/91/05/0/picaOFH92.jpg
+train:>https://recipe52.com/wp-content/uploads/2020/07/Lamb-karahi-3.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/lamb-karahi-swasthi.jpg.webp
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/lamb-karahi-recipe.jpg
+train:>https://www.masala.tv/wp-content/uploads/2016/09/1-3.jpg
+train:>https://www.curiouscuisiniere.com/wp-content/uploads/2021/07/Lamb-Karahi-1.1-640x534.jpg
+train:>https://www.ndtv.com/cooks/images/Mutton.Kadai-620.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/lamb-karahi.jpg.webp
+test:>https://c.ndtvimg.com/2022-03/ggnaqncg_mutton-curry_625x300_14_March_22.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMbNUGXkJUBMItmaXnDrRRWQ2Yq3H-56hmuELUr7sE77Jh9A0pzfiC3mjt1khuCWWSaMq57B8lBhKqg4dbnT5VnQALZtRvtCqXzQTeK9ONL9P9eTGfm7BHh4ZnNZdBxIMLoCbqcXOZaO8/s1600/mutton+karahi+kadayi+mutton+pepper+mutton+mutton+curry++.jpg
+$$$$
+
+699->Onion Dal
+$$$$
+train:>https://www.ediblecommunities.com/wp-content/uploads/2019/07/caramelized-onion-dal-500x375.jpg
+train:>https://www.ediblecommunities.com/wp-content/uploads/2019/07/caramelized-onion-dal.jpg
+train:>https://thetastesofindia.com/wp-content/uploads/2016/01/dal.jpg
+train:>https://img-global.cpcdn.com/recipes/d904933fa7f8a866/1200x630cq70/photo.jpg
+train:>https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/delicacies-on-the-plate-pallavi-kitchen15102390815a046b682e149.jpeg
+train:>https://i.ytimg.com/vi/P1jUwCbg2EE/maxresdefault.jpg
+train:>https://www.cookwithkushi.com/wp-content/uploads/2016/03/IMG_8589_.jpg
+train:>https://arundati.wordpress.com/wp-content/uploads/2013/07/dsc_0307.jpg?w=1000&h=671
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdvNs66QRhDiIZK7MFlox5g30-wJBE2IxCEzk0F23U3ejGoFIBeLtTLDHUHelweqX73en_Cbltr3UiedvjOTZ06PgPoSaQqPtdPW3QRW3Js2W0qwdcsnfhBDtvGRvxa4KE5RwNAhnFzc6n/s640/rsz_dal8-001.jpg
+test:>https://preethicuisine.com/wp-content/uploads/2022/05/D2-scaled.jpg
+$$$$
+
