@@ -362,3 +362,31 @@ test:>https://i.pinimg.com/736x/87/36/37/873637b5cb28b0c65526d2082affb0e1.jpg
 test:>https://blogexplore.com/wp-content/uploads/2014/06/blogexplore.com-mango-mint-raita.jpg
 $$$$
 
+694->Masala Chicken
+$$$$
+train:>https://static.toiimg.com/thumb/54673639.cms?width=1200&height=900
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/08/chicken-masala-authentic.jpg
+train:>https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-masala.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2018/04/Chicken-Tikka-Masala_0-SQ.jpg
+train:>https://thecurrymommy.com/wp-content/uploads/2018/08/no-cream-chicken-tikka-masala.jpg
+train:>https://www.licious.in/blog/wp-content/uploads/2022/11/Classic-chicken-masala.jpg
+train:>https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG
+test:>https://i2.wp.com/www.happyandharried.com/wp-content/uploads/2018/01/EASY-CHICKEN-CURRY-HAPPYHARRIED.jpg
+test:>https://www.andy-cooks.com/cdn/shop/articles/20230819112920-c2-a9andy_cooks_thumbnails_chicken_tikka_masala_01.jpg?v=1692578261
+$$$$
+
+695->Madras Curry (Vegan or Chicken)
+$$$$
+train:>https://mediavine-res.cloudinary.com/image/upload/s--RKAOD9qp--/ar_4:3,c_fill,f_auto,fl_lossy,q_auto/v1642166622/isvsilcju1rqbqslkrms.jpg
+train:>https://vegancocotte.com/wp-content/uploads/2021/10/Vegan-Madras-with-Crispy-Tofu-3.jpg
+train:>https://www.contentednesscooking.com/wp-content/uploads/2018/06/Vegan-Chicken-Madras-7.jpg
+train:>https://vegancocotte.com/wp-content/uploads/2021/10/Vegan-Madras-with-Crispy-Tofu-0-720x405.jpg
+train:>https://i.ytimg.com/vi/W_AAKyVGwMs/mqdefault.jpg
+train:>https://assets.zuckerjagdwurst.com/e5gt9hhkc7n2chvh4e7vjvgz5yg1/1110/701/55/true/center/R612_Veganes_Chicken_Madras12.jpg?animated=false
+train:>https://static.toiimg.com/thumb/59353315.cms?width=1200&height=900
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-madras-f69ab47.jpg?quality=90&resize=440,400
+test:>https://assets.zuckerjagdwurst.com/2gyr69st1nyziset1jzsy7hvru8p/1110/740/65/true/center/R612_Veganes_Chicken_Madras10.jpg?animated=false
+test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/33/53/02/picJHDdQ8.jpg
+$$$$
+
