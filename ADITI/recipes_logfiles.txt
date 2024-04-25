@@ -390,3 +390,87 @@ test:>https://assets.zuckerjagdwurst.com/2gyr69st1nyziset1jzsy7hvru8p/1110/740/6
 test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/33/53/02/picJHDdQ8.jpg
 $$$$
 
+696->Muslim Naan
+$$$$
+train:>https://i0.wp.com/www.ghezaeshiriin.com/wp-content/uploads/2017/03/IMG_6076.png
+train:>https://i0.wp.com/www.ghezaeshiriin.com/wp-content/uploads/2019/02/47D3F545-7F57-49B7-863C-543CC1D82419.jpeg
+train:>https://i.pinimg.com/originals/e2/56/92/e25692b0d060e8b484966c0371bdf908.jpg
+train:>https://www.thefreshloaf.com/files/u166709/Naans.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/91/49/picHezb0X.jpg
+train:>https://www.soundvision.com/sites/default/files/styles/article-teaser/public/field/image/Recipes_015.jpg?itok=BrpdgeuM
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3PloFYK01yYKx16tLuf7n8wF9Ncayk-0xsIGoqvf-72utPYxOcqbSZDSCl16NfmSeGz0teOgisLG8RkkJocFKAzVuccfPIs6k8lkaQlz8D4xpQq3OBBZliLxd4Kp89EcLLKpVigI3xjI/s1600/DSC07901.JPG
+train:>https://i0.wp.com/www.ghezaeshiriin.com/wp-content/uploads/2019/02/47D3F545-7F57-49B7-863C-543CC1D82419-683x1024.jpeg?resize=350%2C200
+test:>https://c8.alamy.com/comp/HE2TWD/uyghur-food-roast-nang-flat-bread-muslim-quarter-market-xian-china-HE2TWD.jpg
+test:>https://yashvinawootarblogs.files.wordpress.com/2013/08/62205-naan.jpg?w=500
+$$$$
+
+697->Mango Cream
+$$$$
+train:>https://aromaticessence.co/wp-content/uploads/2018/05/B8DA6BFA-2A9A-4634-A72A-6359F76692D9.jpeg
+train:>https://rakskitchen.net/wp-content/uploads/2017/05/mango-with-fresh-cream.jpg
+train:>https://i.ytimg.com/vi/DyODVKQYMm4/maxresdefault.jpg
+train:>https://i.pinimg.com/originals/2e/c2/a8/2ec2a8623e08b2b7bd110b947821fa5c.jpg
+train:>https://static.toiimg.com/thumb/91009886.cms?imgsize=39492&width=800&height=800
+train:>https://i0.wp.com/zulekhaskitchen.com/wp-content/uploads/2018/05/mango-cream.png?fit=480%2C640&ssl=1
+train:>https://i.ytimg.com/vi/1Ldh3lYi2GY/maxresdefault.jpg
+train:>https://i0.wp.com/notoutofthebox.in/wp-content/uploads/2016/06/mc2.jpg
+test:>https://img.taste.com.au/J6wxBVCQ/taste/2016/11/mango-with-yoghurt-and-almond-praline-26024-1.jpeg
+test:>https://rakskitchen.net/wp-content/uploads/2017/05/34022111684_ac7c2ff1d0_z.jpg
+$$$$
+
+698->Indian Ginger Mutton Karahi
+$$$$
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/91/05/0/picaOFH92.jpg
+train:>https://recipe52.com/wp-content/uploads/2020/07/Lamb-karahi-3.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/lamb-karahi-swasthi.jpg.webp
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/lamb-karahi-recipe.jpg
+train:>https://www.masala.tv/wp-content/uploads/2016/09/1-3.jpg
+train:>https://www.curiouscuisiniere.com/wp-content/uploads/2021/07/Lamb-Karahi-1.1-640x534.jpg
+train:>https://www.ndtv.com/cooks/images/Mutton.Kadai-620.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/lamb-karahi.jpg.webp
+test:>https://c.ndtvimg.com/2022-03/ggnaqncg_mutton-curry_625x300_14_March_22.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMbNUGXkJUBMItmaXnDrRRWQ2Yq3H-56hmuELUr7sE77Jh9A0pzfiC3mjt1khuCWWSaMq57B8lBhKqg4dbnT5VnQALZtRvtCqXzQTeK9ONL9P9eTGfm7BHh4ZnNZdBxIMLoCbqcXOZaO8/s1600/mutton+karahi+kadayi+mutton+pepper+mutton+mutton+curry++.jpg
+$$$$
+
+699->Onion Dal
+$$$$
+train:>https://www.ediblecommunities.com/wp-content/uploads/2019/07/caramelized-onion-dal-500x375.jpg
+train:>https://www.ediblecommunities.com/wp-content/uploads/2019/07/caramelized-onion-dal.jpg
+train:>https://thetastesofindia.com/wp-content/uploads/2016/01/dal.jpg
+train:>https://img-global.cpcdn.com/recipes/d904933fa7f8a866/1200x630cq70/photo.jpg
+train:>https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/delicacies-on-the-plate-pallavi-kitchen15102390815a046b682e149.jpeg
+train:>https://i.ytimg.com/vi/P1jUwCbg2EE/maxresdefault.jpg
+train:>https://www.cookwithkushi.com/wp-content/uploads/2016/03/IMG_8589_.jpg
+train:>https://arundati.wordpress.com/wp-content/uploads/2013/07/dsc_0307.jpg?w=1000&h=671
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdvNs66QRhDiIZK7MFlox5g30-wJBE2IxCEzk0F23U3ejGoFIBeLtTLDHUHelweqX73en_Cbltr3UiedvjOTZ06PgPoSaQqPtdPW3QRW3Js2W0qwdcsnfhBDtvGRvxa4KE5RwNAhnFzc6n/s640/rsz_dal8-001.jpg
+test:>https://preethicuisine.com/wp-content/uploads/2022/05/D2-scaled.jpg
+$$$$
+
+700->Murgh Pulao
+$$$$
+train:>https://static.toiimg.com/thumb/61711645.cms?imgsize=468138&width=800&height=800
+train:>https://i.ytimg.com/vi/v9Wu8E4Xd0o/maxresdefault.jpg
+train:>https://www.quichentell.com/wp-content/uploads/2022/05/Murgh-Kairi-Pulao-5.1-500x500.jpg
+train:>https://www.masala.tv/wp-content/uploads/2019/10/Murgh-Sabzi-Pulao-Tarka.jpg
+train:>https://peekncooksa.blob.core.windows.net/index-recipe/murgh_pulao.jpg
+train:>https://img-global.cpcdn.com/recipes/f07769dad8330cbb/128x176cq50/murgh-pulao-recipe-main-photo.jpg
+train:>https://www.masala.tv/wp-content/uploads/2020/10/Desi-Murgh-Pulaop.jpg
+train:>https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2018/06/Murg-Pulao-Insta-01.jpg?resize=1537%2C1024
+test:>https://kfoods.com/images1/newrecipeicon/chicken-pulao-murghi-pulao_6650.jpg
+test:>https://lh5.googleusercontent.com/proxy/xGh_GNG1Upf3CS7t4Rj5EQlfcpHd7z2WYExXnlIlITumabUzOoWFdevkDxmzmPPGkDC3szrpKoLDBoUWASUzf1UiAqM74z5apP8
+$$$$
+
+701->Corn and Spinach rice
+$$$$
+train:>https://cdn2.foodviva.com/static-content/food-images/dinner-recipes/palak-pulao-spinach-rice/palak-pulao-spinach-rice.jpg
+train:>https://2.bp.blogspot.com/-2rOHTNqJ5zA/WtNRnM7yb9I/AAAAAAAAL7E/taiuf8aeJXMfqv7hWhKx3QrvYLLUG2pDQCLcBGAs/s1600/Corn_Palak_Pulao_1.jpg
+train:>https://i.ytimg.com/vi/YGBQSB_acAc/maxresdefault.jpg
+train:>https://s3.amazonaws.com/appforest_uf/f1589799555774x569078078506604100/Spinach%20Corn%20Rice.jpg
+train:>https://4.bp.blogspot.com/-RRT3S8f8g1U/VlqFQa4jd7I/AAAAAAAANOs/lXQ3BEpf0CY/s1600/4563-Spinch-and-sweetcorn-fried-rice.jpg-sharp.jpg
+train:>https://i.pinimg.com/564x/3b/2e/86/3b2e862caa42f27709f62cd8d963c022.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4xGBPBUQMCfOl5mLUEA0ICHCAqP0_1nalWWnWMUIg-0B_Dcv3gMJlcIPoXl9mXcS59uNxENcflaTI0MSycR-q5MJYg8E9RrV50MNQu-XLWOenUb9-IF6AdJBW_nvGxeU36XxEiyJYCA/s1600/corn+spinach+rice+final.jpg
+train:>https://1.bp.blogspot.com/-yML97ulRAwo/VlqFQQkHCpI/AAAAAAAANO4/VgesJ0ahCbY/s1600/II1A4579.JPG
+test:>https://i.ytimg.com/vi/kzOKh_F5XX0/maxresdefault.jpg
+test:>https://i.pinimg.com/564x/10/d2/8f/10d28f0f55a0086042cc469eea0b2c3a.jpg
+$$$$
+
