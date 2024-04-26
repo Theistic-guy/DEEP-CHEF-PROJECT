@@ -894,3 +894,87 @@ test:>https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Vegeta
 test:>https://dinnerthendessert.com/wp-content/uploads/2018/03/Vegetable-Biryani-3.jpg
 $$$$
 
+732->Ginger Lemonade Shikanji
+$$$$
+train:>https://www.saffrontrail.com/wp-content/uploads/2015/04/recipe-for-shikanji-an-indian-lemonade.1024x1024.jpg
+train:>https://myheartbeets.com/wp-content/uploads/2021/05/shikanji-recipe.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2018/05/41573437254_bb9f409dc5_z.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2018/05/shikanjvi-recipe.jpg
+train:>https://www.saffrontrail.com/wp-content/uploads/2015/04/recipe-for-shikanji-an-indian-lemonade.1024x1024-2.jpg
+train:>https://images.getrecipekit.com/20230224022812-good-20lyfe-20project-20blog-20images-20-5.jpg?aspect_ratio=16:9&quality=90&
+train:>https://i.ytimg.com/vi/zSoyvFAEoeA/maxresdefault.jpg
+train:>https://myheartbeets.com/wp-content/uploads/2021/05/nimbu-pani-recipe.jpg
+test:>https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4DWOqEqtrxA/v2/-1x-1.jpg
+test:>https://rakskitchen.net/wp-content/uploads/2018/05/41573437254_bb9f409dc5_z.jpg
+$$$$
+
+733->Vegetarian Biryani
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg
+train:>https://www.cookwithmanali.com/wp-content/uploads/2019/09/Vegetable-Biryani-Restaurant-Style.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2022/09/veg-biryani-1.jpeg
+train:>https://myfoodstory.com/wp-content/uploads/2020/09/Veg-Biryani-4.jpg
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2022/11/easy-vegetable-biryani.jpg
+train:>https://i.ytimg.com/vi/Do7ZdUodDdw/maxresdefault.jpg
+train:>https://www.cookwithkushi.com/wp-content/uploads/2015/04/best_vegetable_biryani_recipe.jpg
+train:>https://i0.wp.com/bhavnaskitchen.com/wp-content/uploads/2016/05/veg-biryani-in-pressure-cooker-61442869362-810.jpg?fit=810%2C537&ssl=1
+test:>https://dinnerthendessert.com/wp-content/uploads/2018/03/Vegetable-Biryani-3.jpg
+test:>https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Vegetable-Biryani-With-Green-Raita-159c15d.jpg?quality=90&resize=556,505
+$$$$
+
+734->Bell Pepper Paneer
+$$$$
+train:>https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/3-oct/Kadai_Paneer_Recipe_North_Indian_High_Protein_Vegetarian-3_400.jpg
+train:>https://tomatoblues.com/wp-content/uploads/2018/10/DSC_0788-490x740.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji0d0v458CbnGjLiCyL-OWOgzjlPLtpP5SiTD29zk5-CMk5FKXS6mH1lmbcpGox-f5w7xLs8WfZzKyncRGfS27FUbKX6-L4wxjzzUISvaIJprhhD-3yy4lqOOzfeppzO57sna3fJdv0xHv/s1600/PB232457-14.jpg
+train:>https://maayeka.com/wp-content/uploads/2012/12/kadhai-paneer-1-of-1-500x500.jpg
+train:>https://manjulaskitchen.com/wp-content/uploads/kadhai_paneer.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/48/27/53/picI06Jxc.jpg
+train:>https://static.toiimg.com/thumb/54691934.cms?imgsize=195241&width=800&height=800
+train:>https://tadkapasta.files.wordpress.com/2012/02/roasted-pepper-curry1.jpg
+test:>https://slurrp.club/wp-content/uploads/2020/06/DSC_8835-2.jpg
+test:>https://i0.wp.com/www.sinamontales.com/dotcord/uploads/2016/11/kadhai-paneer-cottage-cheese-bell-pepper-stir-fry.1024x1024-2.jpg?ssl=1
+$$$$
+
+735->Roasted Potatoes (Sukhi Bhaji)
+$$$$
+train:>https://thewhiskaddict.com/wp-content/uploads/2021/10/IMG_7851-scaled.jpg
+train:>https://static.toiimg.com/thumb/54699841.cms?imgsize=112327&width=800&height=800
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2020/09/sukhi-bhaji-recipe.jpg
+train:>https://miro.medium.com/v2/resize:fit:1400/0*Y-NY_X1ioEjb-11a
+train:>https://www.hookedonheat.com/wp-content/uploads/2022/02/Dry-Aloo-Sabzi-500x500.jpg
+train:>https://pepkitchen.com/wp-content/uploads/2016/08/Photo-27-08-16-9-43-56-AM.jpg
+train:>https://themadscientistskitchen.com/wp-content/uploads/2021/10/Goan-Style-Potato-Sukhi-Bhaji-Recipe-1.jpg
+train:>https://i.ytimg.com/vi/vaJwl8DT7s8/maxresdefault.jpg
+test:>https://themadscientistskitchen.com/wp-content/uploads/2021/10/sukhi-bhaji.jpg
+test:>https://www.spiceupthecurry.com/wp-content/uploads/2020/09/sukhi-bhaji-recipe-500x375.jpg
+$$$$
+
+736->Homemade Ghee
+$$$$
+train:>https://static.toiimg.com/thumb/62603936.cms?imgsize=538043&width=800&height=800
+train:>https://twosleevers.com/wp-content/uploads/2017/03/Ghee-sideways-900x680.jpg
+train:>https://www.sharmispassions.com/wp-content/uploads/2011/12/HomemadeGhee1.jpg
+train:>https://twosleevers.com/wp-content/uploads/2017/03/Ghee-sideways-jar-680x900-900x680.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2017/03/IMG_0073.jpg
+train:>https://www.nithaskitchen.com/wp-content/uploads/2012/04/Homemade_Ghee0_L.jpg
+train:>https://i0.wp.com/lovelaughmirch.com/wp-content/uploads/2015/01/Making-Ghee-8-scaled.jpg?ssl=1
+train:>https://5.imimg.com/data5/LZ/YQ/MP/SELLER-108270490/product-500x500-jpeg-500x500.jpeg
+test:>https://againstallgrain.com/wp-content/uploads/2014/09/Ghee-039.jpg
+test:>https://elkeliving.com/wp-content/uploads/2022/08/ghee6-scaled.jpg
+$$$$
+
+737->Spicy Chickpea Samosas
+$$$$
+train:>https://static.onecms.io/wp-content/uploads/sites/19/2010/06/08/chickpea-samosas-ck-x.jpg
+train:>https://i0.wp.com/immigrantstable.com/wp-content/uploads/2020/12/Easy-gluten-free-samosas-with-sweet-spicy-chickpea-filling57.jpg
+train:>https://lh6.googleusercontent.com/proxy/u2i1fAdXdlC0cPSGZOGWsCMijtPKzN2RP30DgWeG1FDZJZeSq4R4rrg-iBdlekKEkMjNhMFTbNpZsA5nyEkO4VELc7_nRVnKYHdrfbtt-z3AMnYC_5qbUQKdxqERRuzTwP2V
+train:>https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=420&h=210&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2010%2F06%2F08%2Fchickpea-samosas-ck-x.jpg
+train:>https://thestarvingchefblog.com/wp-content/uploads/2022/03/chickpea-samosa-recips.jpg
+train:>https://res.cloudinary.com/chevrons/image/fetch/w_800,h_800,c_crop,dpr_1.0/https%3A%2F%2Flive.staticflickr.com%2F65535%2F50618269712_ff099e53b4_b.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2020/03/cocktail-chana-samosa-9.jpg.webp
+train:>https://cloudinary-cdn.whisk.com/image/upload/g_auto,c_fill,q_60,f_auto,h_630,w_1200/v1688162910/recipe/968fd747524b7e182a9c28a5bcdd2254.jpg
+test:>https://i0.wp.com/immigrantstable.com/wp-content/uploads/2020/12/Easy-gluten-free-samosas-with-sweet-spicy-chickpea-filling52.jpg
+test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/48/26/42/snnt0nDTnuW7HW9r3qXw_Chickpea%2520Samosas%2520Raita%2520(1%2520of%25201).jpg
+$$$$
+
