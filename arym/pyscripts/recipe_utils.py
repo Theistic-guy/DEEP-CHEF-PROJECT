@@ -232,5 +232,64 @@ def reload_urls_and_save(download_folder_path,download_logs_path,recipe_csv_path
     download_images(download_folder_path,get_image_urls(download_logs_path,recipe_index,ignore_msgs),get_recipe_name(recipe_csv_path,recipe_index)\
                     ,recipe_index,train_imgs_count,ignore_msgs)
 
-def what_is_this_shit():
-    pass
+
+def get_recipe_name_in_logs(path_download_logs,recipe_index,ignore_msgs=False):
+    '''fetches the name of recipe as present in download logs'''
+    try:
+        recipe_name = None
+        with open(path_download_logs,"r") as f:
+            prev_recipe_end_delimiter_pos = 2 * recipe_index
+            current_delimiter_pos = 0
+            is_prev_end_delim_reached = False if prev_recipe_end_delimiter_pos != 0 else True
+            for line in f :
+                if not is_prev_end_delim_reached:
+                    if line.strip() == "$$$$":
+                        current_delimiter_pos += 1
+                        if current_delimiter_pos == prev_recipe_end_delimiter_pos:
+                            is_prev_end_delim_reached = True
+                else:
+                    if f"{recipe_index}->" in line:
+                        recipe_name = line.strip().split("->")[1]
+                        break
+        return recipe_name
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred inside get_recipe_name_in_logs,returning None\n",e)
+        return None
+    
+def check_logs_integrity(path_download_logs,each_recipe_imgs_count,ignore_msgs=False):
+    '''returns empty tuple when no problems else returns tuple of length 2.
+    First elem is line number (1-indexed) and second elem is cause of issue'''
+    return_list = []
+    try:
+        with open(path_download_logs,"r") as f:
+            prev_index = -1
+            recipe_urls_count = None
+            is_start_delim_encountered = False
+            for line_no,line in enumerate(f,start=1):
+                if(line.strip()==""):
+                    pass
+                elif "->" in line:
+                    if int(line.split("->")[0]) != prev_index+1:
+                        return_list.append(line_no)
+                        return_list.append("index not sequential")
+                        break
+                    else:
+                        prev_index += 1
+                elif line.strip() == "$$$$":
+                    if not is_start_delim_encountered:
+                        is_start_delim_encountered = True
+                        recipe_urls_count = each_recipe_imgs_count
+                    else:
+                        if recipe_urls_count != 0:
+                            return_list.append(line_no)
+                            return_list.append("no of url entries mismatched with each_recipe_imgs_count")
+                            break
+                        else:
+                            is_start_delim_encountered = False
+                else:
+                    recipe_urls_count -=1
+        return tuple(return_list)
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred inside check_logs_integrity, returning empty tuple\n",e)
