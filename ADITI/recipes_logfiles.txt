@@ -978,3 +978,73 @@ test:>https://i0.wp.com/immigrantstable.com/wp-content/uploads/2020/12/Easy-glut
 test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/48/26/42/snnt0nDTnuW7HW9r3qXw_Chickpea%2520Samosas%2520Raita%2520(1%2520of%25201).jpg
 $$$$
 
+738->Red Curry Pork With Peppers
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/48/23/39/pic8CnVi0.jpg
+train:>https://djfoodie.com/wp-content/uploads/Recipes/Red-Pork-Curry-2-800.jpg
+train:>https://i.ytimg.com/vi/s4C7st9jDcA/maxresdefault.jpg
+train:>https://djfoodie.com/wp-content/uploads/Red-Pork-Curry-3-800-500x375.jpg
+train:>https://backroadjournal.wordpress.com/wp-content/uploads/2024/01/img_0932.jpg.jpg?w=609
+train:>https://www.marionskitchen.com/wp-content/uploads/2022/10/Red-Curry-Pork-Stir-fry-%E2%80%98Pad-Prik-Gaeng-Moo-01.jpg
+train:>https://www.paintthekitchenred.com/wp-content/uploads/2016/07/Thai-Red-Curry-Pork.jpg
+train:>https://www.marionskitchen.com/wp-content/uploads/2021/06/Mums-Thai-Red-Curry-Pork-Stir-fry-01.jpg
+test:>https://backroadjournal.files.wordpress.com/2024/01/img_0936.jpg.jpg?w=750
+test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_328,ar_4:3/v1/img/recipes/31/03/38/picQzEKP1.jpg
+$$$$
+
+739->Chicken and Shrimp Curry
+$$$$
+train:>https://joyfilledeats.com/wp-content/uploads/2019/03/Shrimp-Curry-4.jpg
+train:>https://www.foodleclub.com/wp-content/uploads/2021/01/kashmiri-chicken-and-prawn-curry-with-lychees-8a.jpg
+train:>https://thecafesucrefarine.com/wp-content/uploads/Shrimp-and-Chicken-Cashew-Curry-11.jpg
+train:>https://images.squarespace-cdn.com/content/v1/5ed13dd3465af021e2c1342b/1616045430660-4SOXRLHBJI4VQ1DPRJS8/IMG_9086.jpg?format=500w
+train:>https://i.ytimg.com/vi/nmFTHe44dO0/maxresdefault.jpg
+train:>https://www.curryrecipe.co.za/wp-content/uploads/2022/02/chicken-and-prawn-curry-1.jpg
+train:>https://savourthesensesblog.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-11-at-10.29.20-AM.png
+train:>https://www.foodleclub.com/wp-content/uploads/2021/04/Thai-red-curry-with-chicken-and-prawns-4.jpg
+test:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/48/21/46/pic6zzNbj.jpg
+test:>https://joyfilledeats.com/wp-content/uploads/2019/03/Shrimp-Curry-6.jpg
+$$$$
+
+740->Murgh Makhani (Indian Butter Chicken)
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/butter-chicken-murgh-makhani.jpg.webp
+train:>https://res.cloudinary.com/hksqkdlah/image/upload/43960-sfs-indian-butter-chicken-for-two-35-1.jpg
+train:>https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg
+train:>https://www.allrecipes.com/thmb/Icn_f4w0fMLbRrV78v8bMSkwfhs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45957-ChickenMakhaniIndianButterChicken-mfs-4X3-0037-7aa9a555bf3943baae20c5c3b0921375.jpg
+train:>https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-27.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2021/03/butterchickenhotelfrontscene.jpg
+train:>https://myfoodstory.com/wp-content/uploads/2020/04/restaurant-style-butter-chicken-masala-murgh-makhani-1.jpg
+train:>https://www.daringgourmet.com/wp-content/uploads/2019/12/Butter-Chicken-5.jpg
+test:>https://cookingwithcocktailrings.com/wp-content/uploads/2021/02/img_602c14c172013.jpg
+test:>https://myfoodstory.com/wp-content/uploads/2020/04/Butter-Chicken-3.jpg
+$$$$
+
+741->Minty Indian Zucchini (Tabbakh Ruhu)
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/48/20/37/picKDJLsY.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_200,ar_3:2/v1/img/recipes/48/20/37/picRryCk9.jpg
+train:>https://image.slidesharecdn.com/ea2a0d40-7615-4910-b2b7-fed54ca2531b-160720022248/85/winter-2016fsmboschttheme-meal-notebook-18-320.jpg?cb=1670780604
+train:>https://irepo.primecp.com/2020/09/462983/Meatless-Monday-Enchiladas_Category-CategoryPageDefault_ID-3906354.jpg?v=3906354
+train:>https://myheartbeets.com/wp-content/uploads/2013/08/zucchini-thoran-480x270.jpg
+train:>https://i.ytimg.com/vi/zEzjBmK6O-c/maxresdefault.jpg
+train:>https://i.ytimg.com/vi/T7cZFwsB4PE/mqdefault.jpg
+train:>https://i.ytimg.com/vi/iueIdQXFbDI/sddefault.jpg
+test:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/48/20/37/picKDJLsY.jpg
+test:>https://rakskitchen.net/wp-content/uploads/2020/04/zucchini-kootu-recipe-500x500.jpg
+$$$$
+
+742->Bengali Potatoes
+$$$$
+train:>https://c.ndtvimg.com/2019-09/8uund1qg_aloo_625x300_28_September_19.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2018/08/1-5.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/48/19/78/picAPjOpz.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2013/03/1-5.jpg
+train:>https://ishitaunblogged.com/wp-content/uploads/2012/04/a514b-dsc_94642.jpg?w=674
+train:>https://myfancypantry.files.wordpress.com/2013/04/mg_0577.jpg?resize=625%2C428
+train:>https://i0.wp.com/spicechronicles.com/wp-content/uploads/2015/05/BMP_1_650.jpg?ssl=1
+train:>https://www.allrecipes.com/thmb/249U3lsxHXdSPJdrTITzK_saOjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6067251-bengali-chicken-curry-with-potatoes-Linda-Chor-4x3-1-94006a09cdec49ceaa26c1044f50359a.jpg
+test:>https://threebigbites.com/wp-content/uploads/2019/01/FoodRupa27sPotatoesHorizontalSpoon.jpg
+test:>https://maayeka.com/wp-content/uploads/2016/10/aloo-churchuri-1-of-1.jpg
+$$$$
+
