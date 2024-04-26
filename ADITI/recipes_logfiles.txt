@@ -810,3 +810,87 @@ test:>https://cdn.dotpe.in/longtail/store-items/1332303/IX4B7CFe.jpeg
 test:>https://www.spiceupthecurry.com/wp-content/uploads/2018/04/cold-coffee-with-ice-cream-3-500x500.jpg
 $$$$
 
+726->Indian- Tomato Kachambur
+$$$$
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/tomato-kachumber-816e323.jpg?quality=90&resize=440,400
+train:>https://glebekitchen.com/wp-content/uploads/2017/05/kachumberfront.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/03/kachumber-salad-recipe.jpg
+train:>https://blogexplore.com/wp-content/uploads/2019/04/blogexplore.com-kachumber-salad-cucumber-onion-tomato-240x300.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2017/05/kachumbertop2.jpg
+train:>https://www.thedeliciouscrescent.com/wp-content/uploads/2022/01/Kachumber-Salad-10.jpg
+train:>https://www.thespruceeats.com/thmb/annA1ZfVowAXFFNNM_laKJrkjoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kachumber-salad-4172358-hero-01-f2f984488fb74815bc6119c8525da2cf.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2017/07/kachumberpin2.jpg
+test:>https://cookbook.pfeiffer.net.au/files/saladKachumber-scaled.jpg
+test:>https://i.ytimg.com/vi/83Zn3-8FAe0/sddefault.jpg
+$$$$
+
+727->Chicken Pulao With Lemon and Onion
+$$$$
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/48/44/81/piciJ1C3a.jpg
+train:>https://www.jocooks.com/wp-content/uploads/2019/05/lemon-chicken-rice-bake-1-3-750x750.jpg
+train:>https://as1.ftcdn.net/v2/jpg/03/02/74/52/1000_F_302745235_maAnfTrL9ypDoUUHcnWTLPjOEJlXygcb.jpg
+train:>https://i0.wp.com/www.spicechronicles.com/wp-content/uploads/2018/09/IMG_9597_6501.jpg?w=640
+train:>https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2023/09/chicken-rice-with-buttered-onions-11-scaled.jpg?fit=1200%2C800&ssl=1
+train:>https://thumbs.dreamstime.com/z/indian-chicken-rice-dish-lemon-onion-cilantro-pulao-fried-food-photography-164222787.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/chicken-pulao-recipe.jpg.webp
+train:>https://www.recipetineats.com/wp-content/uploads/2020/03/One-Pot-Greek-Chicken-and-Lemon-Rice-900px.jpg
+test:>https://static.toiimg.com/thumb/61225708.cms?imgsize=455871&width=800&height=800
+test:>https://www.teaforturmeric.com/wp-content/uploads/2022/08/Chicken-Pulao-on-a-platter.jpg
+$$$$
+
+728->Spiced Cashews
+$$$$
+train:>https://static.onecms.io/wp-content/uploads/sites/19/2015/09/28/warm-spiced-cashews-ck.jpg
+train:>https://recipesfromapantry.com/wp-content/uploads/2013/06/How-To-Roast-Cashews-7-3.jpg
+train:>https://paleogrubs.com/wp-content/uploads/2016/01/roastedcashewrecipe.jpg
+train:>https://i0.wp.com/vegehomecooking.com/wp-content/uploads/2019/10/SpicyRoastedCashewsFeaturedImage.jpg?fit=1200%2C1200&ssl=1
+train:>https://oneingredientchef.com/wp-content/uploads/2013/05/SpicyCashews.jpg
+train:>https://www.bhg.com/thmb/XRNNkXGH3OQLrvo5E2HisoY2uto=/1244x0/filters:no_upscale():strip_icc()/air-fryer-spiced-cashews-RU354648-6fcbc7558d774c5db438ee0595ca35d0.jpg
+train:>https://watchlearneat.com/wp-content/uploads/2019/11/Sweet-and-Spicy-Roasted-Cashews-sq1-scaled-e1574040940407.jpg
+train:>https://minimalistbaker.com/wp-content/uploads/2016/04/AMAZING-Green-Curry-Spiced-Cashews-10-ingredients-crunchy-spicy-sweet-SO-delicious-for-snacking-and-salads-vegan-cashews-recipe-curry-healthy.jpg
+test:>https://www.seriouseats.com/thmb/YyHSXzOUvmfxp68DMldY-stn3kU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__12__20141218-spiced-nuts-daniel-gritzer-22-2097122fd5674cfe8dda546aff620379.jpg
+test:>https://www.pantsdownapronson.com/wp-content/uploads/spiced-nuts-recipe-6.jpg
+$$$$
+
+729->Tandoori Chicken Wings
+$$$$
+train:>https://www.theloveofspice.com/wp-content/uploads/2021/05/tandoori-chicken-wings-platter.jpg
+train:>https://thechutneylife.com/wp-content/uploads/2023/06/Tandoori-Wings-The-Chutney-Life-10.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2017/02/tandoori-wings-4.jpg
+train:>https://www.mysavoryadventures.com/wp-content/uploads/2023/02/tandoori-chicken-wings-air-fryer-scaled.jpg
+train:>https://gourmetmami.com/wp-content/uploads/2023/03/Air-Fryer-Tandoori-Chicken-WIngs.jpg
+train:>https://assets.bonappetit.com/photos/5b4ca8d25edc70279dff1d9c/1:1/w_2560%2Cc_limit/tandoori-chicken-wings.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2017/02/Tandoori-Chicken-Wings_-2.jpg
+train:>https://www.marthastewart.com/thmb/WDKbOJkNWWoIIgK697Hbe9E-Q3o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tandoori-chicken-0119-md110429_horiz-abf87eb7b7214c3bafa1ecd35123acf3.jpgitokicNTNDYG
+test:>https://www.recipemagik.com/wp-content/uploads/2021/03/Tandoori-Chicken-Wings-in-Air-Fryer-in-Oven-2.jpg
+test:>https://www.licious.in/blog/wp-content/uploads/2021/01/shutterstock_400329463-min-1.jpg
+$$$$
+
+730->musk melon juce
+$$$$
+train:>https://5.imimg.com/data5/DT/PV/MY-28707171/magic-musk-melon-juice.png
+train:>https://vaya.in/recipes/wp-content/uploads/2019/07/Muskmelon-Juice.jpg
+train:>https://www.archanaskitchen.com//images/archanaskitchen/World_Beverages/Muskmelon_Kharbuj_Juice_Recipe-1.jpg
+train:>https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_usQaMjH-S-3HLxukLUUYMbKl-BOqXCvEkHcExw_26gKfkioUCL817CDeQshNp71ZSTXZen2FyRx7sttjBOiR8CxkaIvq2dLaVD-GY1Wz5v4J2XkWfBMd31j0nduNtCaoufWAE=w1200-h630-p-k-no-nu
+train:>https://vaya.in/recipes/wp-content/uploads/2019/07/Muskmelon-milkshake.jpg
+train:>https://images.slurrp.com/webstories/wp-content/uploads/2023/04/shutterstock_1986224417.jpg
+train:>https://tiimg.tistatic.com/fp/1/008/247/delicious-sweet-taste-healthy-muskmelon-fresh-fruit-juice-474.jpg
+train:>https://s3.dualstack.ap-south-1.amazonaws.com/shopnowchat.com/Medium/MPRWfdlbBPbJm_Muskmelon.jpg
+test:>https://ghost-cms.s3.ap-south-1.amazonaws.com/2023/05/Muskmelon-Orange-juice_wellnesscorner.jpg
+test:>https://www.sharmispassions.com/wp-content/uploads/2012/06/7454363348_2f3a714d5c_o.jpg
+$$$$
+
+731->Vegetarian Biryani
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg
+train:>https://www.cookwithmanali.com/wp-content/uploads/2019/09/Vegetable-Biryani-Restaurant-Style.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2022/09/veg-biryani-1.jpeg
+train:>https://myfoodstory.com/wp-content/uploads/2020/09/Veg-Biryani-4.jpg
+train:>https://i.ytimg.com/vi/Do7ZdUodDdw/maxresdefault.jpg
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2022/11/easy-vegetable-biryani.jpg
+train:>https://www.cookwithkushi.com/wp-content/uploads/2015/04/best_vegetable_biryani_recipe.jpg
+train:>https://i0.wp.com/bhavnaskitchen.com/wp-content/uploads/2016/05/veg-biryani-in-pressure-cooker-61442869362-810.jpg?fit=810%2C537&ssl=1
+test:>https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Vegetable-Biryani-With-Green-Raita-159c15d.jpg?quality=90&resize=556,505
+test:>https://dinnerthendessert.com/wp-content/uploads/2018/03/Vegetable-Biryani-3.jpg
+$$$$
+
