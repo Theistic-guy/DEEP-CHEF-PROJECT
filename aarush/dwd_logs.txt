@@ -810,3 +810,59 @@ test:>https://www.curry-pot.com/wp-content/uploads/2016/12/lamb-korma.jpg
 test:>https://www.simplyrecipes.com/thmb/-gFnNNSaFuC2ns204_90NzxEiLA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__05__lamb-korma-vertical-a-1600-367b13bf12064ae7a93cbe2d3b0ba527.jpg
 $$$$
 
+392->Potato and Coriander Samosa
+$$$$
+train:>https://desertislanddishes.co/wp-content/uploads/2023/10/potatoe-samosas-DID.jpeg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/11/16/90/picxM9TeH.jpg
+train:>https://img.taste.com.au/h1E5M7CN/taste/2016/11/potato-pea-coriander-samosas-29145-1.jpeg
+train:>https://foodess.com/wp-content/uploads/2023/02/potato-samosas-3.jpg
+train:>https://i0.wp.com/thetwincookingproject.net/wp-content/uploads/2020/10/Sweet-Potato-Mini-Samosas3.jpg?fit=1400%2C2100&ssl=1
+train:>https://www.recipetineats.com/wp-content/uploads/2021/02/Samosas-on-plate.jpg
+train:>https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/8/ca/8ca210a4-382d-11ec-b8c6-074e8a5d43ad/617b0830a2a16.image.jpg?resize=1200%2C800
+train:>https://i2.wp.com/thetwincookingproject.net/wp-content/uploads/2020/10/Sweet-Potato-Mini-Samosas2-scaled.jpg?fit=1707%2C2560&ssl=1
+test:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg.webp
+test:>https://www.seriouseats.com/thmb/4HxqFS6SHsh1XBCXWWHbsyrGOxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210909-SAMOSAS-ANDREWJANJIGIAN-86-ca872c2eae8e4e7eb4e7b47cfad8715e.jpg
+$$$$
+
+393->Dal Soup - Fijian Indian Version
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/33/40/49/xCaaKRMVRNKvKrsqe7b8_Fijian%20Dhal%20Soup.jpg
+train:>https://img.bestrecipes.com.au/4BGtm6a8/w643-h428-cfill-q90/br/2018/09/fijian-indian-dhal-soup-recipe-511775-1.jpg
+train:>https://i.ytimg.com/vi/tcC4CVxpjuI/hqdefault.jpg
+train:>https://i.pinimg.com/originals/4c/cf/27/4ccf27e85a2b0b537001a28cd8e62492.jpg
+train:>https://cloudinary-cdn.whisk.com/image/upload/g_auto,c_fill,q_60,f_auto,h_630,w_1200/v1553840986/recipe/3d9d0968006122c183462dbb34651ee9.jpg
+train:>https://i.ytimg.com/vi/SBX5P86cnpM/maxresdefault.jpg
+train:>https://i.ytimg.com/vi/ZZ_YomZGGlQ/hqdefault.jpg
+train:>https://i.pinimg.com/564x/1c/4e/1b/1c4e1baab3630587b684e303b395f97f.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6UwwIKY1-20UGxH2gLBhYvhGDc6i2AskOiJlf98ctLTVET33wAdcJR1dbrsvhjDS5guRmZVDT1aWPq8fuxCgNVf_CJML6CxRs2XV9nma4m5zGu_oS-CAqdYW4eCDIANgNGzL054PlGQBE/s1600/Fijian+Creamy+Lentil+Soup+.png
+test:>https://i.ytimg.com/vi/Y60HbzowO90/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJjduHX3fShBRGlow5T7dVWTzihA
+$$$$
+
+394->Tandoori Masala (Spice Mix)
+$$$$
+train:>https://www.thespruceeats.com/thmb/fwnPq3DEPC-ZZ2HfFDr81iwCT1w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tandoori-masala-spice-mix-1957591-hero-01-df7a97bafe124313923fbe3f13b40022.jpg
+train:>https://www.allrecipes.com/thmb/GmD3SnLuvEb3S_gtm1WbKTr5XKg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2210505-tandoori-masala-spice-mix-Buckwheat-Queen-4x3-1-bdc3846a121e4bc788f017e9d0f23a77.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2021/05/tandoorimasalaspicebowl.jpg
+train:>https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2015/04/Homemade-tandoori-masla-recipe-2.jpg
+train:>https://veganlovlie.com/wp-content/uploads/tandoori_masala_02.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXny_vW2qHVkE6FKKEd0qblWxU3eqrdBBj_CqWvGLJkOAU17HlVDUmSgoj7glLC4VOcU-_w3gTUWdlaz3KIHSOaY2DVCmQ9yrQSaSFGU7PKZOydqhQoZWmQXTJ27lXfdy01am-y6m3XFXy/s2048/20210830_130746.jpg
+train:>https://veganlovlie.com/wp-content/uploads/tandoori_masala_01.jpg
+train:>https://myindianstove.com/wp-content/uploads/2019/09/049-TANDOORI-MASALA-04-1200-SQ.jpeg
+test:>https://i.ytimg.com/vi/Jgd1mggATFM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB8HcG2CGSMm7o5x_9DOuZFQLGU0g
+test:>https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2020/12/Homemade-Tandoori-Masala-Powder-3.jpg?resize=684%2C1024&ssl=1
+$$$$
+
+395->Naan Indian Flat Bread
+$$$$
+train:>https://nishkitchen.com/wp-content/uploads/2012/01/TANDOORI-NAAN-1B.jpg
+train:>https://www.thespruceeats.com/thmb/MReCj8olqrCsPaGvikesPJie02U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/naan-leavened-indian-flatbread-1957348-final-08-116a2e523f6e4ee693b1a9655784d9b9.jpg
+train:>https://www.barbarabakes.com/wp-content/uploads/2014/02/Naan-3-Barbara-Bakes.jpg
+train:>https://chewoutloud.files.wordpress.com/2012/09/grilled-flatbread-like-naan1.jpg
+train:>https://www.simplyrecipes.com/thmb/kuPbl3x2ZfE3vnqgoBX7hzDLhAM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__05__How-to-Make-Naan-LEAD-3-df40aacbc0f64afc806fd9e23a96c55a.jpg
+train:>https://simple-veganista.com/wp-content/uploads/2019/07/vegan-naan-bread-recipe-3.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/naan-recipe.jpg
+train:>https://www.saveur.com/uploads/2019/02/08/5PXBZVZJLRHYVBZPYZYYYWEQSM.jpg?auto=webp
+test:>https://www.cookingclassy.com/wp-content/uploads/2021/01/naan-30.jpg
+test:>https://www.easyfoodsmith.com/wp-content/uploads/2011/11/Naan-2.jpg
+$$$$
+
