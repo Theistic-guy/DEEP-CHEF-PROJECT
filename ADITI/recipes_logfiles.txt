@@ -726,3 +726,17 @@ test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCAJvBENKyr1KNo
 test:>https://www.yummytummyaarthi.com/wp-content/uploads/2018/01/1.-1.jpg
 $$$$
 
+720->Indian-Spiced Kale & Chickpeas
+$$$$
+train:>https://cookingforpeanuts.com/wp-content/uploads/2021/12/Indian-Spiced-Skillet-Chickpeas-Kale.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2017/08/Indian-chickpeas-and-greens-2.jpg
+train:>https://www.eatingwell.com/thmb/L3tcx2fypNvvPRrSe1CrAL9F6Jg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3755989-bfadaadbde6e4de8a6bdb5a48780a443.jpg
+train:>https://alexandracooks.com/wp-content/uploads/2021/09/kalechickpeas1_alexandraskitchen.jpg
+train:>https://cookingforpeanuts.com/wp-content/uploads/2021/12/Indian-Spiced-Skillet-Chickpeas-Kale-Pinterest.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2017/08/Indian-chickpeas-and-greens-6-480x360.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2017/08/Indian-chickpeas-and-greens-1.jpg.webp
+train:>https://alexandracooks.com/wp-content/uploads/2021/09/kalechickpeas1_alexandraskitchen-320x180.jpg
+test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/48/52/02/picbbwIad.jpg
+test:>https://cookingforpeanuts.com/wp-content/uploads/2021/12/Add-the-Kale-Water-for-Indian-Spiced-Skillet-Chickpeas-Kale.jpg
+$$$$
+
