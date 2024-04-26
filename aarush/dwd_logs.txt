@@ -1216,3 +1216,45 @@ test:>https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,f
 test:>https://media-cdn.tripadvisor.com/media/photo-s/10/6c/e4/3f/king-prawns-with-mash.jpg
 $$$$
 
+421->Pudla - Besan Chickpea Pancake
+$$$$
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/46/01/96/picK1kNnT.jpg
+train:>https://4.bp.blogspot.com/-RqKq8eUNiMw/SIZ3dFvrCDI/AAAAAAAACsI/mWZE_X0KyfQ/s640/pancakes1.jpg
+train:>https://healthyhappylife.com/wp-content/uploads/2015/08/richa-vegan-cookbook-3.png
+train:>https://im.rediff.com/getahead/2022/mar/30food-pudla1.jpg?w=670&h=900
+train:>https://i0.wp.com/mayuris-jikoni.com/wp-content/uploads/2013/12/besan-pudla-2.jpg?resize=550%2C733&ssl=1
+train:>https://tastespace.files.wordpress.com/2011/06/dsc_9078.jpg
+train:>https://thephotowali.files.wordpress.com/2020/03/img20200318203636-01-01787444946896941883.jpeg
+train:>https://www.ruchiskitchen.com/wp-content/uploads/2015/02/Besan-ka-puda-recipe-1.jpg.webp
+test:>https://www.saffrontrail.com/wp-content/uploads/2017/07/pudla-01.jpg
+test:>https://www.kuchpakrahahai.in/wp-content/uploads/2023/04/Chickpea-flour-pancakes-vegan.jpg
+$$$$
+
+422->Bombay Spiced Potatoes
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/bombay-potatoes-recipe.jpg
+train:>https://www.flavourstreat.com/wp-content/uploads/2020/12/bombay-potatoes-02.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/bombay-potato-9af5be0.jpg?quality=90&resize=440,400
+train:>https://www.modernfoodstories.com/wp-content/uploads/2022/02/Bombay-Spiced-Potatoes-5-resized-for-blog.jpg
+train:>https://www.chilipeppermadness.com/wp-content/uploads/2022/06/Bombay-Potatoes-Recipe1.jpg
+train:>https://veenaazmanov.com/wp-content/uploads/2012/10/Spiced-Indian-Potatoes-7.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2018/10/bombaypotatoesfront-1.jpg
+train:>https://media.houseandgarden.co.uk/photos/618940cc1e012b436fda39db/1:1/w_1920,h_1920,c_limit/Bombay_Potatoes-52248_EL_21Sep12_pr_bt.jpg
+test:>https://searchingforspice.com/wp-content/uploads/2021/01/Bombay-Potatoes-19.jpg
+test:>https://i0.wp.com/cookingwithbry.com/wp-content/uploads/Bombay-Potatoes-Recipe.png?fit=1080%2C1080&ssl=1
+$$$$
+
+423->Mango Lassi
+$$$$
+train:>https://www.cookwithmanali.com/wp-content/uploads/2017/05/Best-Mango-Mango-Lassi-Recipe.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/mango-lassi-recipe.jpg
+train:>https://www.teaforturmeric.com/wp-content/uploads/2021/07/The-Best-Mango-Lassi-Restaurant-Style-6.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-lassi-recipe.jpg.webp
+train:>https://www.teaforturmeric.com/wp-content/uploads/2021/07/Mango-Lassi-Recipe-Card-1-500x500.jpg
+train:>https://smithakalluraya.com/wp-content/uploads/2020/05/mango-lassi-recipe-1080x1259.jpg
+train:>https://masalachilli.com/wp-content/uploads/2021/05/Mango-Lassi-4-500x500.jpg
+train:>https://www.theloveofspice.com/wp-content/uploads/2020/04/mango-lassi-recipe.jpg
+test:>https://www.simplyrecipes.com/thmb/M3LEdeKC37xv52FUmIBFJVXKBFY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mango-Lassi-LEAD-13-73719759cc3f4a2ca7fe8be72baaeaab.jpg
+test:>https://www.cookwithmanali.com/wp-content/uploads/2017/05/Best-Mango-Mango-Lassi-Recipe-480x270.jpg
+$$$$
+
