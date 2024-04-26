@@ -656,3 +656,73 @@ test:>https://easycoolways.com/images/Easy_Recipe/Snacks/chana-chaat/1x1/chana-c
 test:>https://mytastycurry.com/wp-content/uploads/2020/04/chana-chaat-recipe.jpg
 $$$$
 
+715->Indian Spiced Shrimp
+$$$$
+train:>https://www.realsimple.com/thmb/w8Qnir1XD551LoeaAc2bYZiEg_Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/shrimp-salad-recipe-0620din-91354494cf5947bcb895a4c181e3ae23.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2017/08/30-Minute-Spicy-Shrimp-Masala-5.jpg
+train:>https://static01.nyt.com/images/2022/06/10/dining/zs-spicy-shrimp-masala/zs-spicy-shrimp-masala-superJumbo.jpg
+train:>https://www.flavorquotient.com/wp-content/uploads/2013/02/Grilled-Shrimp-FQ-3-1-of-1.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2016/02/spicy-malabar-shrimp-curry-6.jpg
+train:>https://www.sargento.com/assets/Uploads/Recipe/Image/indianshrimpUntitled-1__FillWzExNzAsNTgzXQ.jpg
+train:>https://myfancypantry.files.wordpress.com/2013/01/mg_0219.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2017/08/30-Minute-Spicy-Shrimp-Masala-7.jpg
+test:>https://cdn.mos.cms.futurecdn.net/dRa4C6D3wYSmrXHMCgVPsK.jpg
+test:>https://assets.epicurious.com/photos/560df8f4f9a84192308a8cfe/1:1/w_2560%2Cc_limit/108490.jpg
+$$$$
+
+716->Dal Nirvana Recipe
+$$$$
+train:>https://lh6.ggpht.com/_OaYG005JPDs/TIV_E-mN1cI/AAAAAAAAB1c/V3Y-7Zo8X4s/s640/Dal%20close.jpg
+train:>https://steamykitchen.com/wp-content/uploads/2010/08/dal-nirvana-1402.jpg
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/49/39/36/piciregA9.jpg
+train:>https://lh5.ggpht.com/_OaYG005JPDs/TIV_EwZITBI/AAAAAAAAB1Y/6eV73IOH_Uk/s640/Dal%20angle.jpg
+train:>https://lh5.ggpht.com/_OaYG005JPDs/TIV-7a5eUYI/AAAAAAAAB1E/67F3yeid-ow/s640/add%20cream.jpg
+train:>https://i.pinimg.com/474x/b6/cf/9c/b6cf9c91fa089994321148749a99f0e2.jpg
+train:>https://steamykitchen.com/wp-content/uploads/2010/08/indian-dal-nirvana-3963.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6EiTFzmBSFbtaUWXo4ykQfmscknEBTtv7skwoMp5_oSa9p8_uiKZyL1aNW8Sf0K5hJ1n7sZIQl8EjtNBJhEjIbHhDB-rtGUGbVYMJHb502u3PU1GxOGjNMP17-phXo6U_MNj1ToeNZU8I/s1600/IMG_2396.JPG
+test:>https://steamykitchen.com/wp-content/uploads/2010/08/dal-nirvana-1380.jpg
+test:>https://steamykitchen.com/wp-content/uploads/2010/08/dal-nirvana-1383.jpg
+$$$$
+
+717->Southern Chicken Curry
+$$$$
+train:>https://www.thespruceeats.com/thmb/5Ro7zus6EDnwTOdnBUmGbYC0fyU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/south-indian-style-chicken-curry-1957789-edit2-5363815677804157b6d3e8bb862b453f.jpg
+train:>https://www.thespruceeats.com/thmb/KtY8qF3c8T9Jk0nN9Qz9olSsZj8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/south-indian-style-chicken-curry-1957789-step-05-37c763d722bf4aa982f372a8a20da5e6.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2023/11/30minutesouthindianchickencurrytopbowl.jpg
+train:>https://i.ytimg.com/vi/yZ6sxneyrWk/maxresdefault.jpg
+train:>https://greatcurryrecipes.net/wp-content/uploads/2014/02/chet11.jpg
+train:>https://i0.wp.com/flavoursofmykitchen.com/wp-content/uploads/2020/08/MG_7428-3.jpg?resize=972%2C648&ssl=1
+train:>https://madscookhouse.com/wp-content/uploads/2021/02/Chicken-Chettinad.jpg
+train:>https://www.thespruceeats.com/thmb/vxj41KIReHn3F4ufAtIVe7eLEX4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/south-indian-style-chicken-curry-1957789-step-04-be874413218744a68c330ec63cd4aa2b.jpg
+test:>https://chilliandmint.files.wordpress.com/2014/03/img_8635.jpg
+test:>https://i0.wp.com/flavoursofmykitchen.com/wp-content/uploads/2020/08/Easy-Curry-recipe.png?resize=972%2C547&ssl=1
+$$$$
+
+718->Tomato and Chicken Rogan Josh Curry
+$$$$
+train:>https://diethood.com/wp-content/uploads/2023/06/chicken-rogan-josh-3.jpg
+train:>https://www.krumpli.co.uk/wp-content/uploads/2021/11/Chicken-Rogan-Josh-01.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2021/12/roganjoshhoteltopkadai.jpg
+train:>https://production-media.gousto.co.uk/cms/mood-image/3124---5-Min-Prep-Chicken-Rogan-Josh_0296-1605605529863.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/chicken_rogan_josh_51718_16x9.jpg
+train:>https://skinnyspatula.com/wp-content/uploads/2021/12/Chicken-Rogan-Josh1-540x720.jpg
+train:>https://diethood.com/wp-content/uploads/2023/06/chicken-rogan-josh-5.jpg
+train:>https://vikalinka.com/wp-content/uploads/2023/11/Chicken-Rogan-Josh-13-Edit-683x1024.jpg
+test:>https://www.scrumptiously.com/wp-content/uploads/2023/01/ChickenRoganJosh.webp
+test:>https://khinskitchen.com/wp-content/uploads/2023/03/chicken-rogan-josh-03.jpg
+$$$$
+
+719->Green Peas Masala
+$$$$
+train:>https://www.sharmispassions.com/wp-content/uploads/2012/08/GreenPeasMasala1.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2011/12/6546095939_a56120f8db_z.jpg
+train:>https://i.ytimg.com/vi/6J7nK7ul6UM/maxresdefault.jpg
+train:>https://revi.b-cdn.net/wp-content/uploads/2017/02/peas-masala-vert.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/jhumu.here-gmail.com/Restaurant_style_Green_Peas_Masala.jpg
+train:>https://i.ytimg.com/vi/xU8PP4qRxqE/maxresdefault.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1xU7NJ6-G-ws1C8VHvAGRl_kybrJZPEiu04fZEHoXnLm9ffniz32LBUNiwJ7E62MnoH_sceH3Yy7iy9zv6sPyVkdq-zWUBwmlDQG5jzHtOy0bSKhlY919B8UB-GYfnC7LOLiccPJR-3U/s1600/peasmasala1.JPG
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2018/03/matar-masala-recipe-15.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCAJvBENKyr1KNoRhNgH5mFSYhSdx5dDeG2q6cNHIKDZhP4cGKzDPRID61CuAzt4uD6kDls5HfGAu0LTpahKwcGGVxP6BUxsqQF8NSbf9LZb6ITxBwblBi3HNaWADo7l96XoAbtCLIzBnyLuhd/s800/mattar_masala800.jpg
+test:>https://www.yummytummyaarthi.com/wp-content/uploads/2018/01/1.-1.jpg
+$$$$
+
