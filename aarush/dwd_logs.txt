@@ -692,7 +692,7 @@ train:>https://i.ytimg.com/vi/8zddqzJYEqs/maxresdefault.jpg
 train:>https://i.ytimg.com/vi/kGuv2-pJZMA/maxresdefault.jpg
 train:>https://i0.wp.com/curryandvanilla.com/wp-content/uploads/2020/08/coconut-burfi-1bb.jpg?resize=603%2C683&ssl=1
 train:>https://i.ytimg.com/vi/CK6gyS-yyps/maxresdefault.jpg
-train:>https://vegcookbook.net/wp-content/uploads/2023/11/Burfi-Recipes-Collection.jpg
+train:>https://masalaandchai.com/wp-content/uploads/2022/07/Cutting-Barfi.jpg
 train:>https://i0.wp.com/curryandvanilla.com/wp-content/uploads/2020/08/coconut-burfi-bb.jpg?w=720&ssl=1
 test:>https://i.pinimg.com/originals/c3/4a/8e/c34a8e94b2576c77dd723e7ce6735def.jpg
 test:>https://www.playfulcooking.com/wp-content/uploads/2021/08/milk-barfi-01.jpg
@@ -750,7 +750,7 @@ train:>https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2020/04/Instant-Pot-Panc
 train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTgMXbl736NedhKN-JtIxSWS1DeuO4mWgwfKhQ2guK5hdThKUZ3Xo2kp13QK-QVcVlImxVZ1PCVkJy8BoSkJkKHQU7OkeWl0yzR0nwLcG3VymKLt3Mg6F2qeHU3Py0aShp8cpTjI1HWIJm/w1200-h630-p-k-no-nu/IMG_3196.JPG
 train:>https://i.ytimg.com/vi/_QyLzeeqGHw/maxresdefault.jpg
 train:>https://sarchakra.files.wordpress.com/2020/10/img_6244.jpg?w=1017
-test:>https://i.pinimg.com/originals/7f/9c/ed/7f9ced317debf8ce3bcebb7b83424ef0.jpg
+test:>https://rachnacooks.com/wp-content/uploads/2019/10/panchmeldal2.jpg
 test:>https://justhomemade.files.wordpress.com/2011/07/swiss-chard-dal-in-cup.jpg
 $$$$
 
