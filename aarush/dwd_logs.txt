@@ -1006,3 +1006,73 @@ test:>https://hips.hearstapps.com/hmg-prod/images/del069923-tomato-soup-131-rv-i
 test:>https://www.inspiredtaste.net/wp-content/uploads/2023/09/Roasted-Tomato-Soup-Recipe-Video.jpg
 $$$$
 
+406->Coffee Cake
+$$$$
+train:>https://charlotteslivelykitchen.com/wp-content/uploads/2019/01/coffee-cake-4.jpg
+train:>https://theloopywhisk.com/wp-content/uploads/2021/03/Coffee-Cake-Cappuccino-Frosting_730px-7.jpg.webp
+train:>https://www.simplyrecipes.com/thmb/Alq8uC5n0EW826bqAyLGgWX5QHg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__04__Coffee-Cake-LEAD-1-b399ac63b52a45ac8a05b65983ab4124.jpg
+train:>https://assets.epicurious.com/photos/646fd1ec46df4526c7e6b42d/1:1/w_2560%2Cc_limit/coffee-cake_RECIPE_052423_16411_VOG_final.jpg
+train:>https://charlotteslivelykitchen.com/wp-content/uploads/2019/01/coffee-cake-1.jpg
+train:>https://www.thespruceeats.com/thmb/Nu616VAMlg_RFXc8a5RnGBFd_Oc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-homemade-streusel-coffee-cake-3053891-hero-01-ad1c04860b55457d8ea72b389d94cf7e.jpg
+train:>https://www.simplyrecipes.com/thmb/DxyC5Jdv59o99-b4DP31rLAI3Hw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__04__Coffee-Cake-LEAD-3-7eefa68a76ba474a838943451858aa54.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coffee-cake-bb7f06d.jpg?quality=90&resize=500,454
+test:>https://cookiesandcups.com/wp-content/uploads/2019/09/coffeecake-5.jpg
+test:>https://theloopywhisk.com/wp-content/uploads/2021/03/Coffee-Cake-Cappuccino-Frosting_730px-3.jpg.webp
+$$$$
+
+407->Mango and Baby Tomato Salad
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/48/50/02/8Q3DpoqsS2mC08eElBRr_Mango%20Baby%20Tomato%20Salad%20(1%20of%201).jpg
+train:>https://miakouppa.com/wp-content/uploads/2018/08/tomato-and-mango-salad-edited-5.jpg
+train:>https://www.cityline.tv/wp-content/uploads/2017/01/Mango-Salad.jpg
+train:>https://www.foodandwine.com/thmb/-iWCJGrKaf2MvREO9-guQX632E8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2012-r-xl-tomato-mango-salad-with-parlsey-and-feta-2d032ed819c64957b4c5c752d7002b6c.jpg
+train:>https://kitchendelujo.com/wp-content/uploads/2018/06/mango-tomato-recipe-1-682x1024.jpg
+train:>https://umamidays.com/wp-content/uploads/2022/06/mango-tomato-salsa-2-1200x900.jpg
+train:>https://miakouppa.com/wp-content/uploads/2018/08/tomato-and-mango-salad-edited-2-500x375.jpg
+train:>https://natashaskitchen.com/wp-content/uploads/2021/12/Tomato-Avocado-Salad-SQ.jpg
+test:>https://i.guim.co.uk/img/media/0a89c68e6d6319bfaded5e07e2dc5a62285e4aaa/0_145_3347_2008/500.jpg?quality=85&auto=format&fit=max&s=fe5cc31338080d2aa9eccc3b7da06a9e
+test:>https://www.cottercrunch.com/wp-content/uploads/2018/07/3-herb-tomato-zucchini-salad-paleo-2-1.jpg
+$$$$
+
+408->Onion Rice
+$$$$
+train:>https://www.allrecipes.com/thmb/i_n0s7tUwY3m27rbYgSME2WWn18=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Onion-Rice-2000-6c38221a8ec04c9dabea4868c806c760.jpg
+train:>https://blogexplore.com/wp-content/uploads/2020/05/blogexplore.com-onion-rice-500x500.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2020/04/French-Onion-Rice-1B-480x270.jpg
+train:>https://thesassyfoodie.com/wp-content/uploads/2021/11/Onion-Rice-12.jpg
+train:>https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2016/03/golden-onion-rice-3-1.jpg?resize=572%2C800&ssl=1
+train:>https://www.recipehub.in/wp-content/uploads/2020/04/Onion-rice-recipe.jpg
+train:>https://hips.hearstapps.com/hmg-prod/images/french-onion-rice-horizontal-2-jpg-1599776155.jpg
+train:>https://lh4.googleusercontent.com/proxy/uGIVASM5bbxjh_WtWuFZP6DCUwmeKH-1NXBMA_9DDSUuDBRS3qZrk6VQ28KxG7SPFlz3D-fnK6tDuU3mA6HPZHFmurlzfwFeXmX1QLL-DmhKbwnTjyhxhBe4sFlOmXl5FA
+test:>https://www.foodandwine.com/thmb/acNuXKw_e3WdRvylEcYt8V5EGVg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caramelized-red-onion-rice-with-tamarind-XL-RECIPE0318-86267cc07dda41d88fda6817009352b7.jpg
+test:>https://greatcurryrecipes.net/wp-content/uploads/2013/05/onionrice5.jpg
+$$$$
+
+409->Indian Prawn Curry
+$$$$
+train:>https://glebekitchen.com/wp-content/uploads/2021/10/southindianprawncurrytopbowl.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2021/07/Indian-Prawn-Curry-1B.jpg
+train:>https://static.toiimg.com/thumb/60308235.cms?imgsize=143009&width=800&height=800
+train:>https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/06/7386-2_PrawnCurry.jpg?v=1-0
+train:>https://www.theloveofspice.com/wp-content/uploads/2021/02/prawn-curry-recipe.jpg
+train:>https://www.skinnytaste.com/wp-content/uploads/2018/01/Indian-Shrimp-Curry-5.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2021/10/southindianprawncurryfrontbowl.jpg
+train:>https://khinskitchen.com/wp-content/uploads/2022/07/prawn-curry-with-coconut-milk-07.jpg
+test:>https://www.seriouseats.com/thmb/uVc8FxJ3xY-oQF9oT9af-BjNEd0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__10__20121110-Prawn20Patia-An-Indian-Tangy-Spicy-Prawn-Side-Dish-ce96fce0b88a40e99bf74c19ef1ec9d2.jpg
+test:>https://spicediary.com/wp-content/uploads/2020/06/20200608_210014_2-1-scaled.jpg
+$$$$
+
+410->Indian Cucumber Salad
+$$$$
+train:>https://ministryofcurry.com/wp-content/uploads/2020/06/koshimbir_-4.jpg
+train:>https://realfood.tesco.com/media/images/Indian-style-cucumber-saladl-2f65bb2e-31e6-4cde-b39f-3e1c54e2114b-0-1400x919.jpg
+train:>https://twosleevers.com/wp-content/uploads/2017/07/Cucumber-relish-1-use-683x1024.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/03/indian-cucumber-salad-khamang-kakdi.jpg.webp
+train:>https://www.healthyishandhappy.com/wp-content/uploads/2022/06/FullSizeRender-92-1140x912.jpg
+train:>https://www.yeprecipes.com/data/media/6/indian-cucumber-salad.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2019/07/Kachumber-1B.jpg
+train:>https://i.pinimg.com/736x/66/57/f0/6657f0818151f21eb42f7560572a1181.jpg
+test:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1159464_10-c059e7f.jpg
+test:>https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2021/07/Cucumber-Salad-with-Creme-fraiche-11.jpg?resize=1100%2C1648&ssl=1
+$$$$
+
