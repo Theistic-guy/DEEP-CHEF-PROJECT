@@ -1118,3 +1118,73 @@ test:>https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_
 test:>https://www.saveur.com/uploads/2019/02/08/5PXBZVZJLRHYVBZPYZYYYWEQSM.jpg?auto=webp
 $$$$
 
+748->Prawn and Pumpkin Coconut Milk Curry
+$$$$
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/prawn-pumpkin-coconut-stew-1f1cb6a.jpg
+train:>https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/l-2s_india_prawncurry_wd136_s900x0_c2599x1517_l0x1166.jpg
+train:>https://images.squarespace-cdn.com/content/v1/5741bb36f8508213076dc90d/1463941034197-IWCD897K0B215RT5TJOG/Prawn+%26+Pumpkin+Curry_1324_1.jpg
+train:>https://eastindianrecipes.net/wp-content/uploads/2023/01/Prawn-Doodi-Curry-Recipe6.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/prawn-pumpkin-coconut-stew-1f1cb6a.jpg?resize=440%2C230
+train:>https://coolfooddude.com/wp-content/uploads/2020/09/Jumbo-Shrimp-and-Pumpkin-Curry.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/45/39/52/picqMwDln.jpg
+train:>https://assets.bonappetit.com/photos/57afbdb553e63daf11a4e695/master/pass/pumpkin-shrimp-curry.jpg
+test:>https://images.squarespace-cdn.com/content/v1/5741bb36f8508213076dc90d/1463941244468-VSZZKOK4CMJRI5AQQXPK/Prawn+%26+Pumpkin+Curry_1313_1.jpg
+test:>https://recipes.net/wp-content/uploads/2023/07/prawn-pumpkin-coconut-stew_4d06dc1e4905f6f6885e9fddbc097b3a.jpeg
+$$$$
+
+749->Saag (Indian Spinach)
+$$$$
+train:>https://www.allrecipes.com/thmb/_DMXtOPNCRdYL0ycGA3H_A82V-g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/64066-IndianSaag-mfs-2X3-0315-192f50ce75064f2b9cc1a6087aec0807.jpg
+train:>https://everydaynourishingfoods.com/wp-content/uploads/2022/04/indian-saag-main-image.jpg
+train:>https://www.foodnetwork.com/content/dam/images/food/fullset/2011/8/2/0/ZA0304H_saag-paneer-spinach-with-indian-cheese_s4x3.jpg
+train:>https://everydaynourishingfoods.com/wp-content/uploads/2022/04/indian-saag-recipe.jpg
+train:>https://static.onecms.io/wp-content/uploads/sites/19/2010/02/08/indian-spinach-su-x.jpg
+train:>https://assets.bonappetit.com/photos/5c8a90c7623f1366f6166492/1:1/w_2560%2Cc_limit/Saag-Paneer-but-with-Feta.jpg
+train:>https://mission-food.com/wp-content/uploads/2020/04/Chicken-Saag-15.jpg
+train:>https://feastwithsafiya.com/wp-content/uploads/2021/11/saag-recipe.jpg
+test:>https://i.pinimg.com/736x/11/a8/f7/11a8f79d141c909bd995e1df82d63088.jpg
+test:>https://www.tastyeverafter.com/wp-content/uploads/2016/04/EasyIndianCreamedSpinach4.jpg
+$$$$
+
+750->Savory Curried Rice With Dried Fruit
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/44/92/29/picAxz9Mr.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/44/92/29/picAxz9Mr.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_200,ar_3:2/v1/img/recipes/44/92/29/picnT4Qjs.jpg
+train:>https://twokooksinthekitchen.com/wp-content/uploads/2022/04/curried-rice-with-raisins.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_328,ar_4:3/v1/img/recipes/28/42/3/28423.jpg
+train:>https://twokooksinthekitchen.com/wp-content/uploads/2022/04/curried-rice-with-raisins-480x270.jpg
+train:>https://www.thespruceeats.com/thmb/tJg1kkCO7oHrK6yRTmkbopgfvWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1084245936-0005778ce3c54fc793bd7d0d913be2e3.jpg
+train:>https://www.manilaspoon.com/wp-content/uploads/2021/06/CurriedRiceSalad-5.jpg
+test:>https://www.justonecookbook.com/wp-content/uploads/2022/09/Dry-Curry-0173-II.jpg
+test:>https://www.recipetineats.com/wp-content/uploads/2018/10/Rice-Pilaf-with-Nuts-and-Dried-Fruit_5.jpg?w=500&h=375&crop=1
+$$$$
+
+751->Spiced Fish
+$$$$
+train:>https://foodhub.scene7.com/is/image/woolworthsltdprod/1404_spicedfish:Mobile-1300x1150
+train:>https://www.recipetineats.com/wp-content/uploads/2021/06/Fish-Seasoning-Flathead-_6.jpg
+train:>https://d3c699y7ogacoe.cloudfront.net/wp-content/uploads/2019/11/6ebb27a384c44c46b19a7977f3454372.png
+train:>https://images.yummy.ph/yummy/uploads/2017/04/spiced-fish-1.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2021/06/Fish-Seasoning-Flathead-_5.jpg
+train:>https://media.healthyfood.com/wp-content/uploads/2016/11/Canjun-spiced-fish-with-bean-salad-1024x652.jpg
+train:>https://www.thespeltkitchen.com/wp-content/uploads/2019/03/Spicy-Baked-Fish-1.jpg
+train:>https://jamiegeller.com/.image/t_share/MTY1NTI0Nzg0MDA0NTM5NDE5/sephardi-spiced-hot-fish-jewish-cooking.jpg
+test:>https://assets.bonappetit.com/photos/62e8127153099489e4db6e16/1:1/w_2560%2Cc_limit/0801-everything-spice-fish-with-tomato-salad.jpg
+test:>https://nishkitchen.com/wp-content/uploads/2016/01/spicy-grilled-fish-2B.jpg
+$$$$
+
+752->Simple Saag Aloo (Indian Potato and Spinach)
+$$$$
+train:>https://www.easycheesyvegetarian.com/wp-content/uploads/2023/06/quick-saag-aloo-featured-1.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_OIJRfXNMnI1vVBicBelC1701Pdvr6_Ca4yONbnAX8P5kI6aNUBzFHpxCpBTp9jwEP6E7d12soGQ-ErEzjJJpiY9lzkxUN7-oNhkWAPJ17CU3lGDfYPjZy9QrofyOiE84v4F7bmyf-t9DReYk/s1600/saag_aloo1.jpg
+train:>https://www.rachelphipps.com/wp-content/uploads/2021/06/Better-Than-Takeaway-Saag-Aloo.jpg
+train:>https://i.ytimg.com/vi/e3LwSfiffm4/maxresdefault.jpg
+train:>https://masalachilli.com/wp-content/uploads/2023/02/Saag-Aloo-1-500x500.jpg
+train:>https://food-images.files.bbci.co.uk/food/recipes/saag_aloo_32582_16x9.jpg
+train:>https://www.panningtheglobe.com/wp-content/uploads/2017/02/Saag-aloo.jpg
+train:>https://maayeka.com/wp-content/uploads/2015/09/061-saag-aloo-2.jpg.webp
+test:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/aloo-palak-recipe.jpg.webp
+test:>https://x9s2d6a3.rocketcdn.me/wp-content/uploads/2019/03/saag-aloo-15-scaled.webp
+$$$$
+
