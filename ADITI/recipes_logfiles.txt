@@ -1048,3 +1048,73 @@ test:>https://threebigbites.com/wp-content/uploads/2019/01/FoodRupa27sPotatoesHo
 test:>https://maayeka.com/wp-content/uploads/2016/10/aloo-churchuri-1-of-1.jpg
 $$$$
 
+743->Bengali Potatoes
+$$$$
+train:>https://c.ndtvimg.com/2019-09/8uund1qg_aloo_625x300_28_September_19.jpg
+train:>https://www.spicekitchenuk.com/cdn/shop/articles/Bengali_Potato_Curry.jpg?v=1660124546
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2018/08/1-5.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/48/19/78/picAPjOpz.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2013/03/1-5.jpg
+train:>https://www.flavorquotient.com/wp-content/uploads/2012/07/AlooDum2-1422.jpg
+train:>https://ishitaunblogged.com/wp-content/uploads/2012/04/a514b-dsc_94642.jpg?w=674
+train:>https://myfancypantry.files.wordpress.com/2013/04/mg_0577.jpg?resize=625%2C428
+test:>https://i0.wp.com/spicechronicles.com/wp-content/uploads/2015/05/BMP_1_650.jpg?ssl=1
+test:>https://threebigbites.com/wp-content/uploads/2019/01/FoodRupa27sPotatoesHorizontalSpoon.jpg
+$$$$
+
+744->Chocolate Chai
+$$$$
+train:>https://5.imimg.com/data5/SELLER/Default/2022/8/CG/RC/HN/102528688/chocolate-flavored-ctc-chai-regular-strength.jpg
+train:>https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/7/9/0/RX-CARNATION-BREAKFAST_Dark-Chocolate-Chai_s4x3.jpg.rend.hgtvcom.616.462.suffix/1375577964252.jpeg
+train:>https://evergreenkitchen.ca/wp-content/uploads/2021/10/Chocolate-Chai-Pot-De-Creme-0-4X5.jpg
+train:>https://i.ytimg.com/vi/M1LtSGN7zIs/maxresdefault.jpg
+train:>https://imgmedia.lbb.in/media/2020/9/8a874ef2-e40a-4320-943c-76b8d77b61f5.jpg
+train:>https://teaindia.com/cdn/shop/articles/hot_chocolate_chai_1500x.png?v=1567108667
+train:>https://cupfulofkale.com/wp-content/uploads/2018/10/Chai-Spice-Hot-Chocolate.jpeg.webp
+train:>https://cdn.foodaciously.com/static/recipes/cbad35c4-363d-42f5-98c5-09c09a7fbda9/vegan-chai-spiced-chocolate-recipe-8e4b40c1d7fd064a2f2105383397a4ab-1920-q60.jpg
+test:>https://prettysimplesweet.com/wp-content/uploads/2015/12/ChaiLatte_1.jpg
+test:>https://assets.tmecosys.cn/image/upload/t_web767x639/img/recipe/ras/Assets/49E1D53D-9CC9-4AA9-A7AA-9B4A7C51B56C/Derivates/09d8b801-9f8e-4e89-9460-3b87faacea9e.jpg
+$$$$
+
+745->Spiced Lemon Rice
+$$$$
+train:>https://assets.bonappetit.com/photos/57af6fed53e63daf11a4e5a7/master/pass/spiced-lemon-rice.jpg
+train:>https://cookingtheglobe.com/wp-content/uploads/2021/06/Lemon-Rice_00006.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/lemon-rice-recipe.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2012/12/lemon-rice-1.jpg
+train:>https://www.cookwithmanali.com/wp-content/uploads/2016/01/South-Indian-Lemon-Rice-Recipe-300x300.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2012/12/lemon-rice-recipe.jpg
+train:>https://i.ytimg.com/vi/xE-iZpq3zH0/maxresdefault.jpg
+train:>https://www.thespicehouse.com/cdn/shop/articles/Lemon_Rice_d3f02de4-d3cd-40a7-a845-4722312cf138_720x.jpg?v=1578938062
+test:>https://i0.wp.com/palatablepastime.com/wp-content/uploads/2020/01/lemon-rice-og.jpg?ssl=1
+test:>https://cdn1.foodviva.com/static-content/food-images/rice-recipes/lemon-rice-recipe/lemon-rice-recipe.jpg
+$$$$
+
+746->Salmon Tikka
+$$$$
+train:>https://i1.wp.com/www.happyandharried.com/wp-content/uploads/2016/09/FISH-TIKKA-SKEWERS.jpg
+train:>https://www.skinnytaste.com/wp-content/uploads/2022/04/Salmon-Tikka-Masala-8.jpg
+train:>https://www.krumpli.co.uk/wp-content/uploads/2020/04/Salmon-Tikka-5-Pin-735x1103.jpg.webp
+train:>https://ministryofcurry.com/wp-content/uploads/2020/10/salmon-tikka-masala_-1.jpg
+train:>https://www.teaforturmeric.com/wp-content/uploads/2023/02/Fish-Tikka-Salmon-TIkka-01.jpg
+train:>https://www.skinnytaste.com/wp-content/uploads/2022/04/Salmon-Tikka-Masala-4.jpg
+train:>https://i0.wp.com/spicechronicles.com/wp-content/uploads/2014/05/SK_1-1.jpg?resize=640%2C640&ssl=1
+train:>https://i0.wp.com/www.shanazrafiq.com/wp-content/uploads/2018/10/4-Salmon-Tikka-34-1.jpg?fit=1600%2C1121&ssl=1
+test:>https://i.pinimg.com/736x/4b/72/a1/4b72a15c233455e46e45358653bd8ac7.jpg
+test:>https://feastwithsafiya.com/wp-content/uploads/2024/02/salmon-tikka-featured.jpg
+$$$$
+
+747->Naan (Indian Flatbread)
+$$$$
+train:>https://nishkitchen.com/wp-content/uploads/2012/01/TANDOORI-NAAN-1B.jpg
+train:>https://www.thespruceeats.com/thmb/MReCj8olqrCsPaGvikesPJie02U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/naan-leavened-indian-flatbread-1957348-final-08-116a2e523f6e4ee693b1a9655784d9b9.jpg
+train:>https://www.simplyrecipes.com/thmb/kuPbl3x2ZfE3vnqgoBX7hzDLhAM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__05__How-to-Make-Naan-LEAD-3-df40aacbc0f64afc806fd9e23a96c55a.jpg
+train:>https://www.barbarabakes.com/wp-content/uploads/2014/02/Naan-3-Barbara-Bakes.jpg
+train:>https://chewoutloud.files.wordpress.com/2012/09/grilled-flatbread-like-naan1.jpg
+train:>https://static01.nyt.com/images/2014/03/19/dining/naan/naan-superJumbo.jpg
+train:>https://simple-veganista.com/wp-content/uploads/2019/07/vegan-naan-bread-recipe-3.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/naan-recipe.jpg
+test:>https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NDI1NjA4NDYwMTgyODg4/tawa-naan-indian-flatbread-recipe-without-yeast-or-oven.jpg
+test:>https://www.saveur.com/uploads/2019/02/08/5PXBZVZJLRHYVBZPYZYYYWEQSM.jpg?auto=webp
+$$$$
+
