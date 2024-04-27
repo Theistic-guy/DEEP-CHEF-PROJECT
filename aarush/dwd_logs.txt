@@ -1412,3 +1412,73 @@ test:>https://www.paintthekitchenred.com/wp-content/uploads/2016/12/Instant-Pot-
 test:>https://www.thetakeiteasychef.com/wp-content/uploads/2019/02/Pressure-Cooker-Chicken-Curry.jpg
 $$$$
 
+435->Dal Soup
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dal-soup-recipe.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dal-soup-recipe-480x270.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2014/09/1-1.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2017/04/Tamarind-Red-Lentil-Soup-6.jpg
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/13/23/97/IXfgttqYRvmispnpUMT3_dhal-1.jpg
+train:>https://www.myweekendkitchen.in/wp-content/uploads/2019/03/vegan_red_lentil_soup_recipe.jpg
+train:>https://myheartbeets.com/wp-content/uploads/2019/02/instant-pot-dal-dill-leaves.jpg
+train:>https://i0.wp.com/palatablepastime.com/wp-content/uploads/2021/01/instant-pot-dal-soup-sq.jpg?ssl=1
+test:>https://allwaysdelicious.com/wp-content/uploads/2021/10/dal-soup-oh-horiz.jpg
+test:>https://assets.epicurious.com/photos/5542878b05ebb68a358beed4/master/pass/56389518_FourCornersLentilSoup_6x4.jpg
+$$$$
+
+436->Bengali Potatoes
+$$$$
+train:>https://c.ndtvimg.com/2019-09/8uund1qg_aloo_625x300_28_September_19.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2018/08/1-5.jpg
+train:>https://www.spicekitchenuk.com/cdn/shop/articles/Bengali_Potato_Curry.jpg?v=1660124546
+train:>https://ishitaunblogged.com/wp-content/uploads/2012/04/a514b-dsc_94642.jpg?w=674
+train:>https://i1.wp.com/www.letscookhealthytonight.com/wp-content/uploads/2016/02/DSC_0077_Fotor.jpg?ssl=1
+train:>https://ishitaunblogged.com/wp-content/uploads/2012/04/dsc_9476.jpg?w=640
+train:>https://i0.wp.com/spicechronicles.com/wp-content/uploads/2015/05/Alu-Bhate_650.jpg?fit=650%2C650&ssl=1
+train:>https://i0.wp.com/www.foodieshut.com/wp-content/uploads/2021/09/Kalo-Jeere-Aloor-Tarkari.jpg?fit=1080%2C1080&ssl=1
+test:>https://www.flavorquotient.com/wp-content/uploads/2012/07/AlooDum2-1422.jpg
+test:>https://i2.wp.com/www.letscookhealthytonight.com/wp-content/uploads/2016/02/DSC_0083_Fotor.jpg?ssl=1
+$$$$
+
+437->Mulligatawny Soup
+$$$$
+train:>https://glebekitchen.com/wp-content/uploads/2020/08/mulligatawnyfrontbowl.jpg
+train:>https://vikalinka.com/wp-content/uploads/2018/11/mulligatawny-soup-2-Edit.jpg
+train:>https://thecheekychickpea.com/wp-content/uploads/2019/02/mulligatawny-soup-vegan-1.jpg
+train:>https://www.jocooks.com/wp-content/uploads/2019/01/mulligatawny-soup-1-20.jpg
+train:>https://www.favfamilyrecipes.com/wp-content/uploads/2022/12/Mulligatawny-vertical.jpg
+train:>https://www.seriouseats.com/thmb/3crvll9UGx5nPM-ni0X5XApmEy0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130220-240799-british-bites-mulligatawny-soup-edit-32869a95d027442fadb486f43e853283.jpg
+train:>https://www.simplyrecipes.com/thmb/gsbFOv1Kup_Pn-4GvBNDfflC9Do=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2015__09__mulligatawny-soup-horiz-a-1500-bb866c4e3ef145ad8d8f30298b53fe5a.jpg
+train:>https://ifoodblogger.com/wp-content/uploads/2016/08/Best-Mulligatawny-Soup-Recipe-720.jpg
+test:>https://www.eatingwell.com/thmb/xW_0hHmPMjn47pthfa4_Ieioy08=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/winter-vegetable-mulligatawny-soup-948f882e6e384c15990213f4057551ab.jpg
+test:>https://hips.hearstapps.com/hmg-prod/images/mulligatawnystew1-1643311083.jpg
+$$$$
+
+438->Dal With Spinach and Yoghurt
+$$$$
+train:>https://assets.epicurious.com/photos/6116d3a257bb8b0d1abd8471/1:1/w_2560%2Cc_limit/SpinachDal_RECIPE_081221_20233.jpg
+train:>https://assets.bonappetit.com/photos/6169addaf1b2e1a29add3bb8/1:1/w_2560%2Cc_limit/Dal-Palak.jpeg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dal-palak.jpg.webp
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dal-palak-spinach-dal.jpg.webp
+train:>https://nishkitchen.com/wp-content/uploads/2015/02/Spinach-Yogurt-Curry-1B-480x480.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLreOgfGGB_r18CKo_wqERcbypcXMn5XEv6juEhdD7lKaEFx1xLvfGjcB47YLEPpbzrypGdmCC_QvEXQC9NUVEGaEzgwMSyA9acPif3lhbIScmSM_BfC2PCOi4VFf5ZLzHlIsobVv87zgw/s1600/spinach+and+coconut+dahl-min.jpg
+train:>https://www.sneakyveg.com/wp-content/uploads/2022/02/spinach-dal-SV-1-683x1024.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spinach-dhal-with-harissa-yogurt-db5a63f.jpg
+test:>https://i0.wp.com/www.lifeisforfood.com/wp-content/uploads/2021/11/Spinach-buttermilk-dal.jpg?resize=1024%2C1024&ssl=1
+test:>https://www.rebelrecipes.com/wp-content/uploads/2022/06/green-lentil-spinach-dal-with-spinach-flatbreads-1.jpg
+$$$$
+
+439->Masala-Spiced Chickpeas
+$$$$
+train:>https://www.allrecipes.com/thmb/siVGrqeV5Q7xvRGaWWA_5ph9Dds=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/236564-chana-masala-savory-indian-chick-peas-3x4-672-copy-63ae3db5114644419c313cd0e479c9dd.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/chana-masala.jpg
+train:>https://minimalistbaker.com/wp-content/uploads/2016/02/EASY-Chana-Masala-SQUARE.jpg
+train:>https://www.oliveandmango.com/images/uploads/2023_01_25_creamy_chana_masala_1.jpg
+train:>https://static.toiimg.com/thumb/60826791.cms?imgsize=500445&width=800&height=800
+train:>https://shivanilovesfood.com/wp-content/uploads/2023/04/Easy-Chana-Masala-9.jpg
+train:>https://www.seriouseats.com/thmb/2KtHVPso7I68piUvR0501CjHJyY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__03__20160328-channa-masala-recipe-8-2ab6195d55ae4068a8c1d36d7371f5f7.jpg
+train:>https://veganhuggs.com/wp-content/uploads/2020/03/easy-chana-masala-2.jpg
+test:>https://www.thecuriouschickpea.com/wp-content/uploads/2018/08/chana-masala-2.jpg.webp
+test:>https://cdn.loveandlemons.com/wp-content/uploads/2023/07/chana-masala-recipe.jpg
+$$$$
+
