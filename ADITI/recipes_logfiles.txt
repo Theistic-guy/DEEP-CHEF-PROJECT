@@ -1524,3 +1524,18 @@ test:>https://savorylotus.com/wp-content/uploads/2018/10/20181022-_MG_7793.jpg
 test:>https://simple-veganista.com/wp-content/uploads/2012/10/curry-lentil-soup-recipe-1.jpg
 $$$$
 
+777->homemade Mint-Infused Darjeeling Tea recipe
+$$$$
+train:>https://nestinglane.com/wp-content/uploads/2021/12/WW-FRIENDLY-MINT-INFUSED-DARJEELING-TEA-post1-500x500.jpg
+train:>https://nestinglane.com/wp-content/uploads/2021/12/WW-FRIENDLY-MINT-INFUSED-DARJEELING-TEA-post.jpg
+train:>https://tikulicious.files.wordpress.com/2017/05/18057970_10154912443231130_3279538868402575449_n.jpg?w=584
+train:>https://tikulicious.files.wordpress.com/2017/05/img_20170424_122129_01.jpg?w=584
+train:>https://rakskitchen.net/wp-content/uploads/2019/12/mint-tea.jpg
+train:>https://www.liveeatlearn.com/wp-content/uploads/2020/07/fresh-mint-tea-vert.jpg
+train:>https://www.flavourstreat.com/wp-content/uploads/2019/11/mint-tea-recipe11.jpg
+train:>https://www.flavourstreat.com/wp-content/uploads/2019/11/mint-tea-recipe.jpg
+test:>https://www.thespruceeats.com/thmb/G27ZCMiF4ED0xIxTnMYtGbHmmVE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-fresh-mint-tea-recipe-766391-6_preview-5b291f95ba61770036733329.jpeg
+test:>https://fearlessfresh.com/wp-content/uploads/2011/08/mint-tea-2.jpg
+$$$$
+
+778->Asparagus With butter Curry
