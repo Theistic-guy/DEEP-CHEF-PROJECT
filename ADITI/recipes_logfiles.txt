@@ -1454,3 +1454,88 @@ test:>https://i0.wp.com/www.saltandwildhoney.com/wp-content/uploads/2022/02/Saff
 test:>https://assets.epicurious.com/photos/5f4d3d74664e64fef9f6ccef/1:1/w_2560%2Cc_limit/JirapanChicken_HERO_082720_11133_VOG_final.jpg
 $$$$
 
+772->brinjal tomato curry
+$$$$
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2014/11/1-1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/brinjal-curry-eggplant-curry.jpg.webp
+train:>https://i.ytimg.com/vi/MsX2r3hDz4g/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGutZixpjUfeaap4NnnDffvtaWvA
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/brinjal-curry-recipe.jpg.webp
+train:>https://i.ytimg.com/vi/rIt5_JA3DSo/maxresdefault.jpg
+train:>https://lh6.googleusercontent.com/proxy/k9vFm6LaTh6WbQkcFEXfXxvu1_DogYKyNoNl9yProfqUoGjHfW8pshtCYsvJHMTR4K7hFo6RVj5Eaibdjrg4qnXoD0UI6DoTAUQpipU_mn8JeoBP84znUg
+train:>https://i.ytimg.com/vi/P93Kzu1rUgQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAF3CtXP6xrA0Ye4SM55eMq0l0-aQ
+train:>https://i0.wp.com/vegcookbook.net/wp-content/uploads/2021/05/48050356608_67aa465a9b_c.jpg?resize=780%2C519&ssl=1
+test:>https://i.ytimg.com/vi/StId83WuB84/maxresdefault.jpg
+test:>https://i.pinimg.com/736x/39/b6/9a/39b69a4ef9fc5318dc11b7779db7962c.jpg
+$$$$
+
+773->Beef Stew
+$$$$
+train:>https://hips.hearstapps.com/hmg-prod/images/beef-stew-index-652e94c53b39b.jpg?crop=0.8891301070405547xw:1xh;center,top&resize=1200:*
+train:>https://www.skinnytaste.com/wp-content/uploads/2023/10/Beef-Stew-Recipe-10.jpg
+train:>https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/09/Beef-Stew-main.jpg
+train:>https://www.saltandlavender.com/wp-content/uploads/2021/10/beef-stew-recipe-1.jpg
+train:>https://s23209.pcdn.co/wp-content/uploads/2020/03/Best-Ever-Beef-StewIMG_1367.jpg
+train:>https://www.allrecipes.com/thmb/tmNQkFbyS2BlsmQlKTSdjEVaLLo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25678-beef-stew-vi-humblepieliving-001-4x3-96b76b098c8642aea824065bce96df7e.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2020/03/Irish-Beef-Guinness-Stew_6-SQ.jpg?w=500&h=500&crop=1
+train:>https://www.allrecipes.com/thmb/qbGGkvMvNjvwUGd5mpaiVAIMTpg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/263037-instant-pot-beef-stew-mfs-beauty-4x3-BP-2467-3e45373d48544a7caf708248751a4c1c.jpg
+test:>https://www.cookingclassy.com/wp-content/uploads/2021/10/beef-stew-30.jpg
+test:>https://www.lanascooking.com/wp-content/uploads/2022/08/red-wine-beef-stew-1200-feature.jpg
+$$$$
+
+774->Aloo Gravy
+$$$$
+train:>https://www.sharmispassions.com/wp-content/uploads/2021/03/TandooriAlooGravy1.jpg
+train:>https://i.ytimg.com/vi/_YA91WdxH60/maxresdefault.jpg
+train:>https://i.ytimg.com/vi/E09aK90EBYk/maxresdefault.jpg
+train:>https://thephotowali.files.wordpress.com/2019/12/img20191212131048-028894327987897187428.jpeg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/potato-curry-aloo-curry.jpg
+train:>https://tasteasianfood.com/wp-content/uploads/2023/02/aloo-matar-gravy-recipe-square.jpeg
+train:>https://i.pinimg.com/564x/96/2a/4d/962a4de1bb6f345162abce009aed4f1e.jpg
+train:>https://rakskitchen.net/wp-content/uploads/2020/12/aloo-gobi-restaurant-style.jpg
+test:>https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2019/Aloo_Bhindi_Masala_Curry_Recipe_Video_North_Indian_Gravy_Dish_10.jpg
+test:>https://honestcooking.com/wp-content/uploads/2012/01/Dum-Aloo.jpg
+$$$$
+
+775->Indian Chicken Curry
+$$$$
+train:>https://glebekitchen.com/wp-content/uploads/2023/11/30minutesouthindianchickencurrytopbowl.jpg
+train:>https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg
+train:>https://kitchenofdebjani.com/wp-content/uploads/2023/04/easy-indian-chicken-curry-Recipe-for-beginners-Debjanir-rannaghar.jpg
+train:>https://veenaazmanov.com/wp-content/uploads/2012/12/Easy-Chicken-Curry-Recipe-with-6-ingredients1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-curry-recipe.jpg
+train:>https://www.allrecipes.com/thmb/cF4D_jCqxkPpjg08TdHXk1E-3nM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/212721-indian-chicken-curry-murgh-kari-DDMFS-4x3-330302d59ca64543b3d7ead88c226f9a.jpg
+train:>https://myfoodstory.com/wp-content/uploads/2020/10/Dhaba-Style-Chicken-Curry-2-500x500.jpg
+train:>https://i0.wp.com/www.valerieskeepers.com/wp-content/uploads/2015/03/Indian-Chicken-curry-2.jpg?ssl=1
+test:>https://thechowdownblog.com/wp-content/uploads/2021/01/Indian-Curry-Chicken.jpg
+test:>https://cookingmadehealthy.com/wp-content/uploads/2019/01/Indian-Curry-Chicken-2.jpg
+$$$$
+
+776->Curried Lentil Soup
+$$$$
+train:>https://www.wellplated.com/wp-content/uploads/2020/05/Best-Curry-Lentil-Soup.jpg
+train:>https://minimalistbaker.com/wp-content/uploads/2018/07/COMFORTING-Golden-Curried-Lentil-Soup-1-Pot-required-wholesome-ingredients-quick-and-easy-SO-delicious-vegan-glutenfree-curry-recipe-soup-minimalistbaker-5.jpg
+train:>https://assets.bonappetit.com/photos/5a05c9df3388d32a6ed54e97/1:1/w_2560%2Cc_limit/curried-lentil-tomato-and-coconut-soup.jpg
+train:>https://thecozyapron.com/wp-content/uploads/2014/04/curried-lentil-soup_03-23-14_1_ca.jpg
+train:>https://www.vibrantplate.com/wp-content/uploads/2021/01/Red-Lentil-Curry-Soup-02-735x1103.jpg
+train:>https://midwestfoodieblog.com/wp-content/uploads/2020/03/FINAL-curry-lentil-soup-1-3.jpg
+train:>https://www.rainbownourishments.com/wp-content/uploads/2021/07/Thai-Red-Curry-Potato-Lentil-Soup-vegan-gluten-free-1.jpg
+train:>https://img.taste.com.au/M5x-fdMt/taste/2016/11/curried-red-lentil-soup-33878-1.jpeg
+test:>https://savorylotus.com/wp-content/uploads/2018/10/20181022-_MG_7793.jpg
+test:>https://simple-veganista.com/wp-content/uploads/2012/10/curry-lentil-soup-recipe-1.jpg
+$$$$
+
+777->homemade Mint-Infused Darjeeling Tea recipe
+$$$$
+train:>https://nestinglane.com/wp-content/uploads/2021/12/WW-FRIENDLY-MINT-INFUSED-DARJEELING-TEA-post1-500x500.jpg
+train:>https://nestinglane.com/wp-content/uploads/2021/12/WW-FRIENDLY-MINT-INFUSED-DARJEELING-TEA-post.jpg
+train:>https://tikulicious.files.wordpress.com/2017/05/18057970_10154912443231130_3279538868402575449_n.jpg?w=584
+train:>https://tikulicious.files.wordpress.com/2017/05/img_20170424_122129_01.jpg?w=584
+train:>https://rakskitchen.net/wp-content/uploads/2019/12/mint-tea.jpg
+train:>https://www.liveeatlearn.com/wp-content/uploads/2020/07/fresh-mint-tea-vert.jpg
+train:>https://www.flavourstreat.com/wp-content/uploads/2019/11/mint-tea-recipe11.jpg
+train:>https://www.flavourstreat.com/wp-content/uploads/2019/11/mint-tea-recipe.jpg
+test:>https://www.thespruceeats.com/thmb/G27ZCMiF4ED0xIxTnMYtGbHmmVE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-fresh-mint-tea-recipe-766391-6_preview-5b291f95ba61770036733329.jpeg
+test:>https://fearlessfresh.com/wp-content/uploads/2011/08/mint-tea-2.jpg
+$$$$
+
+778->Asparagus With butter Curry
