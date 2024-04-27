@@ -1258,3 +1258,73 @@ test:>https://www.simplyrecipes.com/thmb/M3LEdeKC37xv52FUmIBFJVXKBFY=/1500x0/fil
 test:>https://www.cookwithmanali.com/wp-content/uploads/2017/05/Best-Mango-Mango-Lassi-Recipe-480x270.jpg
 $$$$
 
+424->Coconut Curry Crust Fish
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/44/73/39/picHCqYLU.jpg
+train:>https://www.abelandcole.co.uk/media/3458_28835_x.jpg
+train:>https://simply-delicious-food.com/wp-content/uploads/2021/08/Thai-red-curry-fish-2.jpg
+train:>https://img.taste.com.au/8CuLBKFd/taste/2017/05/coconut-crusted-fish-with-thai-green-curry-vegetables-125222-1.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/shaheen_ali/Baked_Fish_In_Coconut_Milk__400.jpg
+train:>https://www.sainsburysmagazine.co.uk/uploads/media/720x770/02/4352-Fish-curry-1120.jpg?v=1-0
+train:>https://static01.nyt.com/images/2022/09/27/dining/mp-coconut-curry-fish-2/merlin_179685651_81c4975d-2fe8-4c53-a470-d5a617af7aec-articleLarge.jpg
+train:>https://img.taste.com.au/KUlvLwGL/w720-h480-cfill-q80/taste/2021/04/curried-barramundi-vegetable-one-pot-170945-2.jpg
+test:>https://steffthechefblog.files.wordpress.com/2016/04/coconut-fish.jpg
+test:>https://images.slurrp.com/prod/recipe_images/taste/thai-yellow-curry-baked-whole-fish-1619717266_7KT4EB38NKWVQYZF2AK1.webp
+$$$$
+
+425->Akuri (Spiced Scrambled Eggs)
+$$$$
+train:>https://rootedspices.com/wp-content/uploads/2021/09/Rooted-Spices-Akuri-Parsi-Spiced-Scrambled-Eggs.png
+train:>https://www.deliciousmagazine.co.uk/wp-content/uploads/2019/10/Akuri-768x960.jpg
+train:>https://images.getrecipekit.com/v1617659955_ttcqaybkwgsuktrkmq8b.jpg?aspect_ratio=16:9&quality=90&auto_optimize=medium
+train:>https://mytastycurry.com/wp-content/uploads/2020/01/Akuri.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Jyothi_Rajesh/Akuri__Parsi_Style_Scrambled_Eggs.jpg
+train:>https://www.thebigsweettooth.com/wp-content/uploads/2018/04/8.-Akuri1-500x500.jpg
+train:>https://nishkitchen.com/wp-content/uploads/2022/03/Eggs-Akuri-1B-683x1024.jpg
+train:>https://www.thetinytaster.com/wp-content/uploads/2020/04/IMG_20200408_134555_1-1024x768.jpg
+test:>https://i.ytimg.com/vi/vmwLHvOiHmo/hqdefault.jpg
+test:>https://jbimagery1.files.wordpress.com/2022/02/dishooms-akuri-spicy-scrambled-eggs-by-bhavisha-surti-at-jb-imagery-food-photographer-and-stylist-in-milton-keynes.jpg?w=800
+$$$$
+
+426->Eggplant Curry (Indian)
+$$$$
+train:>https://glebekitchen.com/wp-content/uploads/2019/10/eggplantcurryfrontlow.jpg
+train:>https://static01.nyt.com/images/2014/02/20/dining/recipes-southindianeggplantcurry/recipes-southindianeggplantcurry-superJumbo.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2020/08/Eggplant-Curry-Indian__2.jpg
+train:>https://www.daringgourmet.com/wp-content/uploads/2022/11/Eggplant-Curry-21.jpg
+train:>https://www.currytrail.in/wp-content/uploads/2016/09/Egg-Plant-Curry-In-Pot.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/brinjal-curry-eggplant-curry-recipe.jpg.webp
+train:>https://www.recipetineats.com/wp-content/uploads/2020/08/Eggplant-Curry-Indian__1-SQ.jpg
+train:>https://photos.bigoven.com/recipe/hero/eggplant-curry-indian-style-680e1d.jpg
+test:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/23/94/85/LuuqTPQSjaAk0w4mBCIn_Eggplant%20Curry.JPG
+test:>https://www.easycookingwithmolly.com/wp-content/uploads/2020/02/hydrabadi-bagare-baingan-recipe.jpg
+$$$$
+
+427->Aromatic Basmati Rice (Rice Cooker)
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/basmati-rice-drain-method.jpg.webp
+train:>https://www.recipetineats.com/wp-content/uploads/2020/03/Basmati-Rice_9.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2021/01/How-to-Make-Basmati-Rice-Fluffy-Like-Your-Favorite-Indian-Restaurant-9.jpg
+train:>https://mytastycurry.com/wp-content/uploads/2021/05/Instant-pot-best-rice.jpg
+train:>https://www.onceuponachef.com/images/2013/12/perfect-basmati-rice-1200x1496.jpg
+train:>https://everydaynourishingfoods.com/wp-content/uploads/2021/10/rice-cooker-basmati-rice-main-image.jpg
+train:>https://healthynibblesandbits.com/wp-content/uploads/2019/08/How-to-Cook-Basmati-Rice-6.jpg
+train:>https://myfoodstory.com/wp-content/uploads/2020/04/How-to-cook-Basmati-Rice-3-Ways-1.jpg
+test:>https://everydaynourishingfoods.com/wp-content/uploads/2021/10/rice-cooker-basmati-rice-featured-image.jpg
+test:>https://myfoodstory.com/wp-content/uploads/2020/04/How-to-cook-Basmati-Rice-3-Ways-2.jpg
+$$$$
+
+428->Indian Spicy-Sour Chickpeas With Cauliflower
+$$$$
+train:>https://lh3.googleusercontent.com/DtyHntoLKpLpsNdaBPMEtTUqAIrpNtcKssoE_WDUiSbg58Lx_0ZIkg7RogTVNWa1wPcCcgc9giclkeg_wkycboCwgH99lcengaJ5ee8
+train:>https://cupfulofkale.com/wp-content/uploads/2020/02/Vegan-Cauliflower-and-Chickpea-Curry.jpg.webp
+train:>https://cupfulofkale.com/wp-content/uploads/2020/02/Cauliflower-and-Chickpea-Curry-Close-Up.jpg
+train:>https://www.thefullhelping.com/wp-content/uploads/2016/06/Tandoori-cauliflower-bowls-8.jpg
+train:>https://cupfulofkale.com/wp-content/uploads/2020/02/Vegan-Cauliflower-and-Chickpea-Curry-720x540.jpg
+train:>https://searchingforspice.com/wp-content/uploads/2018/04/sour-chickpeas-20-720x720.jpg
+train:>https://www.acommunaltable.com/wp-content/uploads/2018/12/cauliflower-and-chickpea-curry-recipe-in-pan.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2016/09/Cauliflower-Chickpea-Curry_6.jpg
+test:>https://twojadebowls.com/wp-content/uploads/2011/07/sour-chickpeas-017.jpg
+test:>https://minimalistbaker.com/wp-content/uploads/2018/03/Yellow-Chickpea-Curry-SQUARE.jpg
+$$$$
+
