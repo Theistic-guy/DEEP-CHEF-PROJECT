@@ -1482,3 +1482,73 @@ test:>https://www.thecuriouschickpea.com/wp-content/uploads/2018/08/chana-masala
 test:>https://cdn.loveandlemons.com/wp-content/uploads/2023/07/chana-masala-recipe.jpg
 $$$$
 
+440->Basmati Rice With Cashews, Peas and Fresh Coriander
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/peas-pulao-matar-pulao.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2019/02/Curried-Rice_3.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2019/02/Curried-Rice_9.jpg
+train:>https://culinaryginger.com/wp-content/uploads/Curry-Vegetable-Basmati-Rice-1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/peas-pulao-matar-pulao-480x270.jpg
+train:>https://aveganvisit.com/wp-content/uploads/2023/10/Vegan-Biryani-7-ws-819x1024.jpg.webp
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/tomato-rice-recipe.jpg.webp
+train:>https://www.funfoodfrolic.com/wp-content/uploads/2022/11/Matar-Pulao-2.jpg
+test:>https://masalachilli.com/wp-content/uploads/2022/10/Saffron-rice-recipe-2.jpg
+test:>https://www.onceuponachef.com/images/2012/10/Rice-Pilaf-scaled.jpg
+$$$$
+
+441->Spicy Apple Chicken Curry
+$$$$
+train:>https://www.theflavorbender.com/wp-content/uploads/2014/10/Apple-Curry-5487.jpg
+train:>https://www.theflavorbender.com/wp-content/uploads/2014/10/Apple-Curry-5487-Copy-1-500x375.jpg
+train:>https://www.theflavorbender.com/wp-content/uploads/2014/10/Apple-Curry-5654-Copy.jpg
+train:>https://api.vip.foodnetwork.ca/wp-content/uploads/2021/12/Japanese-Chicken-Curry-feature.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxYr0_zYqZdASoatMmNGf9-7mFJj6XUxxwZknnx2MZCcXk_nCJz7PBrR4H3b2NROJfrLjr_lEpUiCzVZaKRREFYDNwKBmtPRVhjZcxN-L-Fry87NCBlpD_RP9k3W2L88GjCqlWHzJ4Ysk/s1600/IMG_6038.jpg
+train:>https://theperfectcurry.com/wp-content/uploads/2021/11/PXL_20211014_174623298.PORTRAIT-edited.jpg
+train:>https://blog.memeinge.com/wp-content/uploads/2024/02/apple-curry-chicken.jpg
+train:>https://static.toiimg.com/thumb/58394256.cms?imgsize=104892&width=800&height=800
+test:>https://blog.memeinge.com/wp-content/uploads/2024/02/apple-curry-chicken-7.jpg
+test:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2qwuQuQOvNb_TlpzF7uC24XMGlzkhH0jTCh6z3Fz9AO8KZVMBZnpjkKhzpy_6BxdzO-7E7IfoIOXVQMRlCRV9fa2VVIqE8uQqD2aF2b9CJfGPqaRyFOnkCEhl-bf7FFhIYUH3VCf_YNo/s1600/IMG_6042.JPG
+$$$$
+
+442->Tamarind-Date Chutney
+$$$$
+train:>https://moonrice.net/wp-content/uploads/2023/03/TamarindChutney.jpg
+train:>https://i.ytimg.com/vi/uDAQZJSqkBM/maxresdefault.jpg
+train:>https://myheartbeets.com/wp-content/uploads/2021/07/tamarind-chutney.jpg
+train:>https://food-fanatic-res.cloudinary.com/iu/s--_KkMIW7g--/c_thumb,f_auto,g_auto,h_1200,q_auto,w_1200/v1572635489/tamarind-date-chutney-photo
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/tamarind-chutney-imli-chutney.jpg.webp
+train:>https://static.toiimg.com/thumb/58856231.cms?imgsize=469322&width=800&height=800
+train:>https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2021/08/Sweet-Tamarind-Chutney-2.jpg?resize=720%2C960&ssl=1
+train:>https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/Articles/Date_Tamarind_Chutney_Video_Recipe_Kajur_Imli_Chutney_2_1600.jpg
+test:>https://cdn.shopaccino.com/refresh/articles/shutterstock1623966391-513158_l.jpg?v=329
+test:>https://cdn2.foodviva.com/static-content/food-images/chutney-raita-recipes/date-tamarind-chutney-recipe/date-tamarind-chutney-recipe.jpg
+$$$$
+
+443->Simple Lentil Dal
+$$$$
+train:>https://simple-veganista.com/wp-content/uploads/2012/08/healthy-spicy-red-lentil-dal-recipe-8.jpg
+train:>https://elavegan.com/wp-content/uploads/2019/10/Red-Lentil-Dhal-with-rice.jpg
+train:>https://nourishplate.com/wp-content/uploads/2019/10/Lentil-Dhal-2.jpg
+train:>https://thecheekychickpea.com/wp-content/uploads/2022/09/red-lentil-dahl-1.jpg
+train:>https://www.simplyrecipes.com/thmb/secNt-MY0v-l7DE225xMGgC_qz0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__09__red-lentil-dal-vertical-b-1600-b35dae7c14ff43d6bab05fe7128e91b1.jpg
+train:>https://veganhuggs.com/wp-content/uploads/2020/09/red-lentil-dahl-in-bowl.jpg
+train:>https://www.wearesovegan.com/wp-content/uploads/2021/11/vegansimpledhalrecipeh1.jpg
+train:>https://choosingchia.com/jessh-jessh/uploads/2021/10/Red-Lentil-Dahl-13.jpg
+test:>https://veggiedesserts.com/wp-content/uploads/2016/06/Red-Lentil-Dhal-b2.jpg
+test:>https://simple-veganista.com/wp-content/uploads/2012/08/best-red-lentil-dal-recipe-1.jpg
+$$$$
+
+444->Dal Soup
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dal-soup-recipe.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dal-soup-recipe-480x270.jpg
+train:>https://www.yummytummyaarthi.com/wp-content/uploads/2014/09/1-1.jpg
+train:>https://twokooksinthekitchen.com/wp-content/uploads/2019/03/IMG_5278.jpg
+train:>https://littlespicejar.com/wp-content/uploads/2020/09/Lemony-Red-Lentil-Soup-Dal-Soup-19.jpg
+train:>https://www.thecuriouschickpea.com/wp-content/uploads/2017/04/Tamarind-Red-Lentil-Soup-6.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/13/23/97/IXfgttqYRvmispnpUMT3_dhal-1.jpg
+train:>https://allwaysdelicious.com/wp-content/uploads/2021/10/dal-soup-oh-horiz.jpg
+test:>https://assets.bonappetit.com/photos/5a05c9df3388d32a6ed54e97/1:1/w_2560%2Cc_limit/curried-lentil-tomato-and-coconut-soup.jpg
+test:>https://myheartbeets.com/wp-content/uploads/2019/02/instant-pot-dal-dill-leaves.jpg
+$$$$
+
