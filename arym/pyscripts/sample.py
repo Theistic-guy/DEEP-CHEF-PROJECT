@@ -9,8 +9,8 @@ path_download_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PRO
 
 
 # reload
-for i in range(24,27):
-    ru.reload_urls_and_save(path_download_folder,path_logs,path_csv,i,8)
+# for i in range(32,33):
+#     ru.reload_urls_and_save(path_download_folder,path_logs,path_csv,i,8)
 
 
-# print(ru.check_logs_integrity(path_logs,10))
+print(ru.check_logs_integrity(path_logs,10))
