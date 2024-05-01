@@ -17,9 +17,8 @@ driver = None
 webdriver_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\chromedriver.exe" # <-- file path used
 cService = webdriver.ChromeService(executable_path=webdriver_path)
 
-# Set Chrome Options to stop self-quitting of driver when script ends
-chrome_options = Options()
-chrome_options.add_experimental_option("detach",True)
+
+
 
 # def isDriverValid(driver):
 #     if driver != "Not initialized":
@@ -31,13 +30,16 @@ chrome_options.add_experimental_option("detach",True)
 #     else:
 #         return False
 
-def create_driver_and_load(cService,Options):
+def create_driver_and_load(cService,delay,detach=True):
     global driver
     try:
-        driver = webdriver.Chrome(service=cService,options=Options)
+        # Set Chrome Options to stop self-quitting of driver when script ends
+        chrome_options = Options()
+        chrome_options.add_experimental_option("detach",detach)
+        driver = webdriver.Chrome(service=cService,options=chrome_options)
         driver.maximize_window()
         driver.get('https://images.google.com/')
-        time.sleep(3)
+        time.sleep(delay)
     except Exception as e :
         print("Exception occurred creating driver \n",e)
 
@@ -49,7 +51,7 @@ def create_driver_and_load(cService,Options):
 
 try :
     # Prepare driver
-    create_driver_and_load(cService,chrome_options)
+    create_driver_and_load(cService,4)
 
 
     # initialize counters and delays
@@ -58,8 +60,8 @@ try :
     # start = 1 
     # i.e. start with the second line of csv becoz
     # first line are column names which is overriden by ' names= ' param
-    start = 19
-    count= 2
+    start = 23
+    count= 1
     big_delay = 10
     small_delay = 3
     max_imgs = 10
@@ -110,7 +112,7 @@ try :
             print("driver session closed")
             driver.quit()
             print("creating new driver session")
-            create_driver_and_load(cService,chrome_options)
+            create_driver_and_load(cService,4)
             max_attempts_start_driver -=1 
             if max_attempts_start_driver < 0:
                 raise

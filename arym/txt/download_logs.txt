@@ -278,3 +278,45 @@ test:>https://shaneandsimple.com/wp-content/uploads/2021/02/AMAZING-20-minute-ea
 test:>https://www.thefieryvegetarian.com/wp-content/uploads/2021/05/black-bean-curry-681x1024.jpg
 $$$$
 
+20->Dal Curry (curried lentils)
+$$$$
+train:>https://www.wellplated.com/wp-content/uploads/2020/05/Best-Curry-Lentil-Soup.jpg
+train:>https://www.theendlessmeal.com/wp-content/uploads/2016/07/lentil-curry-3-750x750.jpg
+train:>https://assets.bonappetit.com/photos/5a05c9df3388d32a6ed54e97/1:1/w_2560%2Cc_limit/curried-lentil-tomato-and-coconut-soup.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2018/07/Dal_5.jpg
+train:>https://alexandracooks.com/wp-content/uploads/2019/02/lentils.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2018/07/Dal_0-2.jpg
+train:>https://www.skinnytaste.com/wp-content/uploads/2023/05/Lentil-Curry-7.jpg
+train:>https://frommybowl.com/wp-content/uploads/2019/10/Creamy_Coconut_Red_Lentil_Curry_FromMyBowl_Vegan-6.jpg
+test:>https://minimalistbaker.com/wp-content/uploads/2017/09/AMAZING-Coconut-Curried-Golden-Lentils-20-minutes-healthy-SO-satisfying-vegan-lentil-curry-plantbased-coconut-dairyfree-glutenfree-12.jpg
+test:>https://alexandracooks.com/wp-content/uploads/2016/09/lentilsvert2-1.jpg
+$$$$
+
+21->Indian Lamb Curry
+$$$$
+train:>https://sinfullyspicy.com/wp-content/uploads/2022/06/1200-by-1200-images-3.jpg
+train:>https://www.cookingcurries.com/wp-content/uploads/2018/12/Instant-pot-Indian-Lamb-Curry-Whole30-2.jpg
+train:>https://dinnerthendessert.com/wp-content/uploads/2018/07/Indian-Lamb-Curry.jpg
+train:>https://www.thespruceeats.com/thmb/54ASs2XAFrmtEZxRWLApcHAt8FM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/indian-lamb-curry-1957560-hero-01-0d5dd8ed6601465daa05ce810e66b733.jpg
+train:>https://cdn.cuisineandtravel.com/wp-content/uploads/2020/06/04133321/Indian-lamb-curry-recipe.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2020/02/Rogan-Josh_4.jpg
+train:>https://frodenheng.lu/wp-content/uploads/2020/04/West-Indian-Lamb-Curry.jpg
+train:>https://www.thespicehouse.com/cdn/shop/articles/Lamb_Curry_720x.jpg?v=1589392138
+test:>https://tasteasianfood.com/wp-content/uploads/2020/11/Lamb-curry-recipe.jpg.webp
+test:>https://i.pinimg.com/736x/f0/bf/45/f0bf4524831b7842bd7d6f182a2cf793.jpg
+$$$$
+
+22->Crescent Samosa
+$$$$
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/11/crescent-samosa-indian-style.jpg
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/11/crescent-samosa-683x1024.jpg
+train:>https://i.pinimg.com/originals/a4/94/c1/a494c1d4a1d0fdd9999da0568d4dbee7.jpg
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/11/indian-crescent-spicy-potato-683x1024.jpg
+train:>https://images-gmi-pmc.edge-generalmills.com/694a803b-43b1-4ad6-98fd-2758359bc309.jpg
+train:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/11/crescent-samosa-indian-style-480x270.jpg
+train:>https://mojo.generalmills.com/api/public/content/7-LfGrZm8kGxGxXEJY6K8g_gmi_hi_res_jpeg.jpeg?v=acf74b12&t=466b54bb264e48b199fc8e83ef1136b4
+train:>https://i.pinimg.com/736x/21/9a/5b/219a5be824b7ca3de1fb844179c0fb61.jpg
+test:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/11/crescent-samosa-ingredients-1024x1024.jpg
+test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_200,ar_3:2/v1/img/recipes/26/95/8/f5wux1ZRimFhmkJvOBVA_samosas2.jpg
+$$$$
+
