@@ -320,3 +320,59 @@ test:>https://www.madhuseverydayindian.com/wp-content/uploads/2021/11/crescent-s
 test:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_200,ar_3:2/v1/img/recipes/26/95/8/f5wux1ZRimFhmkJvOBVA_samosas2.jpg
 $$$$
 
+23->Indian Samosa
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/samosa-flaky-khasta-samosa.jpg.webp
+train:>https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Indian-Punjabi-Samosa-Recipe.jpg
+train:>https://spicebreeze.com/wp-content/uploads/2022/02/Indian-Samosas-sq.jpg
+train:>https://www.marionskitchen.com/wp-content/uploads/2023/04/Samosa-11-1.jpg
+train:>https://www.kitchensanctuary.com/wp-content/uploads/2023/10/Samosa-square-FS.jpg
+train:>https://pickyeaterblog.com/wp-content/uploads/2012/01/Samosas.jpg
+train:>https://www.seriouseats.com/thmb/4HxqFS6SHsh1XBCXWWHbsyrGOxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210909-SAMOSAS-ANDREWJANJIGIAN-86-ca872c2eae8e4e7eb4e7b47cfad8715e.jpg
+test:>https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2018/12/Samosa-01.jpg?resize=1537%2C1024
+test:>https://cdn.tarladalal.com/members/9306/big/big_punjabi_samosa,_punjabi_veg_samosa_recipe-16272.jpg
+$$$$
+
+24->Lentil Dal
+$$$$
+train:>https://elavegan.com/wp-content/uploads/2019/10/Red-Lentil-Dhal-with-rice.jpg
+train:>https://www.simplyrecipes.com/thmb/secNt-MY0v-l7DE225xMGgC_qz0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__09__red-lentil-dal-vertical-b-1600-b35dae7c14ff43d6bab05fe7128e91b1.jpg
+train:>https://veganhuggs.com/wp-content/uploads/2020/09/red-lentil-dahl-square-crop-a.jpg
+train:>https://static01.nyt.com/images/2018/01/16/dining/16COOKING-MASOORDAL/16COOKING-MASOORDAL-superJumbo.jpg
+train:>https://www.teaforturmeric.com/wp-content/uploads/2022/06/Masoor-Dal-09.jpg
+train:>https://eatwithclarity.com/wp-content/uploads/2022/09/vegan-red-lentil-dahl-1.jpg
+train:>https://thehappypear.ie/wp-content/uploads/2020/09/red-lentil-dahl-e1606933795663.jpg
+train:>https://www.indianveggiedelight.com/wp-content/uploads/2021/07/whole-brown-lentils-featured.jpg
+test:>https://biancazapatka.com/wp-content/uploads/2020/09/lentil-dahl-indian-curry.jpg
+test:>https://www.recipetineats.com/wp-content/uploads/2018/07/Dal_0-2.jpg
+$$$$
+
+25->Indian Spiced Rice
+$$$$
+train:>https://www.harighotra.co.uk/images/recipes/hero/spiced_rice_hero1.png
+train:>https://feastwithsafiya.com/wp-content/uploads/2021/07/one-pot-spicy-rice-768x1024.jpg
+train:>https://www.mjandhungryman.com/wp-content/uploads/2014/10/Healthy-vegetable-rice.jpg
+train:>https://dfbkuy5licyr9.cloudfront.net/wp-content/uploads/2018/05/INDIAN-CUMIN-RICE-1.jpg?x39145
+train:>https://i0.wp.com/eatlivecool.com/wp-content/uploads/2018/11/Spiced-Basmati-Rice-1.jpg?resize=720%2C1080&ssl=1
+train:>https://img.taste.com.au/zNfx18Q9/taste/2016/11/indian-spiced-pilau-rice-361-1.jpeg
+train:>https://www.mjandhungryman.com/wp-content/uploads/2014/10/Fluffy-vegetable-rice.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2019/02/Curried-Rice_9.jpg
+test:>https://theflavoursofkitchen.com/wp-content/uploads/2021/08/Jeera-rice-1-scaled.jpg
+test:>https://www.onceuponachef.com/images/2012/10/Rice-Pilaf-scaled.jpg
+$$$$
+
+26->Indian Lentil Soup (Dal Shorva)
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/13/23/97/IXfgttqYRvmispnpUMT3_dhal-1.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii6YkTo-ntm7lf8AiNDjTNRq18K9KFnawzyX5TJzSKqH9LjGdvkMaQ51t9PLbpdyaG_Pkn_y1kPjhaJLhKd-S_Mws0eZrKwS9URRoeK-Gst7pdJtO5qDKuFLOnYKNQLrkSxg0UyytNsSlW/s16000/IMG_20200320_142422_20200321220134249.jpg
+train:>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivJZZA0BefOdDlCyDtKdrm0xAQrPXbGdNbHmHemPaODhKZIgZkxn1-X_gV9yUP0yKsgRSRKWycmTmBUOR1JiFVAChJLbOJ1qSWGhH0XEx95LscU-CLsVmXl2pgLAlKd6DkstfqiV42jsI/s1600/dalshorva2.jpg
+train:>https://m.ftscrt.com/static/recipe/9682dcb5-a231-4efa-a9e9-d3f2c298f78f_fs2.jpg
+train:>https://www.reqadoph.com/cdn/shop/articles/dalshorva_tn_600x.jpg?v=1593763007
+train:>https://i.pinimg.com/736x/78/d0/0e/78d00efe6531502b80008088c1feac37.jpg
+train:>https://i.pinimg.com/474x/c6/60/ed/c660edd866c34c4d70d3ddec7bc18c51.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dal-soup-recipe-480x270.jpg
+test:>https://www.daringgourmet.com/wp-content/uploads/2013/06/Masoor-Dal-4-square-scaled.jpg
+test:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/13/23/97/IXfgttqYRvmispnpUMT3_dhal-1.jpg
+$$$$
+

@@ -60,8 +60,8 @@ try :
     # start = 1 
     # i.e. start with the second line of csv becoz
     # first line are column names which is overriden by ' names= ' param
-    start = 23
-    count= 1
+    start = 24
+    count= 4
     big_delay = 10
     small_delay = 3
     max_imgs = 10

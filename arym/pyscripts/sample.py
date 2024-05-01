@@ -7,15 +7,10 @@ path_csv = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\links_c
 path_download_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images"
 
 
-# delete recipes 
 
-cService = webdriver.ChromeService(executable_path=path_driver)
-chrome_options = Options()
-chrome_options.add_experimental_option("detach",True)
-driver = webdriver.Chrome(service=cService,options=chrome_options)
 # reload
-# for i in range(20,22):
-#     ru.reload_urls_and_save(path_download_folder,path_logs,path_csv,i,8)
+for i in range(24,27):
+    ru.reload_urls_and_save(path_download_folder,path_logs,path_csv,i,8)
 
 
 # print(ru.check_logs_integrity(path_logs,10))
