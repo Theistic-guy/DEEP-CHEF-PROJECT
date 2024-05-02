@@ -657,7 +657,7 @@ test:>https://butfirstchai.com/wp-content/uploads/2020/01/coriander-mint-chicken
 test:>https://www.honeywhatscooking.com/wp-content/uploads/2018/10/Dhaniya-Chicken-Curry-54.jpg
 $$$$
 
-47->American Indian Fry Bread
+47->Indian Fry Bread
 $$$$
 train:>https://thestayathomechef.com/wp-content/uploads/2020/07/Authentic-Indian-Fry-Bread-7.jpg
 train:>https://www.norinesnest.com/wp-content/uploads/2020/07/Indian-Fry-Bread-2020-4-scaled-e1594254673278.jpg
@@ -739,5 +739,145 @@ train:>https://veenaazmanov.com/wp-content/uploads/2023/07/Saffron-Rice-Pilaf-Re
 train:>https://www.whiskaffair.com/wp-content/uploads/2019/05/Saffron-Rice-2-3.jpg
 test:>https://assets.epicurious.com/photos/57cedbeaa61773c151cc16b9/master/pass/saffron-rice-pilaf.jpg
 test:>https://www.thespruceeats.com/thmb/t24EgOXyaME6FrAPgDZenWLwhOE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-saffron-rice-recipe-3217204-hero-01-00adedc176e74c3bb949c5c1a7b53fa7.jpg
+$$$$
+
+53->Tikka Masala
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-masala.jpg
+train:>https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg
+train:>https://www.allrecipes.com/thmb/1ul-jdOz8H4b6BDrRcYOuNmJgt4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/239867chef-johns-chicken-tikka-masala-ddmfs-3X4-0572-e02a25f8c7b745459a9106e9eb13de10.jpg
+train:>https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG
+train:>https://www.recipetineats.com/wp-content/uploads/2018/04/Chicken-Tikka-Masala_0-SQ.jpg
+train:>https://www.maryswholelife.com/wp-content/uploads/2019/08/Chicken_Tikka_Masala_06-scaled.jpg
+train:>https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG
+train:>https://littlesunnykitchen.com/wp-content/uploads/Chicke-tikka-masala-2-7.jpg
+test:>https://i0.wp.com/www.nourishdeliciously.com/wp-content/uploads/2022/11/DSC_9207.jpg
+test:>https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Tikka-Masala-min.jpg
+$$$$
+
+54->Cabbage and Potato Fry
+$$$$
+train:>https://greenbowl2soul.com/wp-content/uploads/2023/02/patta-gobhi-ki-sabzi-2.jpg
+train:>https://i.ytimg.com/vi/aM4mJHoCaTY/sddefault.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/03/cabbage-sabzi-cabbage-potato.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2021/03/cabbage-sabzi-cabbage-potato-recipe.jpg.webp
+train:>https://www.tasteofhome.com/wp-content/uploads/2023/03/Fried-Cabbage-and-Potatoes_EXPS_FT23_272566_ST_2_08_1.jpg?fit=700,700
+train:>https://www.indianveggiedelight.com/wp-content/uploads/2020/05/cabbage_potato_peas.jpg
+train:>https://www.indianveggiedelight.com/wp-content/uploads/2020/05/cabbage-potato-curry-instant-pot-featured-500x375.jpg
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/10/48/61/picstZ6wa.jpg
+test:>https://spicysouthernkitchen.com/wp-content/uploads/Smothered-Cabbage-7-500x500.jpg
+test:>https://greenbowl2soul.com/wp-content/uploads/2023/02/patta-gobhi-ki-sabzi-1.jpg
+$$$$
+
+55->Grilled Chicken Tikka
+$$$$
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/92/49/4/JPsemZiqSBu9pUbCzAgS_chicken-tikka-skewers-7949.jpg
+train:>https://glebekitchen.com/wp-content/uploads/2016/12/chickentikkakebab.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-kebab-recipe.jpg
+train:>https://carameltintedlife.com/wp-content/uploads/2021/09/tandoori-chicken-tikka-1-1.jpg
+train:>https://i.ytimg.com/vi/QkhROcZwJ4M/maxresdefault.jpg
+train:>https://www.thespruceeats.com/thmb/QFL6VlpS8wOdQQFqiATLOdSFLZQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-recipe-1957388-10-5b3fcf6646e0fb0037658a02.jpg
+train:>https://recipes.net/wp-content/uploads/2020/04/Chicken-Tikka-Tandoori-Style-Grilled-Chicken-1-1024x682.jpg
+train:>https://carameltintedlife.com/wp-content/uploads/2021/09/tandoori-chicken-tikka-1.jpg
+test:>https://www.allrecipes.com/thmb/k5sjr5rptNK1Uhz_jhW6dchEvlE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45736-ChickenTikkaMasala-mfs-Step4-3437-3c73411f3aae493190fad6e25d0a92fd.jpg
+test:>https://www.saveur.com/uploads/2019/10/02/PPQ6XXFDELPKKJT6SRCJHF7B2E.jpg?auto=webp
+$$$$
+
+56->Indian Kadai Chicken
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/kadai-chicken-karahi-chicken-recipe.jpg
+train:>https://myheartbeets.com/wp-content/uploads/2014/05/kadai-chicken-recipe.jpg
+train:>https://www.whiskaffair.com/wp-content/uploads/2020/09/Kadai-Chicken-2-3.jpg
+train:>https://pipingpotcurry.com/wp-content/uploads/2023/07/Kadai-Chicken-Recipe-Piping-Pot-Curry.jpg
+train:>https://static.toiimg.com/thumb/53523514.cms?imgsize=102389&width=800&height=800
+train:>https://i.pinimg.com/564x/51/7c/05/517c05d3b0854bcfc56d97603c5daf19.jpg
+train:>https://www.flavorquotient.com/wp-content/uploads/2016/08/Kadai-Chicken-FQ-4-1-of-1.jpg
+train:>https://myfoodstory.com/wp-content/uploads/2021/09/karahi-chicken-kadai-chicken-1.jpg
+test:>https://thasneen.com/cooking/wp-content/uploads/2021/07/restaurant-style-kadai-chicken-popular-Indian-dish.jpeg
+test:>https://i0.wp.com/www.spicezone.com/wp-content/uploads/2023/06/Kadai-Chicken-1.jpg?ssl=1
+$$$$
+
+57->Indian Rice Pudding
+$$$$
+train:>https://i0.wp.com/upbeetanisha.com/wp-content/uploads/2021/10/DSC_8767.jpg?w=1200&ssl=1
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/indian-rice-pudding-recipe.jpg
+train:>https://realandvibrant.com/wp-content/uploads/2019/06/Indian-Rice-Pudding-2.jpg
+train:>https://www.seriouseats.com/thmb/5rochDJMqc-wDKrZe_ORLfOduIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__06__20120620-phirni-primary-cecab9e0b44e4b00bdaeb6683d63d7bd.jpg
+train:>https://carveyourcraving.com/wp-content/uploads/2016/09/Saffron-rice-kheer-indian-rice-pudding-keer-diwali.jpg
+train:>https://www.saveur.com/uploads/2019/03/18/6SDQBPGOVDYJILDWCBTEML4GCE.jpg?auto=webp
+train:>https://www.flavorquotient.com/wp-content/uploads/2017/03/Indian-Rice-Puding-Payesh-FQ-4-1-of-1.jpg
+train:>https://thatfijitaste.com/wp-content/uploads/2020/08/kheer-1.jpg
+test:>https://spicecravings.com/wp-content/uploads/2017/12/Kheer-Indian-Rice-Pudding-Featured-480x270.jpg
+test:>https://www.thedeliciouscrescent.com/wp-content/uploads/2020/07/Rice-Kheer-3.jpg
+$$$$
+
+58->Chicken Korma
+$$$$
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/08/chicken-korma-recipe.jpg.webp
+train:>https://madscookhouse.com/wp-content/uploads/2022/02/Chicken-Korma-Nut-Free.jpg
+train:>https://i.ndtvimg.com/i/2016-10/chicken-korma_650x400_51475662188.jpg
+train:>https://www.flourandspiceblog.com/wp-content/uploads/2024/02/IMG_1852.jpg
+train:>https://untoldrecipesbynosheen.com/wp-content/uploads/2021/04/korma-featured-500x500.jpg
+train:>https://foodess.com/wp-content/uploads/2023/03/Chicken-Korma-Recipe-2.jpg
+train:>https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/shahi-chicken-korma.webp?impolicy=slurrp-20210601&width=1200&height=675
+train:>https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/shahi-chicken-korma.webp?impolicy=slurrp-20210601&width=1200&height=675
+test:>https://theartisticcook.com/wp-content/uploads/2024/01/chciken-korma.jpg
+test:>https://theartisticcook.com/wp-content/uploads/2024/01/chciken-korma.jpg
+$$$$
+
+59->Garbanzo Beans
+$$$$
+train:>https://i0.wp.com/www.framedrecipes.com/wp-content/uploads/2017/04/Garbanzo_Beans_Wild_Rice_DSC1425.jpg?fit=822%2C1280&ssl=1
+train:>https://cdn.loveandlemons.com/wp-content/uploads/2020/04/chickpea-recipes.jpg
+train:>https://i0.wp.com/spainonafork.com/wp-content/uploads/2020/01/chickpeas1-11.png?fit=750%2C750&ssl=1
+train:>https://theartoffoodandwine.com/wp-content/uploads/2022/04/seasoned-garbanzos-up-close.jpg
+train:>https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/33/19/39/piclZLySu.jpg
+train:>https://www.kitchenskip.com/wp-content/uploads/2021/01/how-to-cook-garbanzo-beans.jpg
+train:>https://midwestfoodieblog.com/wp-content/uploads/2020/07/FINAL-chickpea-salad-1-4.jpg
+train:>https://i0.wp.com/spainonafork.com/wp-content/uploads/2021/12/image10-22-11.png?fit=750%2C750&ssl=1
+test:>https://i2.wp.com/hh-hm.com/wp-content/uploads/2021/09/Mediterranean-chickpea-dinner-IMG_8006.jpg?fit=735%2C1103&ssl=1
+test:>https://www.vegrecipesofindia.com/wp-content/uploads/2022/05/amritsari-chole-2.jpg
+$$$$
+
+60->Red Pepper Hummus
+$$$$
+train:>https://www.inspiredtaste.net/wp-content/uploads/2013/04/Roasted-Red-Pepper-Hummus-Recipe-2-1200.jpg
+train:>https://feelgoodfoodie.net/wp-content/uploads/2021/12/Roasted-Red-Pepper-Hummus-07.jpg
+train:>https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2017/05/spicy-roasted-red-pepper-hummus-macro-800x1200.jpg
+train:>https://www.goodlifeeats.com/wp-content/uploads/2022/09/How-to-Serve-Red-Pepper-Hummus-1-540x720.jpg
+train:>https://www.chilipeppermadness.com/wp-content/uploads/2019/12/Roasted-Red-Pepper-Hummus-Recipe1.jpg
+train:>https://www.cookingclassy.com/wp-content/uploads/2014/10/roasted-red-pepper-hummus-srgb.1.jpg
+train:>https://www.aheadofthyme.com/wp-content/uploads/2021/01/roasted-red-pepper-hummus-4.jpg
+train:>https://www.themediterraneandish.com/wp-content/uploads/2014/09/Roasted-Red-Pepper-Hummus-4.jpg
+test:>https://plantbasedonabudget.com/wp-content/uploads/2022/01/Smoky-Roasted-Red-Pepper-Hummus-Plant-Based-on-a-Budget-1-2.jpg
+test:>https://plantbasedonabudget.com/wp-content/uploads/2022/01/Smoky-Roasted-Red-Pepper-Hummus-Plant-Based-on-a-Budget-1-2.jpg
+$$$$
+
+61->Naan (Indian Flat Bread)
+$$$$
+train:>https://nishkitchen.com/wp-content/uploads/2012/01/TANDOORI-NAAN-1B.jpg
+train:>https://www.barbarabakes.com/wp-content/uploads/2014/02/Naan-3-Barbara-Bakes.jpg
+train:>https://www.simplyrecipes.com/thmb/kuPbl3x2ZfE3vnqgoBX7hzDLhAM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__05__How-to-Make-Naan-LEAD-3-df40aacbc0f64afc806fd9e23a96c55a.jpg
+train:>https://chewoutloud.files.wordpress.com/2012/09/grilled-flatbread-like-naan1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/naan-recipe.jpg
+train:>https://www.saveur.com/uploads/2019/02/08/5PXBZVZJLRHYVBZPYZYYYWEQSM.jpg?auto=webp
+train:>https://www.melskitchencafe.com/wp-content/uploads/2013/04/Naan-jpg.jpg
+train:>https://static01.nyt.com/images/2014/03/19/dining/naan/naan-articleLarge.jpg
+test:>https://myheartbeets.com/wp-content/uploads/2013/11/3-ingredient-paleo-naan.jpg
+test:>https://www.recipetineats.com/wp-content/uploads/2021/02/Naan_1-1.jpg
+$$$$
+
+62->Pumpkin Soup
+$$$$
+train:>https://www.allrecipes.com/thmb/My6kC-Dg-2mhIYNwQKP__-vN9iI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9191-PumpkinSoup-ddmfs-4X3-0150-0628bffddba64c2285d554ea97608f66.jpg
+train:>https://www.recipetineats.com/wp-content/uploads/2017/10/Pumpkin-Soup-2.jpg
+train:>https://www.twopeasandtheirpod.com/wp-content/uploads/2020/10/pumpkin-soup-4.jpg
+train:>https://www.cookingclassy.com/wp-content/uploads/2022/10/pumpkin-soup-5.jpg
+train:>https://lh3.googleusercontent.com/proxy/wQaw1z3jyTCn7uqjVUmgXLYDUTXtsL3mRnACxj-LeVrWKUlGxQiv69Jzwnzf2GA5QEAKz8pUAldbWEYFmfLp-93AvB51yZ6p7N_d9ELhtCFqbOgm_jO3VLIJ0AbU7vzHs52bYod60llxt9qi-qN86O0x7lGRQ7OWRt1CeKaOmChPPgM2Joeeov1M8jc
+train:>https://img.taste.com.au/cQQtIoEO/taste/2016/11/pumpkin-soup-with-a-twist-71237-1.jpeg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2021/07/Spicy-pumpkin-soup-fcf2fe5.jpg?resize=768,574
+train:>https://www.acedarspoon.com/wp-content/uploads/2022/09/Thai-Roasted-Pumpkin-Soup-Image-8-735x919.jpg
+test:>https://cookieandkate.com/images/2014/11/creamy-vegan-pumpkin-soup-recipe-2-1.jpg
+test:>https://img.delicious.com.au/LIBwreVE/del/2018/06/no-chop-pumpkin-soup-81782-2.jpg
 $$$$
 
