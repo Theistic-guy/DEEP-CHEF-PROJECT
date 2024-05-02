@@ -9,8 +9,11 @@ path_download_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PRO
 
 
 # reload
-# for i in range(32,33):
-#     ru.reload_urls_and_save(path_download_folder,path_logs,path_csv,i,8)
+for i in range(35,36):
+    ru.reload_urls_and_save(path_download_folder,path_logs,path_csv,i,8)
 
 
-print(ru.check_logs_integrity(path_logs,10))
+# print(ru.check_logs_integrity(path_logs,10))
+
+# ru.download_image(r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images\train\\38_Aloo Palak","https://manjulaskitchen.com/wp-content/uploads/aloo_palak.jpg"\
+#                   ,"8_Aloo Palak.jpg")
