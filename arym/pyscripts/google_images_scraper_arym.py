@@ -60,7 +60,7 @@ try :
     # start = 1 
     # i.e. start with the second line of csv becoz
     # first line are column names which is overriden by ' names= ' param
-    start = 34
+    start = 44
     count= 10
     big_delay = 10
     small_delay = 3
