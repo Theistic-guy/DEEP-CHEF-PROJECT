@@ -1163,10 +1163,6 @@ $$$$
 
 83->Egg Curry
 $$$$
-$$$$
-
-83->Egg Curry
-$$$$
 train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/egg-curry-recipe.jpg
 train:>https://www.sharmispassions.com/wp-content/uploads/2015/06/EggCurry5.jpg
 train:>https://thevegconnection.com/wp-content/uploads/2021/06/Egg-Curry-9-Edit-720x720.jpg
@@ -1303,5 +1299,145 @@ train:>https://www.sharmispassions.com/wp-content/uploads/2020/12/9835904406_72e
 train:>https://www.vegrecipesofindia.com/wp-content/uploads/2015/05/carrot-rice-recipe.jpg
 test:>https://naturalwecare.com/wp-content/uploads/2023/10/Pea-Perfection.webp
 test:>https://pages.glenindia.com/blog/wp-content/uploads/2019/04/1-1-678x300.jpg
+$$$$
+
+93->Slow Cooker Chicken Tikka Masala
+$$$$
+train:>https://www.budgetbytes.com/wp-content/uploads/2015/12/Slow-Cooker-Chicken-Tikka-Masala-eat.jpg
+train:>https://therecipecritic.com/wp-content/uploads/2014/10/slow_cooker_chickentikka5-1.jpg
+train:>https://www.thechunkychef.com/wp-content/uploads/2019/10/Slow-Cooker-Chicken-Tikka-Masala-feat-440x500.jpg
+train:>https://storage.googleapis.com/gen-atmedia/3/2018/11/1be8c8b24190f7f0a9e20426500babfbca2d75e6.jpeg
+train:>https://www.thechunkychef.com/wp-content/uploads/2019/10/Slow-Cooker-Chicken-Tikka-Masala-holdingbowl-680x1035.jpg
+train:>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/slow-cooker-chicken-tikka-masala-531cd12.jpg?quality=90&resize=440,400
+train:>https://www.budgetbytes.com/wp-content/uploads/2015/12/Slow-Cooker-Chicken-Tikka-Masala-V2.jpg
+train:>https://hips.hearstapps.com/hmg-prod/images/delish-slow-cooker-chicken-tikka-masala-2-copy-1535578244.jpg?crop=0.75xw:1xh;center,top&resize=1200:*
+test:>https://www.slowcookerclub.com/wp-content/uploads/2019/09/Slow-Cooker-Chicken-Tikka-Masala-1-500x500.jpg
+test:>https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2.jpg
+$$$$
+
+94->Spicy Chicken
+$$$$
+train:>https://www.simplyrecipes.com/thmb/wxTY04BVXObpzxb6-e8YE4XleI8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__06__Spicy-Fried-Chicken-LEAD-1-e7cb02e138b24cde9f0d3eefc519f88b.jpg
+train:>https://www.seasonsandsuppers.ca/wp-content/uploads/2020/02/spicy-chicken-1200-51.jpg
+train:>https://assets.bonappetit.com/photos/5e14f8c1db70f50008d53a0e/1:1/w_2560%2Cc_limit/Go-Live-Masala-Chicken.jpg
+train:>https://www.sugarsaltmagic.com/wp-content/uploads/2023/06/Spicy-Chicken-Bites-3FEAT.jpg
+train:>https://khinskitchen.com/wp-content/uploads/2020/06/korean-spicy-chicken.jpg
+train:>https://thewholecook.com/wp-content/uploads/2020/01/Sweet-Spicy-Chicken-Bites-by-The-Whole-Cook-horizontal-3.jpg
+train:>https://www.allrecipes.com/thmb/MFkCrkqgYXwnvyxM4gSu83EUl0A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/143082sweet-sticky-and-spicy-chickenChefMo4x3-079893b8577f42768f1d9c8c9d02bc76.jpg
+train:>https://www.allrecipes.com/thmb/G361svSE02k83dIxL7Q_Qh1jLSE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6644380-spicy-korean-fried-chicken-with-gochujang-sauce-Diana71-4x3-1-b0b6731e6303446d8a7339dee1bbfe69.jpg
+test:>https://bakerbynature.com/wp-content/uploads/2015/02/Sweet-and-Spicy-Sriracha-Chicken-Wings-0-6.jpg
+test:>https://www.cookinwithmima.com/wp-content/uploads/2021/08/Crispy-Asian-Sweet-Chili-Chicken-recipe.jpg
+$$$$
+
+95->Chole Palak
+$$$$
+train:>https://www.spiceupthecurry.com/wp-content/uploads/2013/12/chana-palak-1.jpg
+train:>https://www.archanaskitchen.com//images/archanaskitchen/1-Author/Hina_Gujral/Palak_Chole_Recipe_Spinach_Chickpea_Curry.jpg
+train:>https://www.vegrecipesofindia.com/wp-content/uploads/2013/08/palak-chole-recipe-1c.jpg
+train:>https://mytastycurry.com/wp-content/uploads/2023/01/Palak-Chole-Featured-Image.jpg
+train:>https://images.news18.com/ibnkhabar/uploads/2022/05/MERGE_16_23-16526814293x2.jpg?impolicy=website&width=400&height=300
+train:>https://www.cubesnjuliennes.com/wp-content/uploads/2018/09/Palak-Choley-Recipe-1.jpg
+train:>https://cookilicious.com/wp-content/uploads/2022/10/Chana-Palak-24.jpg
+train:>https://cookilicious.com/wp-content/uploads/2022/10/Chana-Palak-24-500x375.jpg
+test:>https://www.spiceupthecurry.com/wp-content/uploads/2013/12/chana-palak-2.jpg
+test:>https://i.ytimg.com/vi/Y-9ykCDYP34/maxresdefault.jpg
+$$$$
+
+96->Soft Bread Machine Naan
+$$$$
+train:>https://www.tasteofhome.com/wp-content/uploads/2018/01/Bread-Machine-Naan_exps81860_CW2376966C04_20_3b_RMS.jpg
+train:>https://breaddad.com/wp-content/uploads/2021/07/bread-machine-naan-recipe-2-e1625227250580.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/27/08/82/picr3V9X9.jpg
+train:>https://i.ytimg.com/vi/vjPbO0PTyN4/maxresdefault.jpg
+train:>https://www.thespeltkitchen.com/wp-content/uploads/2019/10/Simple-Bread-Machine-Garlic-Butter-Naan-Bread-1024x875.jpg.jpg
+train:>https://i.ytimg.com/vi/vFQ-HUel1QM/maxresdefault.jpg
+train:>https://www.onceuponachef.com/images/2015/01/Homemade-Naan-2-850x984.jpg
+train:>https://www.thespeltkitchen.com/wp-content/uploads/2019/10/Simple-Bread-Machine-Garlic-Butter-Naan-Bread-1-1024x909.jpg-480x270.jpg
+test:>https://i.ytimg.com/vi/V4rO77Vqbsk/maxresdefault.jpg
+test:>https://i.ytimg.com/vi/V4rO77Vqbsk/maxresdefault.jpg
+$$$$
+
+97->Oil Pastry
+$$$$
+train:>https://i0.wp.com/thekitchenshed.co.uk/TheKitchenShed/wp-content/uploads/2014/03/image96.jpg
+train:>https://www.seriouseats.com/thmb/5G3zYfzeCMFsgCJ6nI3gYRYpSdc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__03__20120307-fiaf-olive-oil-palmiers-primary-d55dc38636384ae895a0ed4e9d7ebfc2.jpg
+train:>https://www.fussfreecooking.com/wp-content/uploads/2013/01/a32.jpg
+train:>https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/17/18/06/picYwnySu.jpg
+train:>https://cookingwithmammac.com/wp-content/uploads/2021/11/FB-Olive-Oil-Pie-Crust-No-Rolling-Image.jpg
+train:>https://chocolatewithgrace.com/wp-content/uploads/2018/06/Easy-Cheater-Oil-Pie-Crust-12-500x500.jpg
+train:>https://cookingwithmammac.com/wp-content/uploads/2021/11/1200-Olive-Oil-Pie-Crust-Photo-500x375.jpg
+train:>https://cozypeachkitchen.com/wp-content/uploads/2018/08/oil-crust-3.jpg
+test:>https://aliceadamscarosi.com/wp-content/uploads/2016/02/mine.rusticaBROCChoriz-low-1-1030x766.jpg
+test:>https://aliceadamscarosi.com/wp-content/uploads/2016/02/mine.rusticaBROCChoriz-low-1-1030x766.jpg
+$$$$
+
+98->Indian Cabbage
+$$$$
+train:>https://www.thedeliciouscrescent.com/wp-content/uploads/2023/05/Roasted-Cabbage-6.jpg
+train:>https://www.vegrecipesofindia.com/wp-content/uploads/2015/11/cabbage-poriyal-recipe-1-500x500.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/16/12/12/picmDIrN3.jpg
+train:>https://www.vegrecipesofindia.com/wp-content/uploads/2015/11/cabbage-poriyal-recipe-1-500x500.jpg
+train:>https://ministryofcurry.com/wp-content/uploads/2020/04/cabbage-stir-fry-4.jpg
+train:>https://www.rachelgurjar.com/wp-content/uploads/2020/04/Cabbage-poriyal_-2-1440x1920.jpg
+train:>https://lh3.googleusercontent.com/proxy/WuO1YVFrCxCx_ftMZsShX-OvuO1vZuPLunqjYSNrd61KKyuVsMiGwVDOIi_zMiVR4MPTE_hPie4tslE3wG01_FOArb6smJ55ifO_EhObV5MhnaN20XbaAdEJxmrXMUr8X1A2Ip3L74D4Xg
+train:>https://pickyeaterblog.com/wp-content/uploads/2021/05/Indian-Cabbage-cabbage-sabzi-3.jpg
+test:>https://i0.wp.com/www.sonisfood.com/wp-content/uploads/2014/11/Indian-Spiced-Cabbage-and-Fennel-2-1.jpg?resize=600%2C787
+test:>https://www.veganricha.com/wp-content/uploads/2019/08/Instant-Pot-Indian-Cabbage-and-Peas-Patta-Gobi-Subzi-veganricha-5545.jpg
+$$$$
+
+99->Spicy Indian Grilled Chicken
+$$$$
+train:>https://static01.nyt.com/images/2019/07/24/dining/19apperex1/19apperex1-superJumbo.jpg
+train:>https://www.foodandwine.com/thmb/Km8A0Dc_s5E8alSiWbehwuk8gI4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Grilled-Tandori-Chicken-FT-RECIPE0323-de1e247b1dbb4c0e9cb11243141eaa50.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/12/32/87/picELBmrl.jpg
+train:>https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/5/11/0/FNCC_bal-arneson-indian-spiced-chicken_s4x3.jpg.rend.hgtvcom.616.462.suffix/1351635195321.jpeg
+train:>https://i0.wp.com/www.aspicyperspective.com/wp-content/uploads/2011/06/indian-grilled-chicken-4.jpg?resize=600%2C900&ssl=1
+train:>https://myfoodtrolley.files.wordpress.com/2013/01/plated-spicy-grilled-chix.jpg
+train:>https://simply-delicious-food.com/wp-content/uploads/2019/09/Indian-spiced-roast-chicken-4.jpg
+train:>https://artfrommytable.com/wp-content/uploads/2017/08/Middle-Eastern-Grilled-drumsticks-Art-From-My-Table-Vertical-3.jpg
+test:>https://www.allrecipes.com/thmb/EDDjG28lLcvR9evPlQICAr-A8sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/50347-indian-tandoori-chicken-DDMFS-2x1-3032-fc3ee15caaba42859c7117827771884b.jpg
+test:>https://www.rockrecipes.com/wp-content/uploads/2011/06/Accidental-Indian-Barbecue-Chickkem-close-up-photo-of-2-cooked-chicken-breasts.jpg
+$$$$
+
+100->Indian Fry Bread
+$$$$
+train:>https://www.norinesnest.com/wp-content/uploads/2020/07/Indian-Fry-Bread-2020-4-scaled-e1594254673278.jpg
+train:>https://thestayathomechef.com/wp-content/uploads/2020/07/Authentic-Indian-Fry-Bread-7.jpg
+train:>https://thestayathomechef.com/wp-content/uploads/2020/07/Authentic-Indian-Fry-Bread-7.jpg
+train:>https://www.africanbites.com/wp-content/uploads/2020/01/IMG_7867-500x500.jpg
+train:>https://www.norinesnest.com/wp-content/uploads/2020/07/Indian-Fry-Bread-2020-4-scaled-e1594254673278.jpg
+train:>https://www.norinesnest.com/wp-content/uploads/2020/07/Indian-Fry-Bread-2020-4-scaled-e1594254673278.jpg
+train:>https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/15/37/98/picYxKKnt.jpg
+train:>https://therecipecritic.com/wp-content/uploads/2023/08/fry_bread-1-1200x1799.jpg
+test:>https://www.smalltownwoman.com/wp-content/uploads/2019/01/Fry-bread-Recipe-Card.jpg
+test:>https://www.thespruceeats.com/thmb/9239mBzqTUvs2pMQAfejVsnBK3Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/native-american-fry-bread-4045432-hero-01-abd3bc3a888d49e393c42245fdbf7e68.jpg
+$$$$
+
+101->Shrimp Vindaloo
+$$$$
+train:>https://i0.wp.com/spicechronicles.com/wp-content/uploads/2011/01/Shrimp-V_1.jpg?resize=640%2C640&ssl=1
+train:>https://www.flavorsofmumbai.com/wp-content/uploads/2014/11/Prawn-Vindaloo-Recipe-1.jpg
+train:>https://www.archanaskitchen.com/images/archanaskitchen/0-Affiliate-Articles/Goan_Prawns_Vindaloo_Recipe_5.jpg
+train:>https://i.ytimg.com/vi/g8Z2rCvui-4/maxresdefault.jpg
+train:>https://static.onecms.io/wp-content/uploads/sites/19/2005/03/23/vindaloo-ck-1041869-x.jpg
+train:>https://i.ytimg.com/vi/aGLB-9-KtP8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDwA6Pm5TOHSQrG2rDop8IjSHasrg
+train:>https://i.pinimg.com/736x/58/6a/1b/586a1bd27c78acf9abaad67da7c8076b.jpg
+train:>https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/dwzuhlsi/86943045-ca76-42df-8aa6-807938a5dc36.jpeg
+test:>https://mykathmandukitchen.com/wp-content/uploads/2018/03/shrimpvindaloo.jpg
+test:>https://i.pinimg.com/736x/57/ee/db/57eedb54a5a6ee3407433d67d5bf53f1.jpg
+$$$$
+
+102->Masala chai
+$$$$
+train:>https://shivanilovesfood.com/wp-content/uploads/2022/08/Chai-6.jpg
+train:>https://www.crafthouseindia.com/images/blogs/open-file-1.jpg
+train:>https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/indian-masala-chai-tea.jpg
+train:>https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg
+train:>https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg
+train:>https://recipes.wellcurve.in/wp-content/uploads/2022/03/Masala-Tea.jpg
+train:>https://www.thespicehouse.com/cdn/shop/articles/Chai_Masala_Tea_1200x1200.jpg?v=1606936195
+train:>https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg
+test:>https://budleaf.com/wp-content/uploads/2023/04/How-to-make-masala-chai-1568x1039.jpeg
+test:>https://www.teacupsfull.com/cdn/shop/articles/Screenshot_2023-10-20_at_11.07.13_AM.png?v=1697780292
 $$$$
 
