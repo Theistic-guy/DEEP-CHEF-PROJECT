@@ -1537,5 +1537,3 @@ train:>https://www.flavourstreat.com/wp-content/uploads/2019/11/mint-tea-recipe.
 test:>https://www.thespruceeats.com/thmb/G27ZCMiF4ED0xIxTnMYtGbHmmVE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-fresh-mint-tea-recipe-766391-6_preview-5b291f95ba61770036733329.jpeg
 test:>https://fearlessfresh.com/wp-content/uploads/2011/08/mint-tea-2.jpg
 $$$$
-
-778->Asparagus With butter Curry
