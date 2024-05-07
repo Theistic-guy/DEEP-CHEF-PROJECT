@@ -5,6 +5,7 @@ from keras.applications import densenet
 import pickle
 
 cnn_model=densenet.DenseNet201(include_top= False ,weights='imagenet', input_shape=(256,256,3),pooling='avg',classes= 350) 
+
 ''' 
 include_top is false when we to customize the output of the model , it is mainly used when we using the model forn someone personal model where we dont want it to give pre defined outputs
 
@@ -56,9 +57,9 @@ if __name__ == '__main__':
         print(count)
     print(len(recipes_list),len(encoded_list))
     
-    with open('encodings.txt', 'wb') as file:
+    with open('C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\encodings.txt', 'wb') as file:
         pickle.dump(encoded_list, file)
-    with open('encoding_name.txt', 'wb') as file:
+    with open('C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\encoding_name.txt', 'wb') as file:
         pickle.dump(recipes_list, file)   
     
     
