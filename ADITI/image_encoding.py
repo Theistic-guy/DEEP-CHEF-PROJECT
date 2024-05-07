@@ -22,7 +22,7 @@ def feature_encoding(url):
     img=image.img_to_array(img)
     img=np.expand_dims(img,axis=0)
     encoded=densenet.preprocess_input(img)
-    encoded=cnn_model(encoded)
+    encoded=cnn_model.predict(encoded)
     print(len(encoded[0]))
     return encoded
 
