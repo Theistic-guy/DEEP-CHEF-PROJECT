@@ -7,7 +7,11 @@ from PIL import Image
 import os
 import shutil
 import pandas as pd
+import numpy as np
 import time 
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+from keras.preprocessing import image
+from keras.applications import densenet
 
 def fetch_response_from_url(url,timeout):
     # try:
@@ -293,3 +297,31 @@ def check_logs_integrity(path_download_logs,each_recipe_imgs_count,ignore_msgs=F
     except Exception as e:
         if not ignore_msgs:
             print("Exception occurred inside check_logs_integrity, returning empty tuple\n",e)
+
+def create_CNN(input_shape=(256,256,3),classes=358,ignore_msgs= False):
+    '''
+    creates and returns  a cnn model
+    '''
+    try:
+        cnn = densenet.DenseNet201(include_top= False ,weights='imagenet', input_shape=(256,256,3),pooling='avg',classes= 358) 
+        return cnn
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred while creating CNN\n",e)
+        return None
+
+
+def feature_encoding(cnn,img_path,ignore_msgs = False):
+    '''
+    returns the encoded or feature array of an img from its path
+    '''
+    try:
+        img = image.load_img(img_path,target_size=(256,256))
+        img_arr = image.img_to_array(img)
+        img_arr=np.expand_dims(img_arr,axis=0)
+        enc = densenet.preprocess_input(img_arr)
+        enc = cnn.predict(enc)
+        print(enc.shape)
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred in feature encoding\n",e)
