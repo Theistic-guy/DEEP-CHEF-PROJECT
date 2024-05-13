@@ -4,19 +4,18 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 import json
 import os
+import pickle
 
-path_logs = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\arym\txt\download_logs.txt"
-path_driver = r"C:\Users\aryam\Documents\ML\ImageToRecipe\chromedriver.exe"
-path_csv = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\links_copy_main.csv"
-path_download_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images"
-path_json = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\arym\json\recipes.json"
-
-list1 = os.listdir(r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images\train")
-df = pd.read_csv(path_csv)
-for i in range(0,len(list1)):
-    name_in_folder = list1[i].split("_")[1]
-    index = int(list1[i].split("_")[0])-2
-    
-    if(name_in_folder != df.at[index,'name']):
-        print(name_in_folder," -- ",df.at[index,'name'])
-
+with open(ru.path_encoding_names,"rb") as f:
+    data = pickle.load(f,encoding='utf-8')
+    # print(data[:5])
+    count = 1
+    index = 0
+    for i in range(1,len(data)):
+        if data[i] == data[i-1]:
+            count += 1
+        else:
+            if count %10 != 0:
+                if count < 10:
+                    print("hello")
+            count = 1

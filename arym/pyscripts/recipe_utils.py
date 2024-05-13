@@ -13,6 +13,16 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 from keras.preprocessing import image
 from keras.applications import densenet
 
+path_logs = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\arym\txt\download_logs.txt"
+path_driver = r"C:\Users\aryam\Documents\ML\ImageToRecipe\chromedriver.exe"
+path_csv = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\links_copy_main.csv"
+path_download_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images"
+path_json = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\arym\json\recipes.json"
+path_train_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images\train"
+path_test_folder = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\downloaded_images\test"
+path_encodings = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\arym\txt\encodings.txt"
+path_encoding_names = r"C:\Users\aryam\Documents\ML\ImageToRecipe\DEEP-CHEF-PROJECT\arym\txt\encoding_names.txt"
+
 def fetch_response_from_url(url,timeout):
     # try:
         http = urllib3.PoolManager(timeout=urllib3.Timeout(connect=None, read=None, total=timeout))
@@ -321,7 +331,8 @@ def feature_encoding(cnn,img_path,ignore_msgs = False):
         img_arr=np.expand_dims(img_arr,axis=0)
         enc = densenet.preprocess_input(img_arr)
         enc = cnn.predict(enc)
-        print(enc.shape)
+        return enc
     except Exception as e:
         if not ignore_msgs:
             print("Exception occurred in feature encoding\n",e)
+        return None
