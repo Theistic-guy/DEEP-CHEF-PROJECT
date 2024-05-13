@@ -19,13 +19,13 @@ if __name__ == "__main__":
         for img in train_images:
             img_path = os.path.join(recipe_train_folder,img)
             encoded_list.append(feature_encoding(cnn,img_path))
-            recipe_names.append(name)
+            recipe_names.append(str(i)+"->"+name.strip())
         recipe_test_folder = os.path.join(path_test_folder,recipes_list[i])
         test_images = os.listdir(recipe_test_folder)
         for img in test_images:
             img_path = os.path.join(recipe_test_folder,img)
             encoded_list.append(feature_encoding(cnn,img_path))
-            recipe_names.append(name)
+            recipe_names.append(str(i)+"->"+name.strip())
     
     print(len(encoded_list),len(recipe_names))
     # print(recipe_names)

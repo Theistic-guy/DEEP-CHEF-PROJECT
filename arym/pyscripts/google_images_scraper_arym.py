@@ -14,7 +14,7 @@ from recipe_utils import download_images,log_urls,fetch_response_from_url
 driver = None
 
 # link Chrome Webdriver
-webdriver_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\chromedriver.exe" # <-- file path used
+webdriver_path = ru.path_driver
 cService = webdriver.ChromeService(executable_path=webdriver_path)
 
 
@@ -73,11 +73,11 @@ try :
 
     # load links.csv
 
-    links_csv_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\links_copy_main.csv"
+    links_csv_path = ru.path_csv
     df = pd.read_csv(links_csv_path,skiprows= start,nrows=count,names=['name','link']) #<-- file path used
 
     # open logs
-    download_logs_path = "C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\arym\\txt\\download_logs.txt"
+    download_logs_path = ru.path_logs
     f = open(download_logs_path,"a") # <-- file path used
 
     # Iterate recipes
@@ -181,7 +181,7 @@ try :
 
         # download the images , first n images go to train and rest to test
         # n is no_of_imgs_to_train
-        download_images("C:\\Users\\aryam\\Documents\\ML\\ImageToRecipe\\DEEP-CHEF-PROJECT\\downloaded_images",image_urls,recipe,recipe_index_csv,no_of_imgs_to_train) # <-- file path used
+        download_images(ru.path_download_folder,image_urls,recipe,recipe_index_csv,no_of_imgs_to_train) # <-- file path used
 
         time.sleep(big_delay)
 
