@@ -9,7 +9,10 @@ import shutil
 import pandas as pd
 import numpy as np
 import time 
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0' # oneDNN msg of keras and tensorflow is not printed
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1' # turns off info messages 
+# setting to 2  -> info + warning not printed , setting to 3 -> info,warning and error msgs are not printed, 
+# default is 0 -> all msgs are printed
 from keras.preprocessing import image
 from keras.applications import densenet
 
