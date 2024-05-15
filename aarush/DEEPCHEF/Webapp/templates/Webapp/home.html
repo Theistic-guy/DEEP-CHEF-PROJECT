@@ -48,14 +48,16 @@
                                 <img class="recipe-card-image" src="{% static '' %}{{x.1}}" alt=""><!--x.1 is the url of the image-->
                             </div>
                             <h3 style="padding-inline: 5px;margin: 0;margin-top: 10px;">Cooking Time: {{x.2}}</h3>
+                            <h3 style="padding-inline: 5px;margin: 0;margin-top: 10px;">Servings: {{x.3}}</h3>
+                            <h3 style="padding-inline: 5px;margin: 0;margin-top: 10px;">Calories: {{x.4}}</h3>
                         </div>
                         <div class="second-section">
                             <h3 style="padding-inline:5px;">Ingredients</h3>
-                            <p class="img_dir_display_area">{{x.3}}</p>
+                            <p class="img_dir_display_area">{{x.5}}</p>
                         </div>
                         <div class="third-section">
                             <h3 style="padding-inline:5px;">Directions</h3>
-                            <p class="img_dir_display_area">{{x.4}}</p>
+                            <p class="img_dir_display_area">{{x.6}}</p>
                         </div>
                     </div>
                     {% endfor %}
@@ -73,14 +75,16 @@
                                 <img class="recipe-card-image" src="{% static '' %}{{x.1}}" alt=""><!--x.1 is the url of the image-->
                             </div>
                             <h3 style="padding-inline: 5px;margin: 0;margin-top: 10px;">Cooking Time: {{x.2}}</h3>
+                            <h3 style="padding-inline: 5px;margin: 0;margin-top: 10px;">Servings: {{x.3}}</h3>
+                            <h3 style="padding-inline: 5px;margin: 0;margin-top: 10px;">Calories: {{x.4}}</h3>
                         </div>
                         <div class="second-section">
                             <h3 style="padding-inline:5px;">Ingredients</h3>
-                            <p class="img_dir_display_area">{{x.3}}</p>
+                            <p class="img_dir_display_area">{{x.5}}</p>
                         </div>
                         <div class="third-section">
                             <h3 style="padding-inline:5px;">Directions</h3>
-                            <p class="img_dir_display_area">{{x.4}}</p>
+                            <p class="img_dir_display_area">{{x.6}}</p>
                         </div>
                     </div>
                     {% endfor %}
