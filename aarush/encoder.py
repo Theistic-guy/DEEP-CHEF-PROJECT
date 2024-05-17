@@ -7,6 +7,7 @@ import re
 from scipy.spatial.distance import cosine
 from PIL import Image
 import keras
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3),pooling='avg',classes= 358) 
 #model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3))

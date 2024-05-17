@@ -7,8 +7,9 @@ import re
 from scipy.spatial.distance import cosine
 from PIL import Image
 import keras
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
-model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3))
+model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3),pooling='avg',classes= 358)
 #model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3))
 with open(r"C:\Users\Aarush Raj\OneDrive\Desktop\img2rec\DEEP-CHEF-PROJECT\aarush\encodings.txt","rb") as f:
     enc_list=pickle.load(f)
