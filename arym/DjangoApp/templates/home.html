@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Image To Recipe</title>
+    <style>
+        body {
+            background-color:#7b2900;
+        }
+
+        .logo-img {
+            margin-top: -50px;
+        }
+
+        input[type='file'] {
+            display: none;
+        }
+
+        label {
+            display: inline-block;
+            color: #7b2900;
+            font-family: Shrikhand;
+            background-color: #fffd47;
+            padding: 2% 10%;
+            font-size: 100%;
+            margin: 2% 3%;
+            box-shadow: 10px 10px rgba(6, 5, 5, 0.326);
+            box-sizing: border-box;
+        }
+
+        label:active {
+            transform: scale(0.9);
+        }
+
+        button {
+            display: inline-block;
+            color: #211F37;
+            font-family: Shrikhand;
+            background-color: #D5D48A;
+            padding: 1% 7%;
+            font-size: 125%;
+            margin: 2% 3%;
+            box-sizing: border-box;
+
+        }
+
+        #upload_controls{
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        #fileNameDisplay{
+            display: none;
+        }
+        
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    {% load static %}
+    <div id='logo-container' class="text-center">
+        <img id='animatedGif' src="{% static 'images/logo.gif' %}" class="img-fluid text-center logo-img"
+            alt="Responsive image">
+    </div>
+    <div class="container">
+        <form action="/analyze" method="post" enctype="multipart/form-data">{% csrf_token %}
+            <div name = "upload_controls" id="upload_controls" class="d-flex flex-row bd-highlight mb-3 justify-content-center ">
+                <input type="file" id="uploadimage" name="img-upload" accept="image/jpeg" onchange="DisplayFileName('uploadimage')">
+                <label for="uploadimage"><i class="bi bi-download"></i> Upload an Image</label>
+                <input type="file" id="takeaphoto" name="img-camera" accept="image/jpeg" capture="environment"  onchange="DisplayFileName('takeaphoto')">
+                <label for="takeaphoto"><i class="bi bi-camera"></i> Take a Photo</label>
+            </div>
+            <div class="d-flex flex-row bd-highlight justify-content-center ">
+                <span id ="fileNameDisplay"></span>
+            </div>
+            <div class="d-flex flex-row bd-highlight mb-3 justify-content-center ">
+                <button type="submit">submit</button>
+            </div>
+            <input type="hidden" id="hiddenElement" name="hiddenElement">
+        </form>
+    </div>
+    <script>
+        window.onload = function () {
+            var gif = document.getElementById('animatedGif');
+            var currentSrc = gif.src;
+            gif.src = currentSrc + '?rand=' + new Date().getTime();
+        };
+        function DisplayFileName(inputFileControlId){
+            fileInputControl = document.getElementById(inputFileControlId);
+            fileNameDisplayElem = document.getElementById('fileNameDisplay');
+            hiddenElem = document.getElementById('hiddenElement');
+            if (fileInputControl.files.length > 0){
+                fileNameDisplayElem.textContent = fileInputControl.files[0].name;
+                fileNameDisplayElem.style.display = 'inline';
+                hiddenElem.value = fileInputControl.getAttribute('name');
+            }else{
+                fileNameDisplayElem.style.display = 'none';
+                hiddenElem.value = "";
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

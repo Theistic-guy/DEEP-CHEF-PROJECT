@@ -25,3 +25,4 @@ with open(ru.path_encoding_names,"rb") as f:
                 if count < 10:
                     print(data[i-1])
             count = 1
+fstr
