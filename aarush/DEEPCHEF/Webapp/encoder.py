@@ -1,6 +1,6 @@
 import os
-from keras.preprocessing import image
-from keras.applications import densenet
+from keras._tf_keras.keras.preprocessing import image
+from keras.src.applications import densenet
 import numpy as np
 import pickle
 import re
@@ -36,7 +36,7 @@ def getrecipes(img):
     l=sorted(similarity_list,reverse=True)
     #print(l[0])
     
-    top_similar=5
+    top_similar=10
     for i in range(len(sorted_similarity_list)):
         similar_recipe=sorted_similarity_list[i][1]
         #if similar_recipe not in similar_recipes_list:

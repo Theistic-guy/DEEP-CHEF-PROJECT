@@ -11,6 +11,8 @@ from django.conf import settings
 from .encoder import getrecipes
 from PIL import Image
 import io
+import tempfile
+import Multipart
 
 def home_page(request):
     raw_image=None
@@ -21,15 +23,15 @@ def home_page(request):
         if form.is_valid():
             raw_image=form.cleaned_data['image']
             uploaded_image=base64.b64encode(raw_image.file.read())
-            """uploaded_image=io.BytesIO(uploaded_image)
-            raw_image=Image.open(uploaded_image)
+            uploaded_image=io.BytesIO(uploaded_image)
+            img=Image.open(uploaded_image)
             #raw_iamge=Image.open(uploaded_image)
-            raw_image.save(uploaded_image, "JPG")
+            img.save(uploaded_image, "JPG")
             io.BytesIO().seek(0)
-            uploaded_image= io.BytesIO().read()
+            uploaded_image= img.read()
             databytes=io.BytesIO(uploaded_image)
-            Image.open(databytes)"""
-            recipes_list=getrecipes(uploaded_image)
+            #Image.open(databytes)
+            recipes_list=getrecipes(databytes)
             path_to_json=r"C:\Users\Aarush Raj\OneDrive\Desktop\img2rec\DEEP-CHEF-PROJECT\aarush\recipes.json"
             x=json.load(open(path_to_json))
             
