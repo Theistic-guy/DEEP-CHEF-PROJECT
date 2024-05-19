@@ -9,6 +9,8 @@ import shutil
 import pandas as pd
 import numpy as np
 import time 
+import pickle
+import json
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0' # oneDNN msg of keras and tensorflow is not printed
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1' # turns off info messages 
 # setting to 2  -> info + warning not printed , setting to 3 -> info,warning and error msgs are not printed, 
@@ -251,7 +253,8 @@ def reload_urls_and_save(download_folder_path,download_logs_path,recipe_csv_path
 
 
 def get_recipe_name_in_logs(path_download_logs,recipe_index,ignore_msgs=False):
-    '''fetches the name of recipe as present in download logs'''
+    '''fetches the name of recipe as present in download logs.
+    returns None if fails'''
     try:
         recipe_name = None
         with open(path_download_logs,"r") as f:
@@ -276,7 +279,8 @@ def get_recipe_name_in_logs(path_download_logs,recipe_index,ignore_msgs=False):
     
 def check_logs_integrity(path_download_logs,each_recipe_imgs_count,ignore_msgs=False):
     '''returns empty tuple when no problems else returns tuple of length 2.
-    First elem is line number (1-indexed) and second elem is cause of issue'''
+    First elem is line number (1-indexed) and second elem is cause of issue
+    returns None if fails(i.e exception occurred)'''
     return_list = []
     try:
         with open(path_download_logs,"r") as f:
@@ -310,10 +314,12 @@ def check_logs_integrity(path_download_logs,each_recipe_imgs_count,ignore_msgs=F
     except Exception as e:
         if not ignore_msgs:
             print("Exception occurred inside check_logs_integrity, returning empty tuple\n",e)
+        return None
 
 def create_CNN(input_shape=(256,256,3),classes=358,ignore_msgs= False):
     '''
     creates and returns  a cnn model
+    returns None if fails
     '''
     try:
         cnn = densenet.DenseNet201(include_top= False ,weights='imagenet', input_shape=(256,256,3),pooling='avg',classes= 358) 
@@ -327,6 +333,7 @@ def create_CNN(input_shape=(256,256,3),classes=358,ignore_msgs= False):
 def feature_encoding(cnn,img_path,ignore_msgs = False):
     '''
     returns the encoded or feature array of an img from its path
+    returns None if fails
     '''
     try:
         img = image.load_img(img_path,target_size=(256,256))
@@ -338,4 +345,46 @@ def feature_encoding(cnn,img_path,ignore_msgs = False):
     except Exception as e:
         if not ignore_msgs:
             print("Exception occurred in feature encoding\n",e)
+        return None
+    
+def fetch_encodings(ignore_msgs=False):
+    '''
+    returns the encodings file as specified by the path_encodings var in the same file
+    returns None if fails
+    '''
+    try:
+        with open(path_encodings,"rb") as f:
+            encodings = pickle.load(f)
+        return encodings
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred in fetch_encodings\n",e)
+        return None
+            
+def fetch_encoding_names(ignore_msgs=False):
+    '''
+    returns the encoding_names file as specified by the path_encoding_names var in the same file.
+    returns None if fails
+    '''
+    try:
+        with open(path_encoding_names,"rb") as f:
+            encoding_names = pickle.load(f)
+        return encoding_names
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred in fetch_encoding_names\n",e)
+        return None
+    
+def fetch_json(ignore_msgs=False):
+    '''
+    returns json file.
+    returns None if fails
+    '''
+    try:
+        with open(path_json,"r") as f:
+            data = json.load(f)
+        return data
+    except Exception as e:
+        if not ignore_msgs:
+            print("Exception occurred in fetch_json\n",e)
         return None

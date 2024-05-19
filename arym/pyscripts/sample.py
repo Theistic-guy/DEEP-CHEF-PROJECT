@@ -1,4 +1,4 @@
-import recipe_utils as ru
+from . import recipe_utils as ru
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
@@ -25,4 +25,3 @@ with open(ru.path_encoding_names,"rb") as f:
                 if count < 10:
                     print(data[i-1])
             count = 1
-fstr
