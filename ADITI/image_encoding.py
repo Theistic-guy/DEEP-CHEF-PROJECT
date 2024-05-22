@@ -18,8 +18,8 @@ pooling is also optional which defines how the features are being chosen in the 
 classes is the number of classes we want to segregate our images in like we have around 350 classes of image or recipe 
 '''
 
-def feature_encoding(img):
-    #img=image.load_img(url,target_size=(256,256))
+def feature_encoding(url):
+    img=image.load_img(url,target_size=(256,256))
     img=image.img_to_array(img)
     img=np.expand_dims(img,axis=0)
     encoded=densenet.preprocess_input(img)
@@ -44,20 +44,30 @@ densenet.preprocess_input is used to preprocess the data according to the requir
 if __name__ == '__main__':  
     
     recipes_list=os.listdir("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train")
+    recipes_list.sort(key=lambda item:int(item.split("_")[0]))
+    train_names_list=os.listdir("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train")
+    test_names_list=os.listdir("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\test")
     encoded_list=[]
     recipe_names=[]
     count=0
-    for i in recipes_list[0:5]:
-        name=i.split("_")[1]
-        print(name)
-        for j in range(0,8):
-            encoding=[]
-            img_path="C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train\\"+i+"/"+str(j+1)+'_'+ name +'.jpg'
-            img=image.load_img(img_path,target_size=(256,256))
-            encoding=feature_encoding(img)
+    for i in range(len(recipes_list)):
+        name=recipes_list[i]
+        recipe_name=name.split("_")[1]
+        recipe_index=name.split("_")[0]
+        train_path=os.path.join("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train",name)
+        train_names_list=os.listdir(train_path)
+        for train_name in train_names_list:
+            image_path=os.path.join(train_path,train_name)
+            encoding = feature_encoding(image_path)
             encoded_list.append(encoding)
             recipe_names.append(name)
-        count=count+1
+        test_path=os.path.join("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\test",name)
+        test_names_list=os.listdir(test_path)    
+        for test_name in test_names_list:
+            image_path=os.path.join(test_path,test_name)
+            encoding = feature_encoding(image_path)
+            encoded_list.append(encoding)
+            recipe_names.append(name)
     print(len(recipe_names),len(encoded_list))
     
     with open('C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\encodings.txt', 'wb') as file:
