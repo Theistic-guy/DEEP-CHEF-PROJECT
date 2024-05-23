@@ -10,10 +10,11 @@ import keras
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3),pooling='avg',classes= 358)
-#model = densenet.DenseNet201(include_top=False, weights='imagenet', input_shape=(256, 256, 3))
-with open(r"C:\Users\Aarush Raj\OneDrive\Desktop\img2rec\DEEP-CHEF-PROJECT\aarush\encodings.txt","rb") as f:
+
+#add paths to encoding and encoding namees
+with open("path to encoding","rb") as f:
     enc_list=pickle.load(f)
-with open(r"C:\Users\Aarush Raj\OneDrive\Desktop\img2rec\DEEP-CHEF-PROJECT\aarush\enc_names.txt","rb") as f:
+with open("path to endoing name","rb") as f:
     names_list=pickle.load(f)      
     
 def getencodings(path):    
@@ -35,12 +36,10 @@ def getrecipes(img):
         similarity_list.append(1-cos)
     sorted_similarity_list=sorted(zip(similarity_list,names_list),reverse=True)
     l=sorted(similarity_list,reverse=True)
-    #print(l[0])
     
     top_similar=10
     for i in range(len(sorted_similarity_list)):
         similar_recipe=sorted_similarity_list[i][1]
-        #if similar_recipe not in similar_recipes_list:
         similar_recipes_list.append(similar_recipe)
         if len(similar_recipes_list) == top_similar:
             break
