@@ -2,10 +2,42 @@
 <hmtl lang="en">
 <head>
     <meta charset="UTF-8"> <!--charcater encoding -->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- specifies viewing properties width=device-width and zoom is set to 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- specifies viewing properties width=device-width and zoom is set to 1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" media="screen">
     <title>DEEP CHEF- Food Image to Recipe Converter</title>
     {% load static %}<!--a Django method that allows the load of static files such as CSS,JS,images,etc-->
+    <style>
+        body{
+          background-color: #eae7dd;
+          opacity: 0.8;
+          background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #eae7dd 0.5px);
+          background-size: 20px 20px;
+          background-position: 0 0,10px 10px;
+        }
+
+        .shadow-lg {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          }
+
+        .rounded {
+            margin: 20px auto; /* center the div */
+            text-align: center; /* center the text */
+            max-width: 600px
+          }
+          
+        .rounded h2 {
+            background-color: #d1156d;
+            padding: 20px;
+            border-radius: 15px;
+            width: 80%;
+            text-align: center;
+            box-shadow: inset 
+            -2px 0 80px #f5deb3,        /* outer left magenta */
+            3px 0 80px #b38b6d;  
+          }
+    </style>
 </head>
 <body>
     <div class="container mt-5"><!-- the division tag that wraps the entire content-->
@@ -14,83 +46,86 @@
         </div>   
         <div class="main-content"><!--entire section after heading or intro of the page-->
                 <div class="image-upload-area"><!--creating the area for image uploading-->
-                    <center><h1 style="width: 100%;">A food image to recipe converter for Indian food</h1></center>
-                    <div class="container-sm mx-auto col-6">
-                        <div class="image-form">
+                    <div class="rounded">
+                    <center><h2 style="width:100%; z-index: 10; color:#ffffff;"><i>An 'Image to Recipe' Converter for Indian Food</i></h1></center>
+                    </div>&nbsp;
+                    <div class="container-sm mx-auto col-10">
+                        <div class="image-form d-flex align-items-center">
                         <form enctype="multipart/form-data" class="col-6 mx-auto card p-3 shadow-lg"  method="post" style="width:100%;"><!--enctype provided allows us to send entire file as the data-->
                             {% csrf_token %}<!--a Django template tag used to include a CSRF (Cross-Site Request Forgery) token in the form. It helps protect against CSRF attacks.-->
                             <label class="upload-button"> <!--creates a upload button prompt-->
                                 Upload Image
-                                <input type="file" name="image" accept="image/*" id="id_image"
-                                onchange="document.getElementById('up-image').src = window.URL.createObjectURL(this.files[0])",height="200">
+                                <input type="file" name="image" accept="image/*" id="id_image" style="width:100%;"
+                                onchange="document.getElementById('up-image').src = window.URL.createObjectURL(this.files[0])",height="100">
                                 <!--type is file || accepts images of any MIME type || can click to select file form device || retrieves the image of the given id and and assigns it a temporary url which allows us to displays it-->
                             </label>
-                            <center>OR</center>&nbsp;
+                            <center>OR</center>&nbsp;&nbsp;&nbsp;
                             <label class="upload-button">
                                 Take a Picture
-                                <input type="file" name="image" accept="image/*" capture="environment" id="cap_image"
+                                <input type="file" name="image" accept="image/*" capture="environment" id="cap_image" style="width:100%;"
                                 onchange="document.getElementById('up-image').src = window.URL.createObjectURL(this.files[0])",height="200">
                                 <!--another label for same class with capture environment using device's camera-->
                             </label><br>
                             <button class="btn btn-success" type="submit">Make the magic happen!</button><!--Process the image-->
-                        </form>
+                        </form>&nbsp;
+                        <img id="up-image" src="/media/{{recipe}}" class="float-sm-right" style="height: 250px; width:150px object-fit: cover;"><!--image with src created using Django template variable {{uploaded_image}} which contains the base64 encoded image data-->
                         </div>
-                        <div class="uploaded-image-display"><!--displaying uploaded image-->
-                            <img id="up-image" src="/media/{{queryset.recipe_image}}" style="width:230px;height:230px;"><!--image with src created using Django template variable {{uploaded_image}} which contains the base64 encoded image data-->
-                        </div> 
                     </div>    
                 </div>
             <hr>
-            <div class="result-display-area">
-                {% if recipe_list_to_return %}<!--checks using a Django template if recipe_lisst_to_return exists-->
-                    <center><h3 onclick="display_more()"> Here are some possible matches </center><!--includes a JS event that is triggered when clicked-->
-                    {% for x in recipe_list_to_return %}
-                    <div class="recipe-card">
-                        <div class="first section">
-                            <h2 class="recipe_name" style="font-family: Georgia, serif; font-weight:bold">{{x.0}}</h2><!--heading of recipe name(assuming x.0 is recipe name)-->
-                            <div class="recipe-card-image-div">
-                                <img class="recipe-card-image" src="{{x.1}}" align="left" alt=""><!--x.1 is the url of the image-->
-                            </div>
-                            <h4 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px;">Cooking Time: {{x.2}}</h3>
-                            <h4 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px;">Servings: {{x.3}}</h3>
-                            <h4 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px;">Calories: {{x.4}}</h3>
-                        </div>
-                        <div class="second-section">
-                            <h3 style="padding-inline:5px; font-family: serif; font-weight: 500; color:#2F4F4F">Ingredients:</h3>
-                            <p class="img_dir_display_area" style="font-family: serif; padding-inline:5px;">{{x.5|linebreaksbr}}</p>
-                        </div>
-                        <div class="third-section">
-                            <h3 style="padding-inline:5px; font-family: serif; font-weight: 500; color:#2F4F4F">Directions:</h3>
-                            <p class="img_dir_display_area" style="font-family: serif; padding-inline:5px;">{{x.6|linebreaksbr}}</p>
-                        </div>
-                    </div>
-                    <hr>
-                    {% endfor %}
+           <!--this is the original recipe display area-->
+           <div class="result-display-area display: flex; justify-content: center; align-items: center;">
+            {% if recipe_list_to_return %}
+              <center><h3>Here is what we found:</h3></center>
+              <select id="recipe-select" onchange="displayRecipe(this.value)">
+                <option value="">Select a recipe</option>
+                {% for x in recipe_list_to_return %}
+                  <option value="{{ forloop.counter }}">{{ x.0 }}</option>
+                {% endfor %}
+              </select>
+              <br>&nbsp;
+              {% for x in recipe_list_to_return %}
+                <div id="recipe-cards-{{ forloop.counter }}" class="recipe-cards">
+                  <div class="first section">
+                    <h2 class="recipe_name" style="font-family: Georgia, serif; font-weight:900"><u>{{x.0}}</u></h2>
+                    <h4 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px; font-weight: 700;">Cooking Time: {{x.2}}</h3>
+                    <h4 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px; font-weight: 700;">Servings: {{x.3}}</h3>
+                    <h4 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px; font-weight: 700;">Calories: {{x.4}}</h3>
+                  </div><br>
+                  <div class="second-section">
+                    <h3 style="padding-inline:5px; font-family: serif; font-weight: 700;">Ingredients:</h3>
+                    <p class="img_dir_display_area" style="font-family: serif; font-weight: 550; padding-inline:5px;"><i>{{x.5|linebreaksbr}}</i></p>
+                  </div><br>
+                  <div class="third-section">
+                    <h3 style="padding-inline:5px; font-family: serif; font-weight: 700;">Directions:</h3>
+                    <p class="img_dir_display_area" style="font-family: serif; font-weight: 550; padding-inline:5px;"><i>{{x.6|linebreaksbr}}</i></p>
+                  </div>
+                </div>  
+              {% endfor %}
+                <br>
+                <hr>
                 <center><h4>Can't find what you are looking for?</h4><button type="button" class="btn btn-primary" onclick="display_more()">Show More</button></center><!--load more recipes by JS event of display on click -->
                 <br>
-                {% endif %}
+            {% endif %} 
             </div>
             <div class="result-display-area" id="extra_results" style="display:none;">
-                {% if recipe_list_to_return %}<!--checks using a Django template if recipe_lisst_to_return exists-->
-                    <center><h3> Here are some possible matches</h3> </center><!--includes a JS event that is triggered when clicked-->
-                    {% for x in recipe_list_to_return %}
+                {% if similar_recipe_list %}<!--checks using a Django template if recipe_lisst_to_return exists-->
+                    <center><h3> Here are some more possible matches</h3> </center>
+                    {% for x in similar_recipe_list %}
                     <div class="recipe-card">
                         <div class="first section">
-                            <h2 class="recipe_name" style="font-family: Georgia, serif; font-weight:bold">{{x.0}}</h2><!--heading of recipe name(assuming x.0 is recipe name)-->
-                            <div class="recipe-card-image-div">
-                                <img class="recipe-card-image" src="{{x.1}}" align="left" alt=""><!--x.1 is the url of the image-->
-                            </div>
-                            <h3 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px;">Cooking Time: {{x.2}}</h3>
-                            <h3 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px;">Servings: {{x.3}}</h3>
-                            <h3 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px;">Calories: {{x.4}}</h3>
-                        </div>
+                            <h2 class="recipe_name" style="font-family: Georgia, serif; font-weight:900"><u>{{x.0}}</u></h2><!--heading of recipe name(assuming x.0 is recipe name)-->
+                            <h3 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px; font-weight: 700;">Cooking Time: {{x.2}}</h3>
+                            <h3 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px; font-weight: 700;">Servings: {{x.3}}</h3>
+                            <h3 style="font-family: serif; padding-inline: 5px;margin: 0;margin-top: 10px; font-weight: 700;">Calories: {{x.4}}</h3>
+                        </div><br>
                         <div class="second-section">
-                            <h3 style="padding-inline:5px; font-family: serif; font-weight: 500; color:#2F4F4F">Ingredients</h3>
-                            <p class="img_dir_display_area" style="font-family: serif; padding-inline:5px;">{{x.5|linebreaksbr}}</p>
-                        </div>
+                            <h3 style="padding-inline:5px; font-family: serif; font-weight: 700;">Ingredients</h3>
+                            <p class="img_dir_display_area" style="font-family: serif; font-weight: 550; padding-inline:5px;"><i>{{x.5|linebreaksbr}}</i></p>
+                        </div><br>
                         <div class="third-section">
-                            <h3 style="padding-inline:5px; font-family: serif; font-weight: 500;">Directions</h3>
-                            <p class="img_dir_display_area" style="font-family: serif; padding-inline:5px; color:#2F4F4F">{{x.6|linebreaksbr}}</p>
+                            <h3 style="padding-inline:5px; font-family: serif; font-weight: 700;">Directions</h3>
+                            <p class="img_dir_display_area" style="font-family: serif; font-weight: 550; padding-inline:5px;"><i>{{x.6|linebreaksbr}}</i></p>
                         </div>
                     </div>
                     <hr>
@@ -99,15 +134,28 @@
             </div>
         </div>
     </div>
+    {% block start %}
+
+    {% endblock %}
     <script>
         function display_more(){
             var x = document.getElementById('extra_results')//retrieves HTML element with id extra_results 
             if (x.style.display === "none"){// checks if CSS display property is none
                 x.style.display = "block"// if it is then it changes it so it is visible
-            }else {
-                x.style.display = "none";//if its already visible then hides it
             }
         }
+         // Hide all recipe cards
+        const recipeCards = document.getElementsByClassName('recipe-cards');
+         for (let i = 0; i < recipeCards.length; i++) {
+           recipeCards[i].style.display = 'none';
+         }
+        function displayRecipe(recipeId) {
+            // Display the selected recipe card
+            const selectedRecipeCard = document.getElementById('recipe-cards-' + recipeId);
+            if (selectedRecipeCard) {
+              selectedRecipeCard.style.display = 'block';
+            }
+          }
         function load_demo_image(image_link) {//opens a demo image(maybe an optional feature) from the image link
             var frm = document.getElementById('up-image');//retrieves the HTML code with id up-image
             frm.src = image_link;//loads the image(given by image_link) onto the HTML element that was retrieved
