@@ -13,7 +13,7 @@ from django.conf import settings
 from django.shortcuts import render 
 
 
-def find_recipe(request):
+def home_page(request):
     og_image=None
     uploaded_image=None
     return_similar_recipes=[]
@@ -25,14 +25,18 @@ def find_recipe(request):
                 og_image=og_image
             )
             queryset=Recipe.objects.all()
-            queryset=queryset.last().recipe_image
+            queryset=queryset.last().og_image
+            #DIR= #link
+            c=str(queryset)
+            similar_recipes=input_recipe(os.path.join(DIR,c))
+            json_path=r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\ADITI\recipes.json'
             for i in range(len(similar_recipes)):
-                recipe_name=similar_recipes[i]
+                name=similar_recipes[i]
                 recipe_name=recipe_name.split("_")[1]
-                recipe_details=list(filter(lambda x: x["name"]==recipe_name,x))
-                if len(recipe_details) != 0:
-                    y=recipe_details[0]
-                    image_link= '''Add the link here'''
+                y=list(filter(lambda x: x["name"]==recipe_name,x))
+                if len(y) != 0:
+                    y=y[0]
+                    image_link='C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train\\'+ name +"\\1_"+ recipe_name+".jpg"
                     cooking_duration=y["cooking_time"]
                     nutrition_calories=y["calories"]
                     recipe_ingredients=y["ingredients"]

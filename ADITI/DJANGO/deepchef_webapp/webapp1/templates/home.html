@@ -1,21 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conetnt="width=device-width,initial-scale=1.0">
 <title>DeepChef Webapp</title>
-</html>
+{%load static%} <!--Django method to include staticfiles such as js,css,images etc-->
+</head>
 
 <body>
-    <h3>Food image to Recipe</h3>
-    <h5>Upload Image</h5>
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <label for="image">Select Image:</label><br>
-        <input type="file" id="image" name="image"><br><br>
-        <button type="submit">Upload Image</button>
-    </form>
-    <div class="uploaded-image-display">
-        <img id="up-image" src="data:image/jpg;base64,{{uploaded_image}}">
+    <div class="container">
+        <div class="main-content">
+          <div class='title-content'>
+            <h3>Food image to Recipe</h3>
+          </div>
+        <div class='image-upload'>
+            <h5>Upload Image</h5>
+            <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <label class="upload-image-button" for="image">Select Image:</label><br>
+            <input type="file" id="image" name="image" onchange="document.getElementById('up-image').src = window.URL.createObjectURL(this.files[0])",height="200">
+            </label>
+            <button type="submit">Upload Image</button>
+            </form> 
+        </div>
+        <br>
+        <br>
+        <div class="uploaded-image-display">
+            <img id="up-image" src="data:image/jpg;base64,{{uploaded_image}}">
+        </div>
+        <hr>
+        <div class="result-display" id="extra_results">
+            {% if recipe_list_to_return %}<!--checks if recipe_list_to_return exists or not using django -->
+            <center><h3 onclick="display_more()">Here are some similar recipes </h3></center>
+            {% for x in recipe_list_to_return %}
+            <div class="recipe-card">
+                <h2 class="recipe-name">{{x.0}}</h2>
+                <img class="recipe-image" src="{{x.1}}" align="left">
+                <h4>cooking time: {{x.2}}</h4>
+                <h4>Servings: {{x.3}}</h4>
+                <h4>calories: {{x.4}}</h4>
+                <h4>Ingredients:</h4>
+                <p>{{x.5|linebreaksbr}}</p>
+                <h4>Directions:</h4>
+                <p>{{x.6|linebreaksbr}}</p>
+            </div>
+            <hr>
+            {% endfor %}
+             <h4>Cant look for anything</h4>
+            {% endif %}
+        </div>
     </div>
-    <ul>
-        <li><a href={{% url 'find_recipe' recipe_id %}}>Recipe {{recipe_id}}</a></li>
-    </ul>
+</div>
+<script>
+    function display_more(){
+        var x =document.getElementById('extra_results')
+        if (x.style.display === "none")
+        {
+            x.style.display="block";
+        }
+        else{
+            x.style.display="none";
+        }
+        function load_demo_image(image_link) {
+            var frm = document.getElementById('up-image');
+            frm.src = image_link;
+        }
+    }
+    </script>
 </body>
+</html>
