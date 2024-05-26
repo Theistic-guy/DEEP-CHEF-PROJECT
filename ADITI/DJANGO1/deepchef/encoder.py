@@ -4,7 +4,7 @@ from keras.preprocessing import image
 from keras.applications import densenet
 import pickle
 from scipy.spatial.distance import cosine
-
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 cnn_model=densenet.DenseNet201(include_top= False ,weights='imagenet', input_shape=(256,256,3),pooling='avg',classes= 350) 
 
