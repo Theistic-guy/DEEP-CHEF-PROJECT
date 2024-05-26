@@ -16,16 +16,16 @@ from django.shortcuts import render
 def home(request):
     queryset=None
     return_similar_recipes=[]
-    og_iamge=None
+    #og_image=None
     if request.method == 'POST':  # if we trying to upload data to server
         form = Image_Upload(request.POST,request.FILES)   #form contains the data(POST) which has to besubmitted to server and the FILES i.e. Image
         if form.is_valid(): #VALIDATION RULES are present in the Image_Upload
-            og_image=request.FILES.get('image')
+            recipe_image=request.FILES.get('image')
             recipe.objects.create(
-                og_image=og_image,
+                recipe_image=recipe_image
             )
             queryset=recipe.objects.all()
-            queryset=queryset.last().og_image
+            queryset=queryset.last().recipe_image
             DIR= "C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\DJANGO1\\deepchef\\public\\static"
             c=str(queryset)
             similar_recipes=input_recipe(os.path.join(DIR,c))
@@ -47,7 +47,7 @@ def home(request):
     else:
         form=Image_Upload()
         
-    return render(request, 'C:\\Users\\aditi\\OneDrive\\Desktop\\DJANGO\\deepchef_webapp\\webapp1\\templates\\home.html', {'form': form, 'recipe': queryset,
+    return render(request, r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\ADITI\DJANGO1\deepchef\templates\home.html', {'form': form, 'recipe': queryset,
                                                 'recipe_list_to_return': return_similar_recipes[:5],
                                                 'similar_recipe_list': return_similar_recipes[5:10]})      
     

@@ -8,9 +8,9 @@ from scipy.spatial.distance import cosine
 
 cnn_model=densenet.DenseNet201(include_top= False ,weights='imagenet', input_shape=(256,256,3),pooling='avg',classes= 350) 
 
-with open("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\encodings.pkl",'rb') as f:
+with open(r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\aarush\encodings.txt','rb') as f:
     encodings_list=pickle.load(f,encoding='utf-8')
-with open("C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\encoding_name.pkl",'rb') as f:
+with open(r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\aarush\enc_names.txt','rb') as f:
     encoding_name_list=pickle.load(f,encoding='utf-8')
     
 def feature_encoding(img):
@@ -45,8 +45,8 @@ def input_recipe(img):
     print(similar_recipes_list)
     
 
-input_image_path="C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\test\\0_Chicken Tikka Masala\\9_Chicken Tikka Masala.jpg"
-input_recipe(input_image_path)
+#input_image_path="C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\test\\0_Chicken Tikka Masala\\9_Chicken Tikka Masala.jpg"
+#input_recipe(input_image_path)
     
     
 
