@@ -14,7 +14,7 @@ with open(r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\aarush\en
     encoding_name_list=pickle.load(f,encoding='utf-8')
     
 def feature_encoding(img):
-    #img=image.load_img(url,target_size=(256,256))
+    img=image.load_img(img,target_size=(256,256))
     img=image.img_to_array(img)
     img=np.expand_dims(img,axis=0)
     encoded=densenet.preprocess_input(img)
