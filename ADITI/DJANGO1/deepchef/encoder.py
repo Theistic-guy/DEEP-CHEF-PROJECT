@@ -1,5 +1,6 @@
 import os
 import numpy as np
+import keras
 from keras.preprocessing import image
 from keras.applications import densenet
 import pickle
@@ -15,7 +16,7 @@ with open(r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\aarush\en
     
 def feature_encoding(img):
     img=image.load_img(img,target_size=(256,256))
-    img=image.img_to_array(img)
+    img=keras.utils.img_to_array(img)
     img=np.expand_dims(img,axis=0)
     encoded=densenet.preprocess_input(img)
     encoded=cnn_model.predict(encoded)
@@ -35,14 +36,13 @@ def input_recipe(img):
     l=sorted(similarity_list,reverse=True)
     print(l[0])
     
-    top_similar=1
+    top_similar=10
     for i in range(len(sorted_similarity_list)):
         similar_recipe=sorted_similarity_list[i][1]
-        if similar_recipe not in similar_recipes_list:
-             similar_recipes_list.append(similar_recipe)
+        similar_recipes_list.append(similar_recipe)
         if len(similar_recipes_list) == top_similar:
             break
-    print(similar_recipes_list)
+    return similar_recipes_list
     
 
 #input_image_path="C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\test\\0_Chicken Tikka Masala\\9_Chicken Tikka Masala.jpg"

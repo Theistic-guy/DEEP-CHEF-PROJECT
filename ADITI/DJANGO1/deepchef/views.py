@@ -11,6 +11,7 @@ import io
 import base64
 from django.conf import settings
 from django.shortcuts import render 
+import imghdr
 
 
 def home(request):
@@ -26,18 +27,19 @@ def home(request):
             )
             queryset=recipe.objects.all()
             queryset=queryset.last().recipe_image
-            DIR= "C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\ADITI\\DJANGO1\\deepchef\\public\\static"
+            DIR=r"C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\ADITI\DJANGO1\public\static"
             c=str(queryset)
+            #print(c)
             similar_recipes=input_recipe(os.path.join(DIR,c))
             json_path=r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\ADITI\recipes.json'
             x=json.load(open(json_path))
             for i in range(len(similar_recipes)):
                 name=similar_recipes[i]
-                recipe_name=recipe_name.split("_")[1]
+                recipe_name=name.split("_")[1]
                 y=list(filter(lambda x: x["name"]==recipe_name,x))
                 if len(y) != 0:
                     y=y[0]
-                    image_link='C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train\\'+ name +"\\1_"+ recipe_name+".jpg"
+                    image_link='C:\\Users\\aditi\\OneDrive\\Desktop\\PROJECTS\\DEEP-CHEF-PROJECT\\downloaded_images\\train\\' + name +"\\1_"+ recipe_name+".jpg"
                     cooking_duration=y["cooking_time"]
                     nutrition_calories=y["calories"]
                     recipe_ingredients=y["ingredients"]
@@ -47,7 +49,7 @@ def home(request):
     else:
         form=Image_Upload()
         
-    return render(request, r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\ADITI\DJANGO1\deepchef\templates\home.html', {'form': form, 'recipe': queryset,
+    return render(request, r'C:\Users\aditi\OneDrive\Desktop\PROJECTS\DEEP-CHEF-PROJECT\ADITI\DJANGO1\deepchef\templates\deepchef\home.html', {'form': form, 'recipe': queryset,
                                                 'recipe_list_to_return': return_similar_recipes[:5],
                                                 'similar_recipe_list': return_similar_recipes[5:10]})      
     
